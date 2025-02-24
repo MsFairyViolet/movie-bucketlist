@@ -80,3 +80,11 @@ body {
   text-align: center;
   gap: 8px;
 }
+
+.movie-card.watched-style {
+  background-color: green;
+}
+
+.movie-card.unwatched-style {
+  background-color: gray;
+}

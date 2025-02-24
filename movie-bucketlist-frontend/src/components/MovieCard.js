@@ -1,9 +1,10 @@
-export default function MovieCard ({title, year, director}) { 
+import { WatchedGraphic } from "./WatchedGraphic"
+import { UnwatchedGraphic } from "./UnwatchedGraphic"
+
+export default function MovieCard({ movie }) {
     return (
         <div className="movie-card">
-            <h4>{title}</h4>
-            <p>{year}</p>
-            <p>{director}</p>
-            </div>
+            {movie.watched ? <WatchedGraphic movie={movie} /> : <UnwatchedGraphic movie={movie} />}
+        </div>
     )
 }

@@ -16,7 +16,7 @@ export default function MovieList() {
             <h2>MovieList</h2>
             <div className="movie-list">
                 {movies.map((movie) => {
-                    return <MovieCard key={movie.id} title={movie.title} year={movie.year} director={movie.director} />
+                    return <MovieCard key={movie.id} movie={movie} />
                 })}
             </div>
         </div>
