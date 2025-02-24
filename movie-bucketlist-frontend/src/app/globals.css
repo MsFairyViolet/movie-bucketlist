@@ -1,23 +1,12 @@
 :root {
-  --background: #ffffff;
+  --background: rgb(253, 251, 250);
   --foreground: #171717;
+  --line-color: rgb(79, 78, 78);
 }
-
-/* @media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
-
-  html {
-    color-scheme: dark;
-  }
-} */
 
 html,
 body {
   max-width: 100vw;
-  /* overflow-x: hidden; */
 }
 
 body {
@@ -34,51 +23,56 @@ body {
   margin: 0;
 }
 
-.page{
-  border: 2px solid blue;
+.page {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 
-.header{
-  border: 2px solid green;
+.header {
+  border: 2px solid yellow;
+  font-size: 0.8rem;
   display: flex;
   flex-direction: column;
   align-items: center;
+  margin: 0.5rem;
 }
 
-.search-bar{
+.header p {
+  display: none
+}
+
+.search-bar {
   border: 2px solid orange;
-  display: flex;
-  flex-direction: row;
 }
 
-.movie-list-container{
+.movie-list-container {
   border: 2px solid grey;
+  max-width: 95vw;
   display: flex;
   flex-direction: column;
   align-items: center;
 }
-.movie-list{
-  border: 2px solid purple;
-  max-width: 70vw;
+
+.movie-list {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  gap: 16px;
-  padding: 16px;
+  gap: 0.5rem;
+  padding: 0.5rem;
 }
 
-.movie-card{
-  border: 2px solid darkred;
-  width: 150px;
-  height: 120px;
+.movie-card {
+  width: 7rem;
+  height: 7rem;
   display: flex;
   flex-direction: column;
   align-items: center;
   text-align: center;
-  gap: 8px;
+  gap: 0.5rem;
+  padding: 0.2rem;
+  font-size: 1em;
+  overflow: hidden;
 }
 
 .movie-card.watched-style {
@@ -87,4 +81,46 @@ body {
 
 .movie-card.unwatched-style {
   background-color: gray;
+}
+
+/* Media Queries */
+/* @media (prefers-color-scheme: dark) {
+  :root {
+    --background: #0a0a0a;
+    --foreground: #ededed;
+  }
+
+  html {
+    color-scheme: dark;
+  }
+} */
+
+@media (min-width: 600px) {
+  .header{
+  border: 2px solid green;
+  font-size: 1.3rem;
+  margin: 1rem;
+  }
+
+  .header p {
+    display: block;
+  }
+
+  .movie-list-container{
+    max-width: 70vw;
+  }
+
+  .movie-list{
+    gap: 1rem;
+    padding: 1rem;
+  }
+
+  .movie-card {
+    width: 10rem;
+    height: 10rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
 }

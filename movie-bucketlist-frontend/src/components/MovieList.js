@@ -13,7 +13,6 @@ export default function MovieList() {
 
     return (
         <div className="movie-list-container">
-            <h2>MovieList</h2>
             <div className="movie-list">
                 {movies.map((movie) => {
                     return <MovieCard key={movie.id} movie={movie} />
