@@ -1,9 +1,11 @@
-// import { useState, useEffect } from "react";
+"use client"
+
 import Header from "@/components/Header";
 import SearchBar from "@/components/SearchBar";
 import MovieList from "@/components/MovieList";
 
 export default function App() {
+
   return (
     <body>
       <div className="page">

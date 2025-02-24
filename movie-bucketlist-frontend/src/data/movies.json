@@ -1,0 +1,5019 @@
+[
+    {
+        "id": 1,
+        "series_id": 1,
+        "title": "1917",
+        "year": 2019,
+        "genre": [
+            "Drama",
+            "Action",
+            "War"
+        ],
+        "watched": false,
+        "color": "",
+        "imdb_ranking": 8.2,
+        "director": "Sam Mendes",
+        "duration": "1h 59m",
+        "topic": "April 6th, 1917. As an infantry battalion assembles to wage war deep in enemy territory, two soldiers are assigned to race against time and deliver a message that will stop 1,600 men from walking straight into a deadly trap."
+    },
+    {
+        "id": 2,
+        "series_id": 2,
+        "title": "12 Angry Men",
+        "year": 1957,
+        "genre": [
+            "Drama",
+            "Crime"
+        ],
+        "watched": false,
+        "color": "",
+        "imdb_ranking": 8.9,
+        "director": "Sidney Lumet",
+        "duration": "1h 36m",
+        "topic": "The jury in a New York City murder trial is frustrated by a single member whose skeptical caution forces them to more carefully consider the evidence before jumping to a hasty verdict."
+    },
+    {
+        "id": 3,
+        "series_id": 2,
+        "title": "12 Angry Men",
+        "year": 1997,
+        "genre": [
+            "Drama",
+            "Crime"
+        ],
+        "watched": false,
+        "color": "",
+        "imdb_ranking": 7.8,
+        "director": "William Friedkin",
+        "duration": "1h 57m",
+        "topic": "Twelve men must decide the fate of one when one juror objects to the jury's decision."
+    },
+    {
+        "id": 4,
+        "series_id": 3,
+        "title": "12 Years a Slave",
+        "year": 2013,
+        "genre": [
+            "Drama",
+            "History",
+            "Biography"
+        ],
+        "watched": false,
+        "color": "",
+        "imdb_ranking": 8.1,
+        "director": "Steve McQueen",
+        "duration": "2h 14m",
+        "topic": "In the antebellum United States, Solomon Northup, a free black man from upstate New York, is abducted and sold into slavery."
+    },
+    {
+        "id": 5,
+        "series_id": 4,
+        "title": "2001: A Space Odyssey",
+        "year": 1968,
+        "genre": [
+            "Adventure",
+            "Sci-Fi"
+        ],
+        "watched": false,
+        "color": "",
+        "imdb_ranking": 8.3,
+        "director": "Stanley Kubrick",
+        "duration": "2h 29m",
+        "topic": "After uncovering a mysterious artifact buried beneath the Lunar surface, a spacecraft is sent to Jupiter to find its origins - a spacecraft manned by two men and the supercomputer H.A.L. 9000."
+    },
+    {
+        "id": 6,
+        "series_id": 5,
+        "title": "3 Idiots",
+        "year": 2009,
+        "genre": [
+            "Drama",
+            "Comedy"
+        ],
+        "watched": false,
+        "color": "",
+        "imdb_ranking": 8.3,
+        "director": "Rajkumar Hirani",
+        "duration": "2h 50m",
+        "topic": "Two friends are searching for their long lost companion. They revisit their college days and recall the memories of their friend who inspired them to think differently, even as the rest of the world called them \"idiots\"."
+    },
+    {
+        "id": 7,
+        "series_id": 6,
+        "title": "A Beautiful Mind",
+        "year": 2001,
+        "genre": [
+            "Drama",
+            "Biography"
+        ],
+        "watched": false,
+        "color": "",
+        "imdb_ranking": 8.2,
+        "director": "Ron Howard",
+        "duration": "2h 15m",
+        "topic": "After John Nash, a brilliant but asocial mathematician, accepts secret work in cryptography, his life takes a turn for the nightmarish."
+    },
+    {
+        "id": 8,
+        "series_id": 7,
+        "title": "A Clockwork Orange",
+        "year": 1971,
+        "genre": [
+            "Crime",
+            "Sci-Fi"
+        ],
+        "watched": true,
+        "color": "",
+        "imdb_ranking": 8.2,
+        "director": "Stanley Kubrick",
+        "duration": "2h 16m",
+        "topic": "In the future, a sadistic gang leader is imprisoned and volunteers for a conduct-aversion experiment, but it doesn't go as planned."
+    },
+    {
+        "id": 9,
+        "series_id": 8,
+        "title": "A Separation",
+        "year": 2011,
+        "genre": [
+            "Drama"
+        ],
+        "watched": false,
+        "color": "",
+        "imdb_ranking": 8.2,
+        "director": "Asghar Farhadi",
+        "duration": "2h 3m",
+        "topic": "A married couple are faced with a difficult decision - to improve the life of their child by moving to another country or to stay in Iran and look after a deteriorating parent who has Alzheimer's disease."
+    },
+    {
+        "id": 10,
+        "series_id": 9,
+        "title": "Aladdin",
+        "year": 1992,
+        "genre": [
+            "Adventure",
+            "Comedy",
+            "Animation"
+        ],
+        "watched": false,
+        "color": "",
+        "imdb_ranking": 8.0,
+        "director": "Ron Clements;John Musker",
+        "duration": "1h 30m",
+        "topic": "A kindhearted street urchin and a power-hungry Grand Vizier vie for a magic lamp that has the power to make their deepest wishes come true."
+    },
+    {
+        "id": 11,
+        "series_id": 10,
+        "title": "Alien",
+        "year": 1979,
+        "genre": [
+            "Sci-Fi",
+            "Horror"
+        ],
+        "watched": false,
+        "color": "",
+        "imdb_ranking": 8.4,
+        "director": "Ridley Scott",
+        "duration": "1h 57m",
+        "topic": "The crew of a commercial spacecraft encounter a deadly lifeform after investigating an unknown transmission."
+    },
+    {
+        "id": 12,
+        "series_id": 10,
+        "title": "Aliens",
+        "year": 1986,
+        "genre": [
+            "Action",
+            "Adventure",
+            "Sci-Fi"
+        ],
+        "watched": false,
+        "color": "",
+        "imdb_ranking": 8.3,
+        "director": "James Cameron",
+        "duration": "2h 17m",
+        "topic": "Fifty-seven years after surviving an apocalyptic attack aboard her space vessel by merciless space creatures, Officer Ripley awakens from hyper-sleep and tries to warn anyone who will listen about the predators."
+    },
+    {
+        "id": 13,
+        "series_id": 11,
+        "title": "All About Eve",
+        "year": 1950,
+        "genre": [
+            "Drama"
+        ],
+        "watched": false,
+        "color": "",
+        "imdb_ranking": 8.2,
+        "director": "Joseph L. Mankiewicz",
+        "duration": "2h 18m",
+        "topic": "A seemingly timid but secretly ruthless ing\u00e9nue insinuates herself into the lives of an aging Broadway star and her circle of theater friends."
+    },
+    {
+        "id": 14,
+        "series_id": 12,
+        "title": "Amadeus",
+        "year": 1984,
+        "genre": [
+            "Drama",
+            "Biography",
+            "Music"
+        ],
+        "watched": false,
+        "color": "",
+        "imdb_ranking": 8.3,
+        "director": "Milos Forman",
+        "duration": "2h 40m",
+        "topic": "The life, success and troubles of Wolfgang Amadeus Mozart, as told by Antonio Salieri, the contemporaneous composer who was insanely jealous of Mozart's talent and claimed to have murdered him."
+    },
+    {
+        "id": 15,
+        "series_id": 13,
+        "title": "Am\u00e9lie",
+        "year": 2001,
+        "genre": [
+            "Comedy",
+            "Romance"
+        ],
+        "watched": false,
+        "color": "",
+        "imdb_ranking": 8.2,
+        "director": "Jean-Pierre Jeunet",
+        "duration": "2h 2m",
+        "topic": "Am\u00e9lie is an innocent and naive girl in Paris with her own sense of justice. She decides to help those around her and, along the way, discovers love."
+    },
+    {
+        "id": 16,
+        "series_id": 14,
+        "title": "American Beauty",
+        "year": 1999,
+        "genre": [
+            "Drama"
+        ],
+        "watched": false,
+        "color": "",
+        "imdb_ranking": 8.3,
+        "director": "Sam Mendes",
+        "duration": "2h 2m",
+        "topic": "A sexually frustrated suburban father has a mid-life crisis after becoming infatuated with his daughter's best friend."
+    },
+    {
+        "id": 17,
+        "series_id": 15,
+        "title": "American History X",
+        "year": 1998,
+        "genre": [
+            "Drama",
+            "Crime"
+        ],
+        "watched": false,
+        "color": "",
+        "imdb_ranking": 8.5,
+        "director": "Tony Kaye",
+        "duration": "1h 59m",
+        "topic": "A former neo-nazi skinhead tries to prevent his younger brother from going down the same wrong path that he did."
+    },
+    {
+        "id": 18,
+        "series_id": 16,
+        "title": "Amores perros",
+        "year": 2000,
+        "genre": [
+            "Drama",
+            "Thriller"
+        ],
+        "watched": false,
+        "color": "",
+        "imdb_ranking": 8.0,
+        "director": "Alejandro G. I\u00f1\u00e1rritu",
+        "duration": "2h 34m",
+        "topic": "A horrific car accident connects three stories, each involving characters dealing with loss, regret, and life's harsh realities, all in the name of love."
+    },
+    {
+        "id": 19,
+        "series_id": 17,
+        "title": "Apocalypse Now",
+        "year": 1979,
+        "genre": [
+            "Drama",
+            "Mystery",
+            "War"
+        ],
+        "watched": false,
+        "color": "",
+        "imdb_ranking": 8.4,
+        "director": "Francis Ford Coppola",
+        "duration": "2h 27m",
+        "topic": "A U.S. Army officer serving in Vietnam is tasked with assassinating a renegade Special Forces Colonel who sees himself as a god."
+    },
+    {
+        "id": 20,
+        "series_id": 18,
+        "title": "Avatar",
+        "year": 2009,
+        "genre": [
+            "Adventure",
+            "Sci-Fi",
+            "Fantasy"
+        ],
+        "watched": true,
+        "color": "",
+        "imdb_ranking": 7.9,
+        "director": "James Cameron",
+        "duration": "2h 42m",
+        "topic": "A paraplegic Marine dispatched to the moon Pandora on a unique mission becomes torn between following his orders and protecting the world he feels is his home."
+    },
+    {
+        "id": 21,
+        "series_id": 18,
+        "title": "Avatar: The Way of Water",
+        "year": 2022,
+        "genre": [
+            "Adventure",
+            "Sci-Fi",
+            "Fantasy"
+        ],
+        "watched": true,
+        "color": "",
+        "imdb_ranking": 7.5,
+        "director": "James Cameron",
+        "duration": "3h 12m",
+        "topic": "Jake Sully lives with his newfound family formed on the extrasolar moon Pandora. Once a familiar threat returns to finish what was previously started, Jake must work with Neytiri and the army of the Na'vi race to protect their home."
+    },
+    {
+        "id": 22,
+        "series_id": 19,
+        "title": "Avengers: Endgame",
+        "year": 2019,
+        "genre": [
+            "Drama",
+            "Adventure",
+            "Action"
+        ],
+        "watched": false,
+        "color": "",
+        "imdb_ranking": 8.3,
+        "director": "Anthony Russo;Joe Russo",
+        "duration": "3h 1m",
+        "topic": "After the devastating events of Avengers: Infinity War (2018), the universe is in ruins. With the help of remaining allies, the Avengers assemble once more in order to reverse Thanos' actions and restore balance to the universe."
+    },
+    {
+        "id": 23,
+        "series_id": 19,
+        "title": "Avengers: Infinity War",
+        "year": 2018,
+        "genre": [
+            "Action",
+            "Adventure",
+            "Sci-Fi"
+        ],
+        "watched": false,
+        "color": "",
+        "imdb_ranking": 8.4,
+        "director": "Anthony Russo;Joe Russo",
+        "duration": "2h 29m",
+        "topic": "The Avengers and their allies must be willing to sacrifice all in an attempt to defeat the powerful Thanos before his blitz of devastation and ruin puts an end to the universe."
+    },
+    {
+        "id": 24,
+        "series_id": 20,
+        "title": "Back to the Future",
+        "year": 1985,
+        "genre": [
+            "Sci-Fi",
+            "Adventure",
+            "Comedy"
+        ],
+        "watched": false,
+        "color": "",
+        "imdb_ranking": 8.5,
+        "director": "Robert Zemeckis",
+        "duration": "1h 56m",
+        "topic": "Marty McFly, a 17-year-old high school student, is accidentally sent thirty years into the past in a time-traveling DeLorean invented by his close friend, the eccentric scientist Doc Brown. 1"
+    },
+    {
+        "id": 25,
+        "series_id": 20,
+        "title": "Back to the Future Part II",
+        "year": 1989,
+        "genre": [
+            "Sci-Fi",
+            "Adventure",
+            "Comedy"
+        ],
+        "watched": false,
+        "color": "",
+        "imdb_ranking": 7.8,
+        "director": "Robert Zemeckis",
+        "duration": "1h 48m",
+        "topic": "After visiting 2015, Marty McFly must repeat his visit to 1955 to prevent disastrous changes to 1985... without interfering with his first trip. 1"
+    },
+    {
+        "id": 26,
+        "series_id": 20,
+        "title": "Back to the Future Part III",
+        "year": 1990,
+        "genre": [
+            "Sci-Fi",
+            "Adventure",
+            "Comedy"
+        ],
+        "watched": false,
+        "color": "",
+        "imdb_ranking": 7.4,
+        "director": "Robert Zemeckis",
+        "duration": "1h 58m",
+        "topic": "Stranded in 1955, Marty McFly learns about the death of Doc Brown in 1885 and must travel back in time to save him. With no fuel readily available for the DeLorean, the two must figure out a way to escape the Old West before Emmett is murdered."
+    },
+    {
+        "id": 27,
+        "series_id": 21,
+        "title": "Barry Lyndon",
+        "year": 1975,
+        "genre": [
+            "Adventure",
+            "Drama",
+            "War"
+        ],
+        "watched": false,
+        "color": "",
+        "imdb_ranking": 8.1,
+        "director": "Stanley Kubrick",
+        "duration": "3h 5m",
+        "topic": "An Irish rogue wins the heart of a rich widow and assumes her dead husband's aristocratic position in 18th-century England."
+    },
+    {
+        "id": 28,
+        "series_id": 22,
+        "title": "Batman Begins",
+        "year": 2005,
+        "genre": [
+            "Drama",
+            "Crime",
+            "Action"
+        ],
+        "watched": false,
+        "color": "",
+        "imdb_ranking": 8.2,
+        "director": "Christopher Nolan",
+        "duration": "2h 20m",
+        "topic": "After training with his mentor, Batman begins his fight to free crime-ridden Gotham City from corruption."
+    },
+    {
+        "id": 29,
+        "series_id": 23,
+        "title": "Beauty and the Beast",
+        "year": 1991,
+        "genre": [
+            "Fantasy",
+            "Family",
+            "Animation"
+        ],
+        "watched": false,
+        "color": "",
+        "imdb_ranking": 8.0,
+        "director": "Gary Trousdale;Kirk Wise",
+        "duration": "1h 24m",
+        "topic": "A prince cursed to spend his days as a hideous monster sets out to regain his humanity by earning a young woman's love."
+    },
+    {
+        "id": 30,
+        "series_id": 24,
+        "title": "Before Sunrise",
+        "year": 1995,
+        "genre": [
+            "Drama",
+            "Romance"
+        ],
+        "watched": false,
+        "color": "",
+        "imdb_ranking": 8.1,
+        "director": "Richard Linklater",
+        "duration": "1h 41m",
+        "topic": "A young man and woman meet on a train in Europe, and wind up spending one evening together in Vienna. Unfortunately, both know that this will probably be their only night together."
+    },
+    {
+        "id": 31,
+        "series_id": 24,
+        "title": "Before Sunset",
+        "year": 2004,
+        "genre": [
+            "Drama",
+            "Romance"
+        ],
+        "watched": false,
+        "color": "",
+        "imdb_ranking": 8.0,
+        "director": "Richard Linklater",
+        "duration": "1h 20m",
+        "topic": "Nine years after Jesse and Celine first met, they encounter each other again on the French leg of Jesse's book tour."
+    },
+    {
+        "id": 32,
+        "series_id": 25,
+        "title": "Ben-Hur",
+        "year": 1959,
+        "genre": [
+            "Drama",
+            "Adventure",
+            "History"
+        ],
+        "watched": false,
+        "color": "",
+        "imdb_ranking": 8.1,
+        "director": "William Wyler",
+        "duration": "3h 32m",
+        "topic": "After a Jewish prince is betrayed and sent into slavery by a Roman friend in 1st-century Jerusalem, he regains his freedom and comes back for revenge."
+    },
+    {
+        "id": 33,
+        "series_id": 26,
+        "title": "Bicycle Thieves",
+        "year": 1948,
+        "genre": [
+            "Drama"
+        ],
+        "watched": false,
+        "color": "",
+        "imdb_ranking": 8.2,
+        "director": "Vittorio De Sica",
+        "duration": "1h 29m",
+        "topic": "In post-war Italy, a working-class man's bicycle is stolen, endangering his efforts to find work. He and his son set out to find it."
+    },
+    {
+        "id": 34,
+        "series_id": 27,
+        "title": "BlacKkKlansman",
+        "year": 2018,
+        "genre": [
+            "Drama",
+            "Docu",
+            "Crime",
+            "Comedy"
+        ],
+        "watched": true,
+        "color": "",
+        "imdb_ranking": 7.5,
+        "director": "Spike Lee",
+        "duration": "2h 15m",
+        "topic": "Ron Stallworth, an African American police officer from Colorado Springs, Colorado, successfully infiltrates the local Ku Klux Klan branch aided by a Jewish surrogate who eventually becomes its leader. Based on actual events."
+    },
+    {
+        "id": 35,
+        "series_id": 28,
+        "title": "Blade Runner",
+        "year": 1982,
+        "genre": [
+            "Drama",
+            "Action",
+            "Sci-Fi"
+        ],
+        "watched": false,
+        "color": "",
+        "imdb_ranking": 8.1,
+        "director": "Ridley Scott",
+        "duration": "1h 57m",
+        "topic": "A blade runner must pursue and terminate four replicants who stole a ship in space, and have returned to Earth to find their creator."
+    },
+    {
+        "id": 36,
+        "series_id": 29,
+        "title": "Braveheart",
+        "year": 1995,
+        "genre": [
+            "Drama",
+            "Biography",
+            "History"
+        ],
+        "watched": false,
+        "color": "",
+        "imdb_ranking": 8.3,
+        "director": "Mel Gibson",
+        "duration": "2h 58m",
+        "topic": "Scottish warrior William Wallace leads his countrymen in a rebellion to free his homeland from the tyranny of King Edward I of England."
+    },
+    {
+        "id": 37,
+        "series_id": 30,
+        "title": "Capernaum",
+        "year": 2018,
+        "genre": [
+            "Drama"
+        ],
+        "watched": false,
+        "color": "",
+        "imdb_ranking": 8.3,
+        "director": "Nadine Labaki",
+        "duration": "2h 6m",
+        "topic": "While serving a five-year sentence for a violent crime, a 12-year-old boy sues his parents for neglect."
+    },
+    {
+        "id": 38,
+        "series_id": 31,
+        "title": "Casablanca",
+        "year": 1942,
+        "genre": [
+            "Drama",
+            "Romance",
+            "War"
+        ],
+        "watched": false,
+        "color": "",
+        "imdb_ranking": 8.5,
+        "director": "Michael Curtiz",
+        "duration": "1h 42m",
+        "topic": "A cynical expatriate American cafe owner struggles to decide whether or not to help his former lover and her fugitive husband escape the Nazis in French Morocco."
+    },
+    {
+        "id": 39,
+        "series_id": 32,
+        "title": "Casino",
+        "year": 1995,
+        "genre": [
+            "Drama",
+            "Crime"
+        ],
+        "watched": false,
+        "color": "",
+        "imdb_ranking": 8.2,
+        "director": "Martin Scorsese",
+        "duration": "2h 58m",
+        "topic": "A tale of greed, deception, money, power, and murder occur between two best friends: a mafia enforcer and a casino executive compete against each other over a gambling empire, and over a fast-living and fast-loving socialite."
+    },
+    {
+        "id": 40,
+        "series_id": 33,
+        "title": "Catch Me If You Can",
+        "year": 2002,
+        "genre": [
+            "Drama",
+            "Biography",
+            "Crime"
+        ],
+        "watched": false,
+        "color": "",
+        "imdb_ranking": 8.1,
+        "director": "Steven Spielberg",
+        "duration": "2h 21m",
+        "topic": "Barely 21 yet, Frank is a skilled forger who has passed as a doctor, lawyer and pilot. FBI agent Carl becomes obsessed with tracking down the con man, who only revels in the pursuit."
+    },
+    {
+        "id": 41,
+        "series_id": 34,
+        "title": "Children of Heaven",
+        "year": 1997,
+        "genre": [
+            "Drama",
+            "Family",
+            "Sport"
+        ],
+        "watched": false,
+        "color": "",
+        "imdb_ranking": 8.1,
+        "director": "Majid Majidi",
+        "duration": "1h 29m",
+        "topic": "After a boy loses his sister's pair of shoes, he goes on a series of adventures in order to find them. When he can't, he tries a new way to \"win\" a new pair."
+    },
+    {
+        "id": 42,
+        "series_id": 35,
+        "title": "Chinatown",
+        "year": 1974,
+        "genre": [
+            "Drama",
+            "Mystery",
+            "Thriller"
+        ],
+        "watched": false,
+        "color": "",
+        "imdb_ranking": 8.1,
+        "director": "Roman Polanski",
+        "duration": "2h 10m",
+        "topic": "A private detective hired to expose an adulterer in 1930s Los Angeles finds himself caught up in a web of deceit, corruption, and murder."
+    },
+    {
+        "id": 43,
+        "series_id": 36,
+        "title": "Cinema Paradiso",
+        "year": 1988,
+        "genre": [
+            "Drama",
+            "Romance"
+        ],
+        "watched": false,
+        "color": "",
+        "imdb_ranking": 8.4,
+        "director": "Giuseppe Tornatore",
+        "duration": "2h 35m",
+        "topic": "A filmmaker recalls his childhood when falling in love with the pictures at the cinema of his home village and forms a deep friendship with the cinema's projectionist."
+    },
+    {
+        "id": 44,
+        "series_id": 37,
+        "title": "Citizen Kane",
+        "year": 1941,
+        "genre": [
+            "Drama",
+            "Mystery"
+        ],
+        "watched": false,
+        "color": "",
+        "imdb_ranking": 8.3,
+        "director": "Orson Welles",
+        "duration": "1h 59m",
+        "topic": "Following the death of publishing tycoon Charles Foster Kane, reporters scramble to uncover the meaning of his final utterance: 'Rosebud.'"
+    },
+    {
+        "id": 45,
+        "series_id": 38,
+        "title": "City Lights",
+        "year": 1931,
+        "genre": [
+            "Drama",
+            "Romance",
+            "Comedy"
+        ],
+        "watched": false,
+        "color": "",
+        "imdb_ranking": 8.4,
+        "director": "Charles Chaplin",
+        "duration": "1h 27m",
+        "topic": "With the aid of a wealthy erratic tippler, a dewy-eyed tramp who has fallen in love with a sightless flower girl accumulates money to be able to help her medically."
+    },
+    {
+        "id": 46,
+        "series_id": 39,
+        "title": "City of God",
+        "year": 2002,
+        "genre": [
+            "Drama",
+            "Crime"
+        ],
+        "watched": false,
+        "color": "",
+        "imdb_ranking": 8.6,
+        "director": "K\u00e1tia Lund;Fernando Meirelles",
+        "duration": "2h 10m",
+        "topic": "In the slums of Rio, two kids' paths diverge as one struggles to become a photographer and the other a kingpin."
+    },
+    {
+        "id": 47,
+        "series_id": 40,
+        "title": "Coco",
+        "year": 2017,
+        "genre": [
+            "Adventure",
+            "Comedy",
+            "Animation"
+        ],
+        "watched": false,
+        "color": "",
+        "imdb_ranking": 8.3,
+        "director": "Lee Unkrich;Adrian Molina",
+        "duration": "1h 45m",
+        "topic": "Aspiring musician Miguel, confronted with his family's ancestral ban on music, enters the Land of the Dead to find his great-great-grandfather, a legendary singer."
+    },
+    {
+        "id": 48,
+        "series_id": 41,
+        "title": "Come and See",
+        "year": 1985,
+        "genre": [
+            "Drama",
+            "Thriller",
+            "War"
+        ],
+        "watched": false,
+        "color": "",
+        "imdb_ranking": 8.2,
+        "director": "Elem Klimov",
+        "duration": "2h 22m",
+        "topic": "After finding an old rifle, a young boy joins the Soviet resistance movement against ruthless German forces and experiences the horrors of World War II."
+    },
+    {
+        "id": 49,
+        "series_id": 42,
+        "title": "Cool Hand Luke",
+        "year": 1967,
+        "genre": [
+            "Drama",
+            "Crime"
+        ],
+        "watched": false,
+        "color": "",
+        "imdb_ranking": 8.0,
+        "director": "Stuart Rosenberg",
+        "duration": "2h 7m",
+        "topic": "A laid back Southern man is sentenced to two years in a rural prison, but refuses to conform."
+    },
+    {
+        "id": 50,
+        "series_id": 43,
+        "title": "Dangal",
+        "year": 2016,
+        "genre": [
+            "Drama",
+            "Action",
+            "Biography"
+        ],
+        "watched": false,
+        "color": "",
+        "imdb_ranking": 8.2,
+        "director": "Nitesh Tiwari",
+        "duration": "2h 41m",
+        "topic": "Former wrestler Mahavir Singh Phogat and his two wrestler daughters struggle towards glory at the Commonwealth Games in the face of societal oppression."
+    },
+    {
+        "id": 51,
+        "series_id": 44,
+        "title": "Dead Poets Society",
+        "year": 1989,
+        "genre": [
+            "Drama",
+            "Comedy"
+        ],
+        "watched": false,
+        "color": "",
+        "imdb_ranking": 8.1,
+        "director": "Peter Weir",
+        "duration": "2h 8m",
+        "topic": "Maverick teacher John Keating uses poetry to embolden his boarding school students to new heights of self-expression."
+    },
+    {
+        "id": 52,
+        "series_id": 45,
+        "title": "Dersu Uzala",
+        "year": 1975,
+        "genre": [
+            "Drama",
+            "Adventure",
+            "Biography"
+        ],
+        "watched": false,
+        "color": "",
+        "imdb_ranking": 8.0,
+        "director": "Akira Kurosawa",
+        "duration": "2h 22m",
+        "topic": "The Russian army sends an explorer on an expedition to the snowy Siberian wilderness where he makes friends with a seasoned local hunter."
+    },
+    {
+        "id": 53,
+        "series_id": 46,
+        "title": "Dial M for Murder",
+        "year": 1954,
+        "genre": [
+            "Crime",
+            "Thriller"
+        ],
+        "watched": false,
+        "color": "",
+        "imdb_ranking": 8.1,
+        "director": "Alfred Hitchcock",
+        "duration": "1h 45m",
+        "topic": "A former tennis star arranges the murder of his adulterous wife."
+    },
+    {
+        "id": 54,
+        "series_id": 47,
+        "title": "Die Hard",
+        "year": 1988,
+        "genre": [
+            "Action",
+            "Thriller"
+        ],
+        "watched": false,
+        "color": "",
+        "imdb_ranking": 8.2,
+        "director": "John McTiernan",
+        "duration": "2h 12m",
+        "topic": "An NYPD officer tries to save his wife and several others taken hostage by German terrorists during a Christmas party at the Nakatomi Plaza in Los Angeles."
+    },
+    {
+        "id": 55,
+        "series_id": 47,
+        "title": "Die Hard 2",
+        "year": 1990,
+        "genre": [
+            "Action",
+            "Thriller"
+        ],
+        "watched": false,
+        "color": "",
+        "imdb_ranking": 7.1,
+        "director": "Renny Harlin",
+        "duration": "2h 4m",
+        "topic": "John McClane attempts to avert disaster as rogue military operatives seize control of Dulles International Airport in Washington, D.C."
+    },
+    {
+        "id": 56,
+        "series_id": 47,
+        "title": "Die Hard with a Vengeance",
+        "year": 1995,
+        "genre": [
+            "Action",
+            "Thriller"
+        ],
+        "watched": false,
+        "color": "",
+        "imdb_ranking": 7.6,
+        "director": "John McTiernan",
+        "duration": "2h 8m",
+        "topic": "John McClane and a Harlem store owner are targeted by German terrorist Simon Gruber in New York City, where he plans to rob the Federal Reserve Building."
+    },
+    {
+        "id": 57,
+        "series_id": 48,
+        "title": "Django Unchained",
+        "year": 2012,
+        "genre": [
+            "Drama",
+            "Western"
+        ],
+        "watched": false,
+        "color": "",
+        "imdb_ranking": 8.4,
+        "director": "Quentin Tarantino",
+        "duration": "2h 45m",
+        "topic": "With the help of a German bounty-hunter, a freed slave sets out to rescue his wife from a brutal plantation-owner in Mississippi."
+    },
+    {
+        "id": 58,
+        "series_id": 49,
+        "title": "Double Indemnity",
+        "year": 1944,
+        "genre": [
+            "Drama",
+            "Crime",
+            "Film-Noir"
+        ],
+        "watched": false,
+        "color": "",
+        "imdb_ranking": 8.2,
+        "director": "Billy Wilder",
+        "duration": "1h 47m",
+        "topic": "A Los Angeles insurance representative lets an alluring housewife seduce him into a scheme of insurance fraud and murder that arouses the suspicion of his colleague, an insurance investigator."
+    },
+    {
+        "id": 59,
+        "series_id": 50,
+        "title": "Downfall",
+        "year": 2004,
+        "genre": [
+            "Drama",
+            "History",
+            "Biography"
+        ],
+        "watched": false,
+        "color": "",
+        "imdb_ranking": 8.2,
+        "director": "Oliver Hirschbiegel",
+        "duration": "2h 36m",
+        "topic": "Traudl Junge, the final secretary for Adolf Hitler, tells of the Nazi dictator's final days in his Berlin bunker at the end of WWII."
+    },
+    {
+        "id": 60,
+        "series_id": 51,
+        "title": "Dr. Strangelove or: How I Learned to Stop Worrying and Love the Bomb",
+        "year": 1964,
+        "genre": [
+            "Comedy",
+            "War"
+        ],
+        "watched": false,
+        "color": "",
+        "imdb_ranking": 8.3,
+        "director": "Stanley Kubrick",
+        "duration": "1h 35m",
+        "topic": "An insane American general orders a bombing attack on the Soviet Union, triggering a path to nuclear holocaust that a war room full of politicians and generals frantically tries to stop."
+    },
+    {
+        "id": 61,
+        "series_id": 52,
+        "title": "Eternal Sunshine of the Spotless Mind",
+        "year": 2004,
+        "genre": [
+            "Drama",
+            "Romance",
+            "Sci-Fi"
+        ],
+        "watched": false,
+        "color": "",
+        "imdb_ranking": 8.3,
+        "director": "Michel Gondry",
+        "duration": "1h 48m",
+        "topic": "When their relationship turns sour, a couple undergoes a medical procedure to have each other erased from their memories."
+    },
+    {
+        "id": 62,
+        "series_id": 53,
+        "title": "Everything Everywhere All at Once",
+        "year": 2022,
+        "genre": [
+            "Action",
+            "Adventure",
+            "Comedy"
+        ],
+        "watched": false,
+        "color": "",
+        "imdb_ranking": 8.2,
+        "director": "Dan Kwan;Daniel Scheinert",
+        "duration": "2h 19m",
+        "topic": "An aging Chinese immigrant is swept up in an insane adventure, where she alone can save the world by exploring other universes connecting with the lives she could have led."
+    },
+    {
+        "id": 63,
+        "series_id": 54,
+        "title": "Fargo",
+        "year": 1996,
+        "genre": [
+            "Crime",
+            "Thriller"
+        ],
+        "watched": false,
+        "color": "",
+        "imdb_ranking": 8.1,
+        "director": "Joel Coen",
+        "duration": "1h 38m",
+        "topic": "Minnesota car salesman Jerry Lundegaard's inept crime falls apart due to his and his henchmen's bungling and the persistent police work of the quite pregnant Marge Gunderson."
+    },
+    {
+        "id": 64,
+        "series_id": 55,
+        "title": "Fight Club",
+        "year": 1999,
+        "genre": [
+            "Drama"
+        ],
+        "watched": false,
+        "color": "",
+        "imdb_ranking": 8.7,
+        "director": "David Fincher",
+        "duration": "2h 19m",
+        "topic": "An insomniac office worker and a devil-may-care soap maker form an underground fight club that evolves into much more."
+    },
+    {
+        "id": 65,
+        "series_id": 56,
+        "title": "Finding Nemo",
+        "year": 2003,
+        "genre": [
+            "Adventure",
+            "Comedy",
+            "Animation"
+        ],
+        "watched": true,
+        "color": "",
+        "imdb_ranking": 8.1,
+        "director": "Andrew Stanton;Lee Unkrich",
+        "duration": "1h 40m",
+        "topic": "After his son is captured in the Great Barrier Reef and taken to Sydney, a timid clownfish sets out on a journey to bring him home."
+    },
+    {
+        "id": 66,
+        "series_id": 57,
+        "title": "For a Few Dollars More",
+        "year": 1965,
+        "genre": [
+            "Western"
+        ],
+        "watched": false,
+        "color": "",
+        "imdb_ranking": 8.2,
+        "director": "Sergio Leone",
+        "duration": "2h 12m",
+        "topic": "Two bounty hunters with the same intentions team up to track down an escaped Mexican outlaw."
+    },
+    {
+        "id": 67,
+        "series_id": 58,
+        "title": "Ford v Ferrari",
+        "year": 2019,
+        "genre": [
+            "Drama",
+            "Action",
+            "Biography"
+        ],
+        "watched": false,
+        "color": "",
+        "imdb_ranking": 8.0,
+        "director": "James Mangold",
+        "duration": "2h 32m",
+        "topic": "American car designer Carroll Shelby and driver Ken Miles battle corporate interference and the laws of physics to build a revolutionary race car for Ford in order to defeat Ferrari at the 24 Hours of Le Mans in 1966."
+    },
+    {
+        "id": 68,
+        "series_id": 59,
+        "title": "Forrest Gump",
+        "year": 1994,
+        "genre": [
+            "Drama",
+            "Romance"
+        ],
+        "watched": false,
+        "color": "",
+        "imdb_ranking": 8.8,
+        "director": "Robert Zemeckis",
+        "duration": "2h 22m",
+        "topic": "The presidencies of Kennedy and Johnson, the Vietnam War, the Watergate scandal and other historical events unfold from the perspective of an Alabama man with an IQ of 75, whose only desire is to be reunited with his childhood sweetheart."
+    },
+    {
+        "id": 69,
+        "series_id": 60,
+        "title": "Full Metal Jacket",
+        "year": 1987,
+        "genre": [
+            "Drama",
+            "War"
+        ],
+        "watched": true,
+        "color": "",
+        "imdb_ranking": 8.2,
+        "director": "Stanley Kubrick",
+        "duration": "1h 56m",
+        "topic": "A pragmatic U.S. Marine observes the dehumanizing effects the Vietnam War has on his fellow recruits from their brutal boot camp training to the bloody street fighting in Hue."
+    },
+    {
+        "id": 70,
+        "series_id": 61,
+        "title": "Gandhi",
+        "year": 1982,
+        "genre": [
+            "Drama",
+            "Biography"
+        ],
+        "watched": false,
+        "color": "",
+        "imdb_ranking": 8.0,
+        "director": "Richard Attenborough",
+        "duration": "3h 11m",
+        "topic": "The life of the lawyer who became the famed leader of the Indian revolts against the British rule through his philosophy of nonviolent protest."
+    },
+    {
+        "id": 71,
+        "series_id": 62,
+        "title": "Gladiator",
+        "year": 2000,
+        "genre": [
+            "Drama",
+            "Action",
+            "Adventure"
+        ],
+        "watched": true,
+        "color": "",
+        "imdb_ranking": 8.5,
+        "director": "Ridley Scott",
+        "duration": "2h 35m",
+        "topic": "A former Roman General sets out to exact vengeance against the corrupt emperor who murdered his family and sent him into slavery."
+    },
+    {
+        "id": 72,
+        "series_id": 63,
+        "title": "Gone Girl",
+        "year": 2014,
+        "genre": [
+            "Drama",
+            "Mystery",
+            "Thriller"
+        ],
+        "watched": true,
+        "color": "",
+        "imdb_ranking": 8.1,
+        "director": "David Fincher",
+        "duration": "2h 29m",
+        "topic": "With his wife's disappearance having become the focus of an intense media circus, a man sees the spotlight turned on him when it's suspected that he may not be innocent."
+    },
+    {
+        "id": 73,
+        "series_id": 64,
+        "title": "Gone with the Wind",
+        "year": 1939,
+        "genre": [
+            "Drama",
+            "Romance",
+            "War"
+        ],
+        "watched": false,
+        "color": "",
+        "imdb_ranking": 8.1,
+        "director": "Victor Fleming",
+        "duration": "3h 58m",
+        "topic": "The manipulative daughter of a Georgia plantation owner conducts a turbulent romance with a roguish profiteer during the American Civil War and Reconstruction periods."
+    },
+    {
+        "id": 74,
+        "series_id": 65,
+        "title": "Good Will Hunting",
+        "year": 1997,
+        "genre": [
+            "Drama",
+            "Romance"
+        ],
+        "watched": true,
+        "color": "",
+        "imdb_ranking": 8.3,
+        "director": "Gus Van Sant",
+        "duration": "2h 6m",
+        "topic": "Will Hunting, a janitor at M.I.T., has a gift for mathematics, but needs help from a psychologist to find direction in his life."
+    },
+    {
+        "id": 75,
+        "series_id": 66,
+        "title": "Goodfellas",
+        "year": 1990,
+        "genre": [
+            "Drama",
+            "Crime",
+            "Biography"
+        ],
+        "watched": false,
+        "color": "",
+        "imdb_ranking": 8.7,
+        "director": "Martin Scorsese",
+        "duration": "2h 25m",
+        "topic": "The story of Henry Hill and his life in the mob, covering his relationship with his wife Karen Hill and his mob partners Jimmy Conway and Tommy DeVito in the Italian-American crime syndicate."
+    },
+    {
+        "id": 76,
+        "series_id": 67,
+        "title": "Gran Torino",
+        "year": 2008,
+        "genre": [
+            "Drama"
+        ],
+        "watched": true,
+        "color": "",
+        "imdb_ranking": 8.1,
+        "director": "Clint Eastwood",
+        "duration": "1h 56m",
+        "topic": "Disgruntled Korean War veteran Walt Kowalski sets out to reform his neighbor, Thao Lor, a Hmong teenager who tried to steal Kowalski's prized possession: a 1972 Gran Torino."
+    },
+    {
+        "id": 77,
+        "series_id": 68,
+        "title": "Grave of the Fireflies",
+        "year": 1988,
+        "genre": [
+            "Drama",
+            "War",
+            "Animation"
+        ],
+        "watched": false,
+        "color": "",
+        "imdb_ranking": 8.4,
+        "director": "Isao Takahata",
+        "duration": "1h 29m",
+        "topic": "A young boy and his little sister struggle to survive in Japan during World War II."
+    },
+    {
+        "id": 78,
+        "series_id": 69,
+        "title": "Green Book",
+        "year": 2018,
+        "genre": [
+            "Drama",
+            "Comedy",
+            "Biography"
+        ],
+        "watched": true,
+        "color": "",
+        "imdb_ranking": 8.2,
+        "director": "Peter Farrelly",
+        "duration": "2h 10m",
+        "topic": "A working-class Italian-American bouncer becomes the driver for an African-American classical pianist on a tour of venues through the 1960s American South."
+    },
+    {
+        "id": 79,
+        "series_id": 70,
+        "title": "Groundhog Day",
+        "year": 1993,
+        "genre": [
+            "Drama",
+            "Comedy",
+            "Fantasy"
+        ],
+        "watched": false,
+        "color": "",
+        "imdb_ranking": 8.0,
+        "director": "Harold Ramis",
+        "duration": "1h 41m",
+        "topic": "A self-centered Pittsburgh weatherman finds himself inexplicably trapped in a small town as he lives the same day over and over again."
+    },
+    {
+        "id": 80,
+        "series_id": 71,
+        "title": "Guardians of the Galaxy",
+        "year": 2014,
+        "genre": [
+            "Sci-Fi",
+            "Action",
+            "Adventure",
+            "Comedy"
+        ],
+        "watched": true,
+        "color": "",
+        "imdb_ranking": 8.0,
+        "director": "James Gunn",
+        "duration": "2h 1m",
+        "topic": "A group of intergalactic criminals must pull together to stop a fanatical warrior with plans to purge the universe."
+    },
+    {
+        "id": 81,
+        "series_id": 72,
+        "title": "Hachi: A Dog's Tale",
+        "year": 2009,
+        "genre": [
+            "Drama",
+            "Biography",
+            "Family"
+        ],
+        "watched": false,
+        "color": "",
+        "imdb_ranking": 8.0,
+        "director": "Lasse Hallstr\u00f6m",
+        "duration": "1h 33m",
+        "topic": "A college professor bonds with an abandoned dog he takes into his home."
+    },
+    {
+        "id": 82,
+        "series_id": 73,
+        "title": "Hacksaw Ridge",
+        "year": 2016,
+        "genre": [
+            "Drama",
+            "Biography",
+            "History"
+        ],
+        "watched": false,
+        "color": "",
+        "imdb_ranking": 8.1,
+        "director": "Mel Gibson",
+        "duration": "2h 19m",
+        "topic": "World War II American Army Medic Desmond T. Doss, who served during the Battle of Okinawa, refuses to kill people and becomes the first man in American history to receive the Medal of Honor without firing a shot."
+    },
+    {
+        "id": 83,
+        "series_id": 74,
+        "title": "Hamilton",
+        "year": 2020,
+        "genre": [
+            "Drama",
+            "Biography",
+            "History"
+        ],
+        "watched": false,
+        "color": "",
+        "imdb_ranking": 8.2,
+        "director": "Thomas Kail",
+        "duration": "2h 40m",
+        "topic": "The real life of one of America's foremost founding fathers and first Secretary of the Treasury, Alexander Hamilton. Captured live on Broadway from the Richard Rodgers Theater with the original Broadway cast."
+    },
+    {
+        "id": 84,
+        "series_id": 75,
+        "title": "Hara-Kiri",
+        "year": 1962,
+        "genre": [
+            "Drama",
+            "Action",
+            "Mystery"
+        ],
+        "watched": false,
+        "color": "",
+        "imdb_ranking": 8.4,
+        "director": "Masaki Kobayashi",
+        "duration": "2h 13m",
+        "topic": "When a ronin requesting seppuku at a feudal lord's palace is told of the brutal suicide of another ronin who previously visited, he reveals how their pasts are intertwined - and in doing so challenges the clan's integrity."
+    },
+    {
+        "id": 85,
+        "series_id": 76,
+        "title": "Harry Potter and the Chamber of Secrets",
+        "year": 2002,
+        "genre": [
+            "Fantasy",
+            "Adventure"
+        ],
+        "watched": false,
+        "color": "",
+        "imdb_ranking": 7.4,
+        "director": "Chris Columbus",
+        "duration": "2h 41m",
+        "topic": "An ancient prophecy seems to be coming true when a mysterious presence begins stalking the corridors of a school of magic and leaving its victims paralyzed."
+    },
+    {
+        "id": 86,
+        "series_id": 76,
+        "title": "Harry Potter and the Deathly Hallows \u2013 Part 1",
+        "year": 2010,
+        "genre": [
+            "Fantasy",
+            "Adventure"
+        ],
+        "watched": false,
+        "color": "",
+        "imdb_ranking": 7.7,
+        "director": "David Yates",
+        "duration": "2h 26m",
+        "topic": "As Harry, Ron, and Hermione race against time and evil to destroy the Horcruxes, they uncover the existence of the three most powerful objects in the wizarding world: the Deathly Hallows."
+    },
+    {
+        "id": 87,
+        "series_id": 76,
+        "title": "Harry Potter and the Deathly Hallows \u2013 Part 2",
+        "year": 2011,
+        "genre": [
+            "Fantasy",
+            "Adventure"
+        ],
+        "watched": false,
+        "color": "",
+        "imdb_ranking": 8.1,
+        "director": "David Yates",
+        "duration": "2h 10m",
+        "topic": "Harry, Ron, and Hermione search for Voldemort's remaining Horcruxes in their effort to destroy the Dark Lord as the final battle rages on at Hogwarts."
+    },
+    {
+        "id": 88,
+        "series_id": 76,
+        "title": "Harry Potter and the Goblet of Fire",
+        "year": 2005,
+        "genre": [
+            "Fantasy",
+            "Adventure"
+        ],
+        "watched": false,
+        "color": "",
+        "imdb_ranking": 7.7,
+        "director": "Mike Newell",
+        "duration": "2h 37m",
+        "topic": "Harry Potter finds himself competing in a hazardous tournament between rival schools of magic, but he is distracted by recurring nightmares."
+    },
+    {
+        "id": 89,
+        "series_id": 76,
+        "title": "Harry Potter and the Half-Blood Prince",
+        "year": 2009,
+        "genre": [
+            "Fantasy",
+            "Adventure"
+        ],
+        "watched": false,
+        "color": "",
+        "imdb_ranking": 7.6,
+        "director": "David Yates",
+        "duration": "2h 34m",
+        "topic": "As Harry Potter begins his sixth year at Hogwarts, he discovers an old book marked as \"the property of the Half-Blood Prince\" and begins to learn more about Lord Voldemort's dark past."
+    },
+    {
+        "id": 90,
+        "series_id": 76,
+        "title": "Harry Potter and the Order of the Phoenix",
+        "year": 2007,
+        "genre": [
+            "Fantasy",
+            "Adventure"
+        ],
+        "watched": false,
+        "color": "",
+        "imdb_ranking": 7.5,
+        "director": "David Yates",
+        "duration": "2h 18m",
+        "topic": "With their warning about Lord Voldemort's return scoffed at, Harry and Dumbledore are targeted by the Wizard authorities as an authoritarian bureaucrat slowly seizes power at Hogwarts."
+    },
+    {
+        "id": 91,
+        "series_id": 76,
+        "title": "Harry Potter and the Philosopher's Stone",
+        "year": 2001,
+        "genre": [
+            "Fantasy",
+            "Adventure"
+        ],
+        "watched": false,
+        "color": "",
+        "imdb_ranking": 7.6,
+        "director": "Chris Columbus",
+        "duration": "2h 32m",
+        "topic": "An orphaned boy enrolls in a school of wizardry, where he learns the truth about himself, his family and the terrible evil that haunts the magical world."
+    },
+    {
+        "id": 92,
+        "series_id": 76,
+        "title": "Harry Potter and the Prisoner of Azkaban",
+        "year": 2004,
+        "genre": [
+            "Fantasy",
+            "Adventure"
+        ],
+        "watched": false,
+        "color": "",
+        "imdb_ranking": 7.9,
+        "director": "Alfonso Cuar\u00f3n",
+        "duration": "2h 22m",
+        "topic": "Harry Potter, Ron and Hermione return to Hogwarts School of Witchcraft and Wizardry for their third year of study, where they delve into the mystery surrounding an escaped prisoner who poses a dangerous threat to the young wizard."
+    },
+    {
+        "id": 93,
+        "series_id": 77,
+        "title": "Heat",
+        "year": 1995,
+        "genre": [
+            "Drama",
+            "Crime",
+            "Action"
+        ],
+        "watched": false,
+        "color": "",
+        "imdb_ranking": 8.2,
+        "director": "Michael Mann",
+        "duration": "2h 50m",
+        "topic": "A group of high-end professional thieves start to feel the heat from the LAPD when they unknowingly leave a clue at their latest heist."
+    },
+    {
+        "id": 94,
+        "series_id": 78,
+        "title": "High and Low",
+        "year": 1963,
+        "genre": [
+            "Drama",
+            "Crime",
+            "Mystery"
+        ],
+        "watched": false,
+        "color": "",
+        "imdb_ranking": 8.3,
+        "director": "Akira Kurosawa",
+        "duration": "2h 23m",
+        "topic": "An executive of a Yokohama shoe company becomes a victim of extortion when his chauffeur's son is kidnapped by mistake and held for ransom."
+    },
+    {
+        "id": 95,
+        "series_id": 79,
+        "title": "Hotel Rwanda",
+        "year": 2004,
+        "genre": [
+            "Drama",
+            "Biography",
+            "History"
+        ],
+        "watched": false,
+        "color": "",
+        "imdb_ranking": 8.1,
+        "director": "Terry George",
+        "duration": "2h 1m",
+        "topic": "Paul Rusesabagina, a hotel manager, houses over a thousand Tutsi refugees during their struggle against the Hutu militia in Rwanda, Africa."
+    },
+    {
+        "id": 96,
+        "series_id": 80,
+        "title": "How to Train Your Dragon",
+        "year": 2010,
+        "genre": [
+            "Animatio",
+            "Action",
+            "Adventuren"
+        ],
+        "watched": false,
+        "color": "",
+        "imdb_ranking": 8.1,
+        "director": "Chris Sanders, Dean DeBlois",
+        "duration": "1h 38m",
+        "topic": "A hapless young Viking who aspires to hunt dragons becomes the unlikely friend of a young dragon himself, and learns there may be more to the creatures than he assumed."
+    },
+    {
+        "id": 97,
+        "series_id": 80,
+        "title": "How to Train Your Dragon 2",
+        "year": 2014,
+        "genre": [
+            "Animatio",
+            "Action",
+            "Adventuren"
+        ],
+        "watched": false,
+        "color": "",
+        "imdb_ranking": 7.8,
+        "director": "Dean DeBlois",
+        "duration": "1h 42m",
+        "topic": "When Hiccup and Toothless discover an ice cave that is home to hundreds of new wild dragons and the mysterious Dragon Rider, the two friends find themselves at the center of a battle to protect the peace."
+    },
+    {
+        "id": 98,
+        "series_id": 80,
+        "title": "How to Train Your Dragon: The Hidden World",
+        "year": 2019,
+        "genre": [
+            "Animatio",
+            "Action",
+            "Adventuren"
+        ],
+        "watched": false,
+        "color": "",
+        "imdb_ranking": 7.4,
+        "director": "Dean DeBlois",
+        "duration": "1h 44m",
+        "topic": "When Hiccup discovers Toothless isn't the only Night Fury, he must seek \"The Hidden World\", a secret Dragon Utopia before a hired tyrant named Grimmel finds it first."
+    },
+    {
+        "id": 99,
+        "series_id": 81,
+        "title": "Howl's Moving Castle",
+        "year": 2004,
+        "genre": [
+            "Adventure",
+            "Family",
+            "Animation"
+        ],
+        "watched": false,
+        "color": "",
+        "imdb_ranking": 8.1,
+        "director": "Hayao Miyazaki",
+        "duration": "1h 59m",
+        "topic": "When an unconfident young woman is cursed with an old body by a spiteful witch, her only chance of breaking the spell lies with a self-indulgent yet insecure young wizard and his companions in his legged, walking castle."
+    },
+    {
+        "id": 100,
+        "series_id": 82,
+        "title": "Ikiru",
+        "year": 1952,
+        "genre": [
+            "Drama"
+        ],
+        "watched": false,
+        "color": "",
+        "imdb_ranking": 8.2,
+        "director": "Akira Kurosawa",
+        "duration": "2h 23m",
+        "topic": "A bureaucrat tries to find meaning in his life after he discovers he has terminal cancer."
+    },
+    {
+        "id": 101,
+        "series_id": 83,
+        "title": "In the Name of the Father",
+        "year": 1993,
+        "genre": [
+            "Drama",
+            "Biography",
+            "Crime"
+        ],
+        "watched": false,
+        "color": "",
+        "imdb_ranking": 8.1,
+        "director": "Jim Sheridan",
+        "duration": "2h 13m",
+        "topic": "A man's coerced confession to an I.R.A. bombing he did not commit results in the imprisonment of his father as well. An English lawyer fights to free them."
+    },
+    {
+        "id": 102,
+        "series_id": 84,
+        "title": "Incendies",
+        "year": 2010,
+        "genre": [
+            "Drama",
+            "Mystery"
+        ],
+        "watched": false,
+        "color": "",
+        "imdb_ranking": 8.2,
+        "director": "Denis Villeneuve",
+        "duration": "2h 11m",
+        "topic": "Twins journey to the Middle East to discover their family history and fulfill their mother's last wishes."
+    },
+    {
+        "id": 103,
+        "series_id": 85,
+        "title": "Inception",
+        "year": 2010,
+        "genre": [
+            "Action",
+            "Adventure",
+            "Sci-Fi"
+        ],
+        "watched": false,
+        "color": "",
+        "imdb_ranking": 8.7,
+        "director": "Christopher Nolan",
+        "duration": "2h 28m",
+        "topic": "A thief who steals corporate secrets through the use of dream-sharing technology is given the inverse task of planting an idea into the mind of a C.E.O., but his tragic past may doom the project and his team to disaster."
+    },
+    {
+        "id": 104,
+        "series_id": 86,
+        "title": "Indiana Jones and the Kingdom of the Crystal Skull",
+        "year": 2008,
+        "genre": [
+            "Action",
+            "Adventure"
+        ],
+        "watched": false,
+        "color": "",
+        "imdb_ranking": 6.1,
+        "director": "Steven Spielberg",
+        "duration": "2h 2m",
+        "topic": "In 1957, Indiana Jones becomes entangled in a Soviet plot to uncover the secret behind mysterious artifacts known as the Crystal Skulls."
+    },
+    {
+        "id": 105,
+        "series_id": 86,
+        "title": "Indiana Jones and the Last Crusade",
+        "year": 1989,
+        "genre": [
+            "Action",
+            "Adventure"
+        ],
+        "watched": false,
+        "color": "",
+        "imdb_ranking": 8.2,
+        "director": "Steven Spielberg",
+        "duration": "2h 7m",
+        "topic": "In 1938, after his father Professor Henry Jones, Sr. goes missing while pursuing the Holy Grail, Professor Henry \"Indiana\" Jones, Jr. finds himself up against Adolf Hitler's Nazis again to stop them from obtaining its powers."
+    },
+    {
+        "id": 106,
+        "series_id": 86,
+        "title": "Indiana Jones and the Raiders of the Lost Ark",
+        "year": 1981,
+        "genre": [
+            "Adventure",
+            "Action"
+        ],
+        "watched": false,
+        "color": "",
+        "imdb_ranking": 8.4,
+        "director": "Steven Spielberg",
+        "duration": "1h 55m",
+        "topic": "In 1936, archaeologist and adventurer Indiana Jones is hired by the U.S. government to find the Ark of the Covenant before Adolf Hitler's Nazis can obtain its awesome powers."
+    },
+    {
+        "id": 107,
+        "series_id": 86,
+        "title": "Indiana Jones and the Temple of Doom",
+        "year": 1984,
+        "genre": [
+            "Action",
+            "Adventure"
+        ],
+        "watched": false,
+        "color": "",
+        "imdb_ranking": 7.5,
+        "director": "Steven Spielberg",
+        "duration": "1h 58m",
+        "topic": "In 1935, Indiana Jones arrives in India, still part of the British Empire, and is asked to find a mystical stone. He then stumbles upon a secret cult committing enslavement and human sacrifices in the catacombs of an ancient palace."
+    },
+    {
+        "id": 108,
+        "series_id": 87,
+        "title": "Inglourious Basterds",
+        "year": 2009,
+        "genre": [
+            "Drama",
+            "Adventure",
+            "War"
+        ],
+        "watched": false,
+        "color": "",
+        "imdb_ranking": 8.3,
+        "director": "Quentin Tarantino",
+        "duration": "2h 33m",
+        "topic": "In Nazi-occupied France during World War II, a plan to assassinate Nazi leaders by a group of Jewish U.S. soldiers coincides with a theatre owner's vengeful plans for the same."
+    },
+    {
+        "id": 109,
+        "series_id": 88,
+        "title": "Inside Out",
+        "year": 2015,
+        "genre": [
+            "Adventure",
+            "Comedy",
+            "Animation"
+        ],
+        "watched": true,
+        "color": "",
+        "imdb_ranking": 8.1,
+        "director": "Ronnie Del Carmen;Pete Docter",
+        "duration": "1h 35m",
+        "topic": "After young Riley is uprooted from her Midwest life and moved to San Francisco, her emotions - Joy, Fear, Anger, Disgust and Sadness - conflict on how best to navigate a new city, house, and school."
+    },
+    {
+        "id": 110,
+        "series_id": 89,
+        "title": "Interstellar",
+        "year": 2014,
+        "genre": [
+            "Drama",
+            "Adventure",
+            "Sci-Fi"
+        ],
+        "watched": false,
+        "color": "",
+        "imdb_ranking": 8.6,
+        "director": "Christopher Nolan",
+        "duration": "2h 49m",
+        "topic": "A team of explorers travel through a wormhole in space in an attempt to ensure humanity's survival."
+    },
+    {
+        "id": 111,
+        "series_id": 90,
+        "title": "Into the Wild",
+        "year": 2007,
+        "genre": [
+            "Drama",
+            "Adventure",
+            "Biography"
+        ],
+        "watched": true,
+        "color": "",
+        "imdb_ranking": 8.0,
+        "director": "Sean Penn",
+        "duration": "2h 28m",
+        "topic": "After graduating from Emory University, top student and athlete Christopher McCandless abandons his possessions, gives his entire $24,000 savings account to charity and hitchhikes to Alaska to live in the wilderness. Along the way, Christopher encounters a series of characters that shape his life."
+    },
+    {
+        "id": 112,
+        "series_id": 91,
+        "title": "It Happened One Night",
+        "year": 1934,
+        "genre": [
+            "Romance",
+            "Comedy"
+        ],
+        "watched": false,
+        "color": "",
+        "imdb_ranking": 8.0,
+        "director": "Frank Capra",
+        "duration": "1h 45m",
+        "topic": "A renegade reporter trailing a young runaway heiress for a big story joins her on a bus heading from Florida to New York, and they end up stuck with each other when the bus leaves them behind at one of the stops."
+    },
+    {
+        "id": 113,
+        "series_id": 92,
+        "title": "It's a Wonderful Life",
+        "year": 1946,
+        "genre": [
+            "Drama",
+            "Fantasy",
+            "Family"
+        ],
+        "watched": false,
+        "color": "",
+        "imdb_ranking": 8.6,
+        "director": "Frank Capra",
+        "duration": "2h 10m",
+        "topic": "An angel is sent from Heaven to help a desperately frustrated businessman by showing him what life would have been like if he had never existed."
+    },
+    {
+        "id": 114,
+        "series_id": 93,
+        "title": "Jai Bhim",
+        "year": 2021,
+        "genre": [
+            "Drama",
+            "Crime",
+            "Mystery"
+        ],
+        "watched": false,
+        "color": "",
+        "imdb_ranking": 8.0,
+        "director": "T.J. Gnanavel",
+        "duration": "2h 44m",
+        "topic": "When a tribal man is arrested for a case of alleged theft, his wife turns to a human-rights lawyer to help bring justice."
+    },
+    {
+        "id": 115,
+        "series_id": 94,
+        "title": "Jaws",
+        "year": 1975,
+        "genre": [
+            "Adventure",
+            "Thriller"
+        ],
+        "watched": false,
+        "color": "",
+        "imdb_ranking": 8.1,
+        "director": "Steven Spielberg",
+        "duration": "2h 4m",
+        "topic": "When a killer shark unleashes chaos on a beach community off Long Island, it's up to a local sheriff, a marine biologist, and an old seafarer to hunt the beast down."
+    },
+    {
+        "id": 116,
+        "series_id": 95,
+        "title": "Joker",
+        "year": 2019,
+        "genre": [
+            "Drama",
+            "Crime",
+            "Thriller"
+        ],
+        "watched": false,
+        "color": "",
+        "imdb_ranking": 8.3,
+        "director": "Todd Phillips",
+        "duration": "2h 2m",
+        "topic": "A mentally troubled stand-up comedian embarks on a downward spiral that leads to the creation of an iconic villain."
+    },
+    {
+        "id": 117,
+        "series_id": 96,
+        "title": "Judgment at Nuremberg",
+        "year": 1961,
+        "genre": [
+            "Drama",
+            "War"
+        ],
+        "watched": false,
+        "color": "",
+        "imdb_ranking": 8.2,
+        "director": "Stanley Kramer",
+        "duration": "2h 59m",
+        "topic": "In 1948, an American court in occupied Germany tries four Nazis judged for war crimes."
+    },
+    {
+        "id": 118,
+        "series_id": 97,
+        "title": "Jurassic Park",
+        "year": 1993,
+        "genre": [
+            "Action",
+            "Adventure",
+            "Sci-Fi"
+        ],
+        "watched": false,
+        "color": "",
+        "imdb_ranking": 8.2,
+        "director": "Steven Spielberg",
+        "duration": "2h 7m",
+        "topic": "A pragmatic paleontologist visiting an almost complete theme park is tasked with protecting a couple of kids after a power failure causes the park's cloned dinosaurs to run loose."
+    },
+    {
+        "id": 119,
+        "series_id": 98,
+        "title": "Kill Bill: Vol. 1",
+        "year": 2003,
+        "genre": [
+            "Action",
+            "Crime",
+            "Thriller"
+        ],
+        "watched": true,
+        "color": "",
+        "imdb_ranking": 8.2,
+        "director": "Quentin Tarantino",
+        "duration": "1h 51m",
+        "topic": "After awakening from a four-year coma, a former assassin wreaks vengeance on the team of assassins who betrayed her."
+    },
+    {
+        "id": 120,
+        "series_id": 98,
+        "title": "Kill Bill: Vol. 2",
+        "year": 2004,
+        "genre": [
+            "Action",
+            "Crime",
+            "Thriller"
+        ],
+        "watched": false,
+        "color": "",
+        "imdb_ranking": 8.0,
+        "director": "Quentin Tarantino",
+        "duration": "2h 17m",
+        "topic": "The Bride continues her quest of vengeance against her former boss and lover Bill, the reclusive bouncer Budd, and the treacherous, one-eyed Elle."
+    },
+    {
+        "id": 121,
+        "series_id": 99,
+        "title": "Klaus",
+        "year": 2019,
+        "genre": [
+            "Adventure",
+            "Comedy",
+            "Animation"
+        ],
+        "watched": false,
+        "color": "",
+        "imdb_ranking": 8.1,
+        "director": "Carlos Mart\u00ednez L\u00f3pez;Sergio Pablos",
+        "duration": "1h 36m",
+        "topic": "A simple act of kindness always sparks another, even in a frozen, faraway place. When Smeerensburg's new postman, Jesper, befriends toymaker Klaus, their gifts melt an age-old feud and deliver a sleigh full of holiday traditions."
+    },
+    {
+        "id": 122,
+        "series_id": 100,
+        "title": "L.A. Confidential",
+        "year": 1997,
+        "genre": [
+            "Drama",
+            "Crime",
+            "Mystery"
+        ],
+        "watched": false,
+        "color": "",
+        "imdb_ranking": 8.2,
+        "director": "Curtis Hanson",
+        "duration": "2h 18m",
+        "topic": "As corruption grows in 1950s Los Angeles, three policemen - one strait-laced, one brutal, and one sleazy - investigate a series of murders with their own brand of justice."
+    },
+    {
+        "id": 123,
+        "series_id": 101,
+        "title": "La Haine",
+        "year": 1995,
+        "genre": [
+            "Drama",
+            "Crime"
+        ],
+        "watched": false,
+        "color": "",
+        "imdb_ranking": 8.0,
+        "director": "Mathieu Kassovitz",
+        "duration": "1h 38m",
+        "topic": "24 hours in the lives of three young men in the French suburbs the day after a violent riot."
+    },
+    {
+        "id": 124,
+        "series_id": 102,
+        "title": "Lawrence of Arabia",
+        "year": 1962,
+        "genre": [
+            "Drama",
+            "Adventure",
+            "Biography"
+        ],
+        "watched": false,
+        "color": "",
+        "imdb_ranking": 8.3,
+        "director": "David Lean",
+        "duration": "3h 38m",
+        "topic": "The story of T.E. Lawrence, the English officer who successfully united and led the diverse, often warring, Arab tribes during World War I in order to fight the Turks."
+    },
+    {
+        "id": 125,
+        "series_id": 103,
+        "title": "L\u00e9on: The Professional",
+        "year": 1994,
+        "genre": [
+            "Drama",
+            "Crime",
+            "Action"
+        ],
+        "watched": false,
+        "color": "",
+        "imdb_ranking": 8.5,
+        "director": "Luc Besson",
+        "duration": "1h 50m",
+        "topic": "12-year-old Mathilda is reluctantly taken in by L\u00e9on, a professional assassin, after her family is murdered. An unusual relationship forms as she becomes his prot\u00e9g\u00e9e and learns the assassin's trade."
+    },
+    {
+        "id": 126,
+        "series_id": 104,
+        "title": "Life Is Beautiful",
+        "year": 1997,
+        "genre": [
+            "Drama",
+            "Romance",
+            "Comedy"
+        ],
+        "watched": false,
+        "color": "",
+        "imdb_ranking": 8.6,
+        "director": "Roberto Benigni",
+        "duration": "1h 56m",
+        "topic": "When an open-minded Jewish waiter and his son become victims of the Holocaust, he uses a perfect mixture of will, humor, and imagination to protect his son from the dangers around their camp."
+    },
+    {
+        "id": 127,
+        "series_id": 105,
+        "title": "Life of Brian",
+        "year": 1979,
+        "genre": [
+            "Comedy"
+        ],
+        "watched": false,
+        "color": "",
+        "imdb_ranking": 8.0,
+        "director": "Terry Jones",
+        "duration": "1h 34m",
+        "topic": "Born on the original Christmas in the stable next door to Jesus Christ, Brian of Nazareth spends his life being mistaken for a messiah."
+    },
+    {
+        "id": 128,
+        "series_id": 106,
+        "title": "Like Stars on Earth",
+        "year": 2007,
+        "genre": [
+            "Drama",
+            "Family"
+        ],
+        "watched": false,
+        "color": "",
+        "imdb_ranking": 8.2,
+        "director": "Aamir Khan",
+        "duration": "2h 45m",
+        "topic": "An eight-year-old boy is thought to be a lazy trouble-maker, until the new art teacher has the patience and compassion to discover the real problem behind his struggles in school."
+    },
+    {
+        "id": 129,
+        "series_id": 107,
+        "title": "Lock, Stock and Two Smoking Barrels",
+        "year": 1998,
+        "genre": [
+            "Action",
+            "Crime",
+            "Comedy"
+        ],
+        "watched": false,
+        "color": "",
+        "imdb_ranking": 8.1,
+        "director": "Guy Ritchie",
+        "duration": "1h 47m",
+        "topic": "Eddy persuades his three pals to pool money for a vital poker game against a powerful local mobster, Hatchet Harry. Eddy loses, after which Harry gives him a week to pay back 500,000 pounds."
+    },
+    {
+        "id": 130,
+        "series_id": 108,
+        "title": "Logan",
+        "year": 2017,
+        "genre": [
+            "Drama",
+            "Action",
+            "Sci-Fi"
+        ],
+        "watched": false,
+        "color": "",
+        "imdb_ranking": 8.0,
+        "director": "James Mangold",
+        "duration": "2h 17m",
+        "topic": "In a future where mutants are nearly extinct, an elderly and weary Logan leads a quiet life. But when Laura, a mutant child pursued by scientists, comes to him for help, he must get her to safety."
+    },
+    {
+        "id": 131,
+        "series_id": 109,
+        "title": "M",
+        "year": 1931,
+        "genre": [
+            "Crime",
+            "Mystery",
+            "Thriller"
+        ],
+        "watched": false,
+        "color": "",
+        "imdb_ranking": 8.3,
+        "director": "Fritz Lang",
+        "duration": "1h 39m",
+        "topic": "When the police in a German city are unable to catch a child-murderer, other criminals join in the manhunt."
+    },
+    {
+        "id": 132,
+        "series_id": 110,
+        "title": "Mad Max: Fury Road",
+        "year": 2015,
+        "genre": [
+            "Action",
+            "Adventure",
+            "Sci-Fi"
+        ],
+        "watched": false,
+        "color": "",
+        "imdb_ranking": 8.1,
+        "director": "George Miller",
+        "duration": "2h",
+        "topic": "In a post-apocalyptic wasteland, a woman rebels against a tyrannical ruler in search for her homeland with the aid of a group of female prisoners, a psychotic worshiper, and a drifter named Max."
+    },
+    {
+        "id": 133,
+        "series_id": 111,
+        "title": "Mary and Max",
+        "year": 2009,
+        "genre": [
+            "Drama",
+            "Comedy",
+            "Animation"
+        ],
+        "watched": false,
+        "color": "",
+        "imdb_ranking": 8.1,
+        "director": "Adam Elliot",
+        "duration": "1h 32m",
+        "topic": "A tale of friendship between two unlikely pen pals: Mary, a lonely, eight-year-old girl living in the suburbs of Melbourne, and Max, a forty-four-year old, severely obese man living in New York."
+    },
+    {
+        "id": 134,
+        "series_id": 112,
+        "title": "Memento",
+        "year": 2000,
+        "genre": [
+            "Mystery",
+            "Thriller"
+        ],
+        "watched": true,
+        "color": "",
+        "imdb_ranking": 8.4,
+        "director": "Christopher Nolan",
+        "duration": "1h 53m",
+        "topic": "A man with short-term memory loss attempts to track down his wife's murderer."
+    },
+    {
+        "id": 135,
+        "series_id": 113,
+        "title": "Memories of Murder",
+        "year": 2003,
+        "genre": [
+            "Drama",
+            "Crime",
+            "Mystery"
+        ],
+        "watched": false,
+        "color": "",
+        "imdb_ranking": 8.1,
+        "director": "Bong Joon Ho",
+        "duration": "2h 12m",
+        "topic": "In a small Korean province in 1986, two detectives struggle with the case of multiple young women being found raped and murdered by an unknown culprit."
+    },
+    {
+        "id": 136,
+        "series_id": 114,
+        "title": "Metropolis",
+        "year": 1927,
+        "genre": [
+            "Drama",
+            "Sci-Fi"
+        ],
+        "watched": false,
+        "color": "",
+        "imdb_ranking": 8.2,
+        "director": "Fritz Lang",
+        "duration": "2h 33m",
+        "topic": "In a futuristic city sharply divided between the working class and the city planners, the son of the city's mastermind falls in love with a working-class prophet who predicts the coming of a savior to mediate their differences."
+    },
+    {
+        "id": 137,
+        "series_id": 115,
+        "title": "Million Dollar Baby",
+        "year": 2004,
+        "genre": [
+            "Drama",
+            "Sport"
+        ],
+        "watched": false,
+        "color": "",
+        "imdb_ranking": 8.1,
+        "director": "Clint Eastwood",
+        "duration": "2h 12m",
+        "topic": "A determined woman works with a hardened boxing trainer to become a professional."
+    },
+    {
+        "id": 138,
+        "series_id": 116,
+        "title": "Modern Times",
+        "year": 1936,
+        "genre": [
+            "Drama",
+            "Romance",
+            "Comedy"
+        ],
+        "watched": false,
+        "color": "",
+        "imdb_ranking": 8.4,
+        "director": "Charles Chaplin",
+        "duration": "1h 27m",
+        "topic": "The Tramp struggles to live in modern industrial society with the help of a young homeless woman."
+    },
+    {
+        "id": 139,
+        "series_id": 117,
+        "title": "Monsters, Inc.",
+        "year": 2001,
+        "genre": [
+            "Adventure",
+            "Comedy",
+            "Animation"
+        ],
+        "watched": false,
+        "color": "",
+        "imdb_ranking": 8.1,
+        "director": "Lee Unkrich;Pete Docter;David Silverman",
+        "duration": "1h 32m",
+        "topic": "In order to power the city, monsters have to scare children so that they scream. However, the children are toxic to the monsters, and after a child gets through, two monsters realize things may not be what they think."
+    },
+    {
+        "id": 140,
+        "series_id": 118,
+        "title": "Monty Python and the Holy Grail",
+        "year": 1975,
+        "genre": [
+            "Adventure",
+            "Comedy",
+            "Fantasy"
+        ],
+        "watched": true,
+        "color": "",
+        "imdb_ranking": 8.2,
+        "director": "Terry Jones;Terry Gilliam",
+        "duration": "1h 31m",
+        "topic": "King Arthur and his Knights of the Round Table embark on a surreal, low-budget search for the Holy Grail, encountering many, very silly obstacles."
+    },
+    {
+        "id": 141,
+        "series_id": 119,
+        "title": "Mr. Smith Goes to Washington",
+        "year": 1939,
+        "genre": [
+            "Drama",
+            "Comedy"
+        ],
+        "watched": false,
+        "color": "",
+        "imdb_ranking": 8.1,
+        "director": "Frank Capra",
+        "duration": "2h 9m",
+        "topic": "A naive youth leader is appointed to fill a vacancy in the U.S. Senate. His idealistic plans promptly collide with corruption at home and subterfuge from his hero in Washington, but he tries to forge ahead despite attacks on his character."
+    },
+    {
+        "id": 142,
+        "series_id": 120,
+        "title": "My Father and My Son",
+        "year": 2005,
+        "genre": [
+            "Drama",
+            "Family"
+        ],
+        "watched": false,
+        "color": "",
+        "imdb_ranking": 8.0,
+        "director": "Cagan Irmak",
+        "duration": "1h 52m",
+        "topic": "The family of a left-wing journalist is torn apart after the military coup of Turkey in 1980."
+    },
+    {
+        "id": 143,
+        "series_id": 121,
+        "title": "My Neighbor Totoro",
+        "year": 1988,
+        "genre": [
+            "Comedy",
+            "Animation",
+            "Family"
+        ],
+        "watched": true,
+        "color": "",
+        "imdb_ranking": 8.1,
+        "director": "Hayao Miyazaki",
+        "duration": "1h 26m",
+        "topic": "When two girls move to the country to be near their ailing mother, they have adventures with the wondrous forest spirits who live nearby."
+    },
+    {
+        "id": 144,
+        "series_id": 122,
+        "title": "Network",
+        "year": 1976,
+        "genre": [
+            "Drama"
+        ],
+        "watched": false,
+        "color": "",
+        "imdb_ranking": 8.0,
+        "director": "Sidney Lumet",
+        "duration": "2h 1m",
+        "topic": "A television network cynically exploits a deranged former anchor's ravings and revelations about the news media for its own profit, but finds that his message may be difficult to control."
+    },
+    {
+        "id": 145,
+        "series_id": 123,
+        "title": "No Country for Old Men",
+        "year": 2007,
+        "genre": [
+            "Drama",
+            "Crime",
+            "Thriller"
+        ],
+        "watched": false,
+        "color": "",
+        "imdb_ranking": 8.1,
+        "director": "Joel Coen;Ethan Coen",
+        "duration": "2h 2m",
+        "topic": "Violence and mayhem ensue after a hunter stumbles upon a drug deal gone wrong and more than two million dollars in cash near the Rio Grande."
+    },
+    {
+        "id": 146,
+        "series_id": 124,
+        "title": "North by Northwest",
+        "year": 1959,
+        "genre": [
+            "Adventure",
+            "Action",
+            "Mystery"
+        ],
+        "watched": false,
+        "color": "",
+        "imdb_ranking": 8.3,
+        "director": "Alfred Hitchcock",
+        "duration": "2h 16m",
+        "topic": "A New York City advertising executive goes on the run after being mistaken for a government agent by a group of foreign spies, and falls for a woman whose loyalties he begins to doubt."
+    },
+    {
+        "id": 147,
+        "series_id": 125,
+        "title": "Oldboy",
+        "year": 2003,
+        "genre": [
+            "Drama",
+            "Action",
+            "Mystery"
+        ],
+        "watched": false,
+        "color": "",
+        "imdb_ranking": 8.3,
+        "director": "Park Chan-wook",
+        "duration": "2h",
+        "topic": "After being kidnapped and imprisoned for fifteen years, Oh Dae-Su is released, only to find that he must find his captor in five days."
+    },
+    {
+        "id": 148,
+        "series_id": 126,
+        "title": "On the Waterfront",
+        "year": 1954,
+        "genre": [
+            "Drama",
+            "Crime",
+            "Thriller"
+        ],
+        "watched": false,
+        "color": "",
+        "imdb_ranking": 8.1,
+        "director": "Elia Kazan",
+        "duration": "1h 48m",
+        "topic": "An ex-prize fighter turned New Jersey longshoreman struggles to stand up to his corrupt union bosses, including his older brother, as he starts to connect with the grieving sister of one of the syndicate's victims."
+    },
+    {
+        "id": 149,
+        "series_id": 127,
+        "title": "Once Upon a Time in America",
+        "year": 1984,
+        "genre": [
+            "Drama",
+            "Crime"
+        ],
+        "watched": false,
+        "color": "",
+        "imdb_ranking": 8.3,
+        "director": "Sergio Leone",
+        "duration": "3h 49m",
+        "topic": "A former Prohibition-era Jewish gangster returns to the Lower East Side of Manhattan 35 years later, where he must once again confront the ghosts and regrets of his old life."
+    },
+    {
+        "id": 150,
+        "series_id": 128,
+        "title": "Once Upon a Time in the West",
+        "year": 1968,
+        "genre": [
+            "Western"
+        ],
+        "watched": false,
+        "color": "",
+        "imdb_ranking": 8.4,
+        "director": "Sergio Leone",
+        "duration": "2h 45m",
+        "topic": "A mysterious stranger with a harmonica joins forces with a notorious desperado to protect a beautiful widow from a ruthless assassin working for the railroad."
+    },
+    {
+        "id": 151,
+        "series_id": 129,
+        "title": "One Flew Over the Cuckoo's Nest",
+        "year": 1975,
+        "genre": [
+            "Drama"
+        ],
+        "watched": true,
+        "color": "",
+        "imdb_ranking": 8.6,
+        "director": "Milos Forman",
+        "duration": "2h 13m",
+        "topic": "A criminal pleads insanity and is admitted to a mental institution, where he rebels against the oppressive nurse and rallies up the scared patients."
+    },
+    {
+        "id": 152,
+        "series_id": 130,
+        "title": "Pan's Labyrinth",
+        "year": 2006,
+        "genre": [
+            "Drama",
+            "Fantasy",
+            "War"
+        ],
+        "watched": false,
+        "color": "",
+        "imdb_ranking": 8.2,
+        "director": "Guillermo del Toro",
+        "duration": "1h 58m",
+        "topic": ""
+    },
+    {
+        "id": 153,
+        "series_id": 131,
+        "title": "Parasite",
+        "year": 2019,
+        "genre": [
+            "Drama",
+            "Comedy",
+            "Thriller"
+        ],
+        "watched": false,
+        "color": "",
+        "imdb_ranking": 8.5,
+        "director": "Bong Joon Ho",
+        "duration": "2h 12m",
+        "topic": "Greed and class discrimination threaten the newly formed symbiotic relationship between the wealthy Park family and the destitute Kim clan."
+    },
+    {
+        "id": 154,
+        "series_id": 132,
+        "title": "Pather Panchali",
+        "year": 1955,
+        "genre": [
+            "Drama"
+        ],
+        "watched": false,
+        "color": "",
+        "imdb_ranking": 8.0,
+        "director": "Satyajit Ray",
+        "duration": "2h 5m",
+        "topic": "Impoverished priest Harihar Ray, dreaming of a better life for himself and his family, leaves his rural Bengal village in search of work."
+    },
+    {
+        "id": 155,
+        "series_id": 133,
+        "title": "Paths of Glory",
+        "year": 1957,
+        "genre": [
+            "Drama",
+            "War"
+        ],
+        "watched": false,
+        "color": "",
+        "imdb_ranking": 8.4,
+        "director": "Stanley Kubrick",
+        "duration": "1h 28m",
+        "topic": "After refusing to attack an enemy position, a general accuses the soldiers of cowardice and their commanding officer must defend them."
+    },
+    {
+        "id": 156,
+        "series_id": 134,
+        "title": "Persona",
+        "year": 1966,
+        "genre": [
+            "Drama",
+            "Thriller"
+        ],
+        "watched": false,
+        "color": "",
+        "imdb_ranking": 8.0,
+        "director": "Ingmar Bergman",
+        "duration": "1h 23m",
+        "topic": "A nurse is put in charge of a mute actress and finds that their personae are melding together."
+    },
+    {
+        "id": 157,
+        "series_id": 135,
+        "title": "Pirates of the Caribbean: The Curse of the Black Pearl",
+        "year": 2003,
+        "genre": [
+            "Action",
+            "Adventure",
+            "Fantasy"
+        ],
+        "watched": false,
+        "color": "",
+        "imdb_ranking": 8.0,
+        "director": "Gore Verbinski",
+        "duration": "2h 23m",
+        "topic": "Blacksmith Will Turner teams up with eccentric pirate Captain Jack Sparrow to save his love, the governor's daughter, from Jack's former pirate allies, who are now undead."
+    },
+    {
+        "id": 158,
+        "series_id": 136,
+        "title": "Platoon",
+        "year": 1986,
+        "genre": [
+            "Drama",
+            "War"
+        ],
+        "watched": false,
+        "color": "",
+        "imdb_ranking": 8.0,
+        "director": "Oliver Stone",
+        "duration": "2h",
+        "topic": "Chris Taylor, a neophyte recruit in Vietnam, finds himself caught in a battle of wills between two sergeants, one good and the other evil. A shrewd examination of the brutality of war and the duality of man in conflict."
+    },
+    {
+        "id": 159,
+        "series_id": 137,
+        "title": "Princess Mononoke",
+        "year": 1997,
+        "genre": [
+            "Adventure",
+            "Animation",
+            "Fantasy"
+        ],
+        "watched": false,
+        "color": "",
+        "imdb_ranking": 8.3,
+        "director": "Hayao Miyazaki",
+        "duration": "2h 14m",
+        "topic": "On a journey to find the cure for a Tatarigami's curse, Ashitaka finds himself in the middle of a war between the forest gods and Tatara, a mining colony. In this quest he also meets San, the Mononoke Hime."
+    },
+    {
+        "id": 160,
+        "series_id": 138,
+        "title": "Prisoners",
+        "year": 2013,
+        "genre": [
+            "Drama",
+            "Crime",
+            "Mystery"
+        ],
+        "watched": false,
+        "color": "",
+        "imdb_ranking": 8.1,
+        "director": "Denis Villeneuve",
+        "duration": "2h 33m",
+        "topic": "When Keller Dover's daughter and her friend go missing, he takes matters into his own hands as the police pursue multiple leads and the pressure mounts."
+    },
+    {
+        "id": 161,
+        "series_id": 139,
+        "title": "Psycho",
+        "year": 1960,
+        "genre": [
+            "Mystery",
+            "Thriller",
+            "Horror"
+        ],
+        "watched": false,
+        "color": "",
+        "imdb_ranking": 8.5,
+        "director": "Alfred Hitchcock",
+        "duration": "1h 49m",
+        "topic": "A Phoenix secretary embezzles $40,000 from her employer's client, goes on the run, and checks into a remote motel run by a young man under the domination of his mother."
+    },
+    {
+        "id": 162,
+        "series_id": 140,
+        "title": "Pulp Fiction",
+        "year": 1994,
+        "genre": [
+            "Drama",
+            "Crime"
+        ],
+        "watched": false,
+        "color": "",
+        "imdb_ranking": 8.9,
+        "director": "Quentin Tarantino",
+        "duration": "2h 34m",
+        "topic": "The lives of two mob hitmen, a boxer, a gangster and his wife, and a pair of diner bandits intertwine in four tales of violence and redemption."
+    },
+    {
+        "id": 163,
+        "series_id": 141,
+        "title": "Raging Bull",
+        "year": 1980,
+        "genre": [
+            "Drama",
+            "Biography",
+            "Sport"
+        ],
+        "watched": false,
+        "color": "",
+        "imdb_ranking": 8.1,
+        "director": "Martin Scorsese",
+        "duration": "2h 9m",
+        "topic": "The life of boxer Jake LaMotta, whose violence and temper that led him to the top in the ring destroyed his life outside of it."
+    },
+    {
+        "id": 164,
+        "series_id": 142,
+        "title": "Rain Man",
+        "year": 1988,
+        "genre": [
+            "Drama",
+            "Comedy"
+        ],
+        "watched": true,
+        "color": "",
+        "imdb_ranking": 8.0,
+        "director": "Barry Levinson",
+        "duration": "2h 13m",
+        "topic": "After a selfish L.A. yuppie learns his estranged father left a fortune to an autistic-savant brother in Ohio that he didn't know existed, he absconds with his brother and sets out across the country, hoping to gain a larger inheritance."
+    },
+    {
+        "id": 165,
+        "series_id": 143,
+        "title": "Ran",
+        "year": 1985,
+        "genre": [
+            "Drama",
+            "Action",
+            "War"
+        ],
+        "watched": false,
+        "color": "",
+        "imdb_ranking": 8.2,
+        "director": "Akira Kurosawa",
+        "duration": "2h 42m",
+        "topic": "In Medieval Japan, an elderly warlord retires, handing over his empire to his three sons. However, he vastly underestimates how the new-found power will corrupt them and cause them to turn on each other...and him."
+    },
+    {
+        "id": 166,
+        "series_id": 144,
+        "title": "Rashomon",
+        "year": 1950,
+        "genre": [
+            "Drama",
+            "Crime",
+            "Mystery"
+        ],
+        "watched": false,
+        "color": "",
+        "imdb_ranking": 8.1,
+        "director": "Akira Kurosawa",
+        "duration": "1h 28m",
+        "topic": "The rape of a bride and the murder of her samurai husband are recalled from the perspectives of a bandit, the bride, the samurai's ghost and a woodcutter."
+    },
+    {
+        "id": 167,
+        "series_id": 145,
+        "title": "Ratatouille",
+        "year": 2007,
+        "genre": [
+            "Adventure",
+            "Comedy",
+            "Animation"
+        ],
+        "watched": false,
+        "color": "",
+        "imdb_ranking": 8.0,
+        "director": "Jan Pinkava;Brad Bird",
+        "duration": "1h 51m",
+        "topic": "A rat who can cook makes an unusual alliance with a young kitchen worker at a famous Paris restaurant."
+    },
+    {
+        "id": 168,
+        "series_id": 146,
+        "title": "Rear Window",
+        "year": 1954,
+        "genre": [
+            "Mystery",
+            "Thriller"
+        ],
+        "watched": false,
+        "color": "",
+        "imdb_ranking": 8.4,
+        "director": "Alfred Hitchcock",
+        "duration": "1h 52m",
+        "topic": "A wheelchair-bound photographer spies on his neighbors from his Greenwich Village courtyard apartment window, and becomes convinced one of them has committed murder, despite the skepticism of his fashion-model girlfriend."
+    },
+    {
+        "id": 169,
+        "series_id": 147,
+        "title": "Rebecca",
+        "year": 1940,
+        "genre": [
+            "Drama",
+            "Mystery",
+            "Film-Noir"
+        ],
+        "watched": false,
+        "color": "",
+        "imdb_ranking": 8.0,
+        "director": "Alfred Hitchcock",
+        "duration": "2h 10m",
+        "topic": "A self-conscious woman juggles adjusting to her new role as an aristocrat's wife and avoiding being intimidated by his first wife's spectral presence."
+    },
+    {
+        "id": 170,
+        "series_id": 148,
+        "title": "Requiem for a Dream",
+        "year": 2000,
+        "genre": [
+            "Drama"
+        ],
+        "watched": false,
+        "color": "",
+        "imdb_ranking": 8.3,
+        "director": "Darren Aronofsky",
+        "duration": "1h 42m",
+        "topic": "The drug-induced utopias of four Coney Island people are shattered when their addictions run deep."
+    },
+    {
+        "id": 171,
+        "series_id": 149,
+        "title": "Reservoir Dogs",
+        "year": 1992,
+        "genre": [
+            "Drama",
+            "Crime",
+            "Thriller"
+        ],
+        "watched": false,
+        "color": "",
+        "imdb_ranking": 8.3,
+        "director": "Quentin Tarantino",
+        "duration": "1h 39m",
+        "topic": "When a simple jewelry heist goes horribly wrong, the surviving criminals begin to suspect that one of them is a police informant."
+    },
+    {
+        "id": 172,
+        "series_id": 150,
+        "title": "Rocky",
+        "year": 1976,
+        "genre": [
+            "Drama",
+            "Sport"
+        ],
+        "watched": false,
+        "color": "",
+        "imdb_ranking": 8.0,
+        "director": "John G. Avildsen",
+        "duration": "2h",
+        "topic": "A small-time Philadelphia boxer gets a supremely rare chance to fight the world heavyweight champion in a bout in which he strives to go the distance for his self-respect."
+    },
+    {
+        "id": 173,
+        "series_id": 151,
+        "title": "Room",
+        "year": 2015,
+        "genre": [
+            "Drama",
+            "Thriller"
+        ],
+        "watched": false,
+        "color": "",
+        "imdb_ranking": 8.1,
+        "director": "Lenny Abrahamson",
+        "duration": "1h 58m",
+        "topic": "Held captive for 7 years in an enclosed space, a woman and her young son finally gain their freedom, allowing the boy to experience the outside world for the first time."
+    },
+    {
+        "id": 174,
+        "series_id": 152,
+        "title": "Rush",
+        "year": 2013,
+        "genre": [
+            "Drama",
+            "Action",
+            "Biography"
+        ],
+        "watched": false,
+        "color": "",
+        "imdb_ranking": 8.0,
+        "director": "Ron Howard",
+        "duration": "2h 3m",
+        "topic": "The merciless 1970s rivalry between Formula One rivals James Hunt and Niki Lauda."
+    },
+    {
+        "id": 175,
+        "series_id": 153,
+        "title": "Saving Private Ryan",
+        "year": 1998,
+        "genre": [
+            "Drama",
+            "War"
+        ],
+        "watched": false,
+        "color": "",
+        "imdb_ranking": 8.6,
+        "director": "Steven Spielberg",
+        "duration": "2h 49m",
+        "topic": "Following the Normandy Landings, a group of U.S. soldiers go behind enemy lines to retrieve a paratrooper whose brothers have been killed in action."
+    },
+    {
+        "id": 176,
+        "series_id": 154,
+        "title": "Scarface",
+        "year": 1983,
+        "genre": [
+            "Drama",
+            "Crime"
+        ],
+        "watched": false,
+        "color": "",
+        "imdb_ranking": 8.2,
+        "director": "Brian De Palma",
+        "duration": "2h 50m",
+        "topic": "In 1980 Miami, a determined Cuban immigrant takes over a drug cartel and succumbs to greed."
+    },
+    {
+        "id": 177,
+        "series_id": 155,
+        "title": "Schindler's List",
+        "year": 1993,
+        "genre": [
+            "Drama",
+            "History",
+            "Biography"
+        ],
+        "watched": true,
+        "color": "",
+        "imdb_ranking": 8.9,
+        "director": "Steven Spielberg",
+        "duration": "3h 15m",
+        "topic": "In German-occupied Poland during World War II, industrialist Oskar Schindler gradually becomes concerned for his Jewish workforce after witnessing their persecution by the Nazis."
+    },
+    {
+        "id": 178,
+        "series_id": 156,
+        "title": "Se7en",
+        "year": 1995,
+        "genre": [
+            "Drama",
+            "Crime",
+            "Mystery"
+        ],
+        "watched": false,
+        "color": "",
+        "imdb_ranking": 8.6,
+        "director": "David Fincher",
+        "duration": "2h 7m",
+        "topic": "Two detectives, a rookie and a veteran, hunt a serial killer who uses the seven deadly sins as his motives."
+    },
+    {
+        "id": 179,
+        "series_id": 157,
+        "title": "Seven Samurai",
+        "year": 1954,
+        "genre": [
+            "Drama",
+            "Action"
+        ],
+        "watched": false,
+        "color": "",
+        "imdb_ranking": 8.6,
+        "director": "Akira Kurosawa",
+        "duration": "3h 27m",
+        "topic": "\"A veteran samurai, gathers six samurais to protect a village from the cruel bandits. As the samurais teach the natives how to defend themselves, the village is attacked by a pack of 40 bandits."
+    },
+    {
+        "id": 180,
+        "series_id": 158,
+        "title": "Sherlock Jr.",
+        "year": 1924,
+        "genre": [
+            "Action",
+            "Comedy",
+            "Romance"
+        ],
+        "watched": false,
+        "color": "",
+        "imdb_ranking": 8.1,
+        "director": "Buster Keaton",
+        "duration": "45m",
+        "topic": "A film projectionist longs to be a detective, and puts his meagre skills to work when he is framed by a rival for stealing his girlfriend's father's pocketwatch."
+    },
+    {
+        "id": 181,
+        "series_id": 159,
+        "title": "Shutter Island",
+        "year": 2010,
+        "genre": [
+            "Mystery",
+            "Thriller"
+        ],
+        "watched": false,
+        "color": "",
+        "imdb_ranking": 8.1,
+        "director": "Martin Scorsese",
+        "duration": "2h 18m",
+        "topic": "In 1954, a U.S. Marshal investigates the disappearance of a murderer who escaped from a hospital for the criminally insane."
+    },
+    {
+        "id": 182,
+        "series_id": 160,
+        "title": "Singin' in the Rain",
+        "year": 1952,
+        "genre": [
+            "Comedy",
+            "Romance",
+            "Musical"
+        ],
+        "watched": false,
+        "color": "",
+        "imdb_ranking": 8.3,
+        "director": "Stanley Donen;Gene Kelly",
+        "duration": "1h 43m",
+        "topic": "A silent film star falls for a chorus girl just as he and his delusionally jealous screen partner are trying to make the difficult transition to talking pictures in 1920s Hollywood."
+    },
+    {
+        "id": 183,
+        "series_id": 161,
+        "title": "Snatch",
+        "year": 2000,
+        "genre": [
+            "Crime",
+            "Comedy"
+        ],
+        "watched": false,
+        "color": "",
+        "imdb_ranking": 8.2,
+        "director": "Guy Ritchie",
+        "duration": "1h 42m",
+        "topic": "Unscrupulous boxing promoters, violent bookmakers, a Russian gangster, incompetent amateur robbers and supposedly Jewish jewelers fight to track down a priceless stolen diamond."
+    },
+    {
+        "id": 184,
+        "series_id": 162,
+        "title": "Some Like It Hot",
+        "year": 1959,
+        "genre": [
+            "Romance",
+            "Comedy",
+            "Music"
+        ],
+        "watched": false,
+        "color": "",
+        "imdb_ranking": 8.2,
+        "director": "Billy Wilder",
+        "duration": "2h 1m",
+        "topic": "After two male musicians witness a mob hit, they flee the state in an all-female band disguised as women, but further complications set in."
+    },
+    {
+        "id": 185,
+        "series_id": 163,
+        "title": "Spotlight",
+        "year": 2015,
+        "genre": [
+            "Drama",
+            "Crime",
+            "Biography"
+        ],
+        "watched": false,
+        "color": "",
+        "imdb_ranking": 8.0,
+        "director": "Tom McCarthy",
+        "duration": "2h 9m",
+        "topic": "The true story of how the Boston Globe uncovered the massive scandal of child molestation and cover-up within the local Catholic Archdiocese, shaking the entire Catholic Church to its core."
+    },
+    {
+        "id": 186,
+        "series_id": 164,
+        "title": "Stand by Me",
+        "year": 1986,
+        "genre": [
+            "Drama",
+            "Adventure"
+        ],
+        "watched": false,
+        "color": "",
+        "imdb_ranking": 8.0,
+        "director": "Rob Reiner",
+        "duration": "1h 29m",
+        "topic": "After the death of one of his friends, a writer recounts a childhood journey with his friends to find the body of a missing boy."
+    },
+    {
+        "id": 187,
+        "series_id": 165,
+        "title": "Star Wars: Episode I - The Phantom Menace",
+        "year": 1999,
+        "genre": [
+            "Action",
+            "Adventure",
+            "Fantasy"
+        ],
+        "watched": false,
+        "color": "",
+        "imdb_ranking": 6.5,
+        "director": "George Lucas",
+        "duration": "2h 16m",
+        "topic": "Two Jedi escape a hostile blockade to find allies and come across a young boy who may bring balance to the Force, but the long dormant Sith resurface to claim their original glory."
+    },
+    {
+        "id": 188,
+        "series_id": 165,
+        "title": "Star Wars: Episode II - Attack of the Clones",
+        "year": 2002,
+        "genre": [
+            "Action",
+            "Adventure",
+            "Fantasy"
+        ],
+        "watched": false,
+        "color": "",
+        "imdb_ranking": 6.6,
+        "director": "George Lucas",
+        "duration": "2h 22m",
+        "topic": "Ten years after initially meeting, Anakin Skywalker shares a forbidden romance with Padm\u00e9 Amidala, while Obi-Wan Kenobi investigates an assassination attempt on the senator and discovers a secret clone army crafted for the Jedi."
+    },
+    {
+        "id": 189,
+        "series_id": 165,
+        "title": "Star Wars: Episode III - Revenge of the Sith",
+        "year": 2005,
+        "genre": [
+            "Action",
+            "Adventure",
+            "Fantasy"
+        ],
+        "watched": false,
+        "color": "",
+        "imdb_ranking": 7.6,
+        "director": "George Lucas",
+        "duration": "2h 20m",
+        "topic": "Three years into the Clone Wars, the Jedi rescue Palpatine from Count Dooku. As Obi-Wan pursues a new threat, Anakin acts as a double agent between the Jedi Council and Palpatine and is lured into a sinister plan to rule the galaxy."
+    },
+    {
+        "id": 190,
+        "series_id": 165,
+        "title": "Star Wars: Episode IV - A New Hope",
+        "year": 1977,
+        "genre": [
+            "Action",
+            "Adventure",
+            "Fantasy"
+        ],
+        "watched": false,
+        "color": "",
+        "imdb_ranking": 8.6,
+        "director": "George Lucas",
+        "duration": "2h 1m",
+        "topic": "Luke Skywalker joins forces with a Jedi Knight, a cocky pilot, a Wookiee and two droids to save the galaxy from the Empire's world-destroying battle station, while also attempting to rescue Princess Leia from the mysterious Darth Vader."
+    },
+    {
+        "id": 191,
+        "series_id": 165,
+        "title": "Star Wars: Episode V - The Empire Strikes Back",
+        "year": 1980,
+        "genre": [
+            "Action",
+            "Adventure",
+            "Fantasy"
+        ],
+        "watched": false,
+        "color": "",
+        "imdb_ranking": 8.7,
+        "director": "Irvin Kershner",
+        "duration": "2h 4m",
+        "topic": "After the Rebels are brutally overpowered by the Empire on the ice planet Hoth, Luke Skywalker begins Jedi training with Yoda, while his friends are pursued by Darth Vader and a bounty hunter named Boba Fett."
+    },
+    {
+        "id": 192,
+        "series_id": 165,
+        "title": "Star Wars: Episode VI - Return of the Jedi",
+        "year": 1983,
+        "genre": [
+            "Action",
+            "Adventure",
+            "Fantasy"
+        ],
+        "watched": false,
+        "color": "",
+        "imdb_ranking": 8.3,
+        "director": "Richard Marquand",
+        "duration": "2h 11m",
+        "topic": "After a daring mission to rescue Han Solo from Jabba the Hutt, the Rebels dispatch to Endor to destroy the second Death Star. Meanwhile, Luke struggles to help Darth Vader back from the dark side without falling into the Emperor's trap."
+    },
+    {
+        "id": 193,
+        "series_id": 166,
+        "title": "Sunset Blvd.",
+        "year": 1950,
+        "genre": [
+            "Drama",
+            "Film-Noir"
+        ],
+        "watched": false,
+        "color": "",
+        "imdb_ranking": 8.4,
+        "director": "Billy Wilder",
+        "duration": "1h 50m",
+        "topic": "A screenwriter develops a dangerous relationship with a faded film star determined to make a triumphant return."
+    },
+    {
+        "id": 194,
+        "series_id": 166,
+        "title": "Taxi Driver",
+        "year": 1976,
+        "genre": [
+            "Drama",
+            "Crime"
+        ],
+        "watched": false,
+        "color": "",
+        "imdb_ranking": 8.2,
+        "director": "Martin Scorsese",
+        "duration": "1h 54m",
+        "topic": "A mentally unstable veteran works as a nighttime taxi driver in New York City, where the perceived decadence and sleaze fuels his urge for violent action."
+    },
+    {
+        "id": 195,
+        "series_id": 167,
+        "title": "Terminator",
+        "year": 1984,
+        "genre": [
+            "Action",
+            "Sci-Fi"
+        ],
+        "watched": false,
+        "color": "",
+        "imdb_ranking": 8.1,
+        "director": "James Cameron",
+        "duration": "1h 47m",
+        "topic": "A human soldier is sent from 2029 to 1984 to stop an almost indestructible cyborg killing machine, sent from the same year, which has been programmed to execute a young woman whose unborn son is the key to humanity's future salvation."
+    },
+    {
+        "id": 196,
+        "series_id": 167,
+        "title": "Terminator 2: Judgment Day",
+        "year": 1991,
+        "genre": [
+            "Action",
+            "Sci-Fi"
+        ],
+        "watched": false,
+        "color": "",
+        "imdb_ranking": 8.6,
+        "director": "James Cameron",
+        "duration": "2h 17m",
+        "topic": "A cyborg, identical to the one who failed to kill Sarah Connor, must now protect her teenage son, John Connor, from a more advanced and powerful cyborg."
+    },
+    {
+        "id": 197,
+        "series_id": 168,
+        "title": "The 400 Blows",
+        "year": 1959,
+        "genre": [
+            "Drama",
+            "Crime"
+        ],
+        "watched": false,
+        "color": "",
+        "imdb_ranking": 8.0,
+        "director": "Fran\u00e7ois Truffaut",
+        "duration": "1h 39m",
+        "topic": "A young boy, left without attention, delves into a life of petty crime."
+    },
+    {
+        "id": 198,
+        "series_id": 169,
+        "title": "The Apartment",
+        "year": 1960,
+        "genre": [
+            "Drama",
+            "Romance",
+            "Comedy"
+        ],
+        "watched": false,
+        "color": "",
+        "imdb_ranking": 8.2,
+        "director": "Billy Wilder",
+        "duration": "2h 5m",
+        "topic": "A Manhattan insurance clerk tries to rise in his company by letting its executives use his apartment for trysts, but complications and a romance of his own ensue."
+    },
+    {
+        "id": 199,
+        "series_id": 170,
+        "title": "The Battle of Algiers",
+        "year": 1966,
+        "genre": [
+            "Drama",
+            "War"
+        ],
+        "watched": false,
+        "color": "",
+        "imdb_ranking": 8.0,
+        "director": "Gillo Pontecorvo",
+        "duration": "2h 1m",
+        "topic": "In the 1950s, fear and violence escalate as the people of Algiers fight for independence from the French government."
+    },
+    {
+        "id": 200,
+        "series_id": 171,
+        "title": "The Best Years of Our Lives",
+        "year": 1946,
+        "genre": [
+            "Drama",
+            "Romance",
+            "War"
+        ],
+        "watched": false,
+        "color": "",
+        "imdb_ranking": 8.0,
+        "director": "William Wyler",
+        "duration": "2h 50m",
+        "topic": "Three World War II veterans, two of them traumatized or disabled, return home to the American midwest to discover that they and their families have been irreparably changed."
+    },
+    {
+        "id": 201,
+        "series_id": 172,
+        "title": "The Big Lebowski",
+        "year": 1998,
+        "genre": [
+            "Crime",
+            "Comedy"
+        ],
+        "watched": true,
+        "color": "",
+        "imdb_ranking": 8.1,
+        "director": "Joel Coen",
+        "duration": "1h 57m",
+        "topic": "Ultimate L.A. slacker Jeff \"The Dude\" Lebowski, mistaken for a millionaire of the same name, seeks restitution for a rug ruined by debt collectors, enlisting his bowling buddies for help while trying to find the millionaire's missing wife."
+    },
+    {
+        "id": 202,
+        "series_id": 173,
+        "title": "The Boat",
+        "year": 1981,
+        "genre": [
+            "Drama",
+            "War"
+        ],
+        "watched": false,
+        "color": "",
+        "imdb_ranking": 8.3,
+        "director": "Wolfgang Petersen",
+        "duration": "2h 29m",
+        "topic": "The claustrophobic world of a WWII German U-boat; boredom, filth and sheer terror."
+    },
+    {
+        "id": 203,
+        "series_id": 174,
+        "title": "The Bridge on the River Kwai",
+        "year": 1957,
+        "genre": [
+            "Drama",
+            "Adventure",
+            "War"
+        ],
+        "watched": false,
+        "color": "",
+        "imdb_ranking": 8.1,
+        "director": "David Lean",
+        "duration": "2h 41m",
+        "topic": "British POWs are forced to build a railway bridge across the river Kwai for their Japanese captors in occupied Burma, not knowing that the allied forces are planning a daring commando raid through the jungle to destroy it."
+    },
+    {
+        "id": 204,
+        "series_id": 175,
+        "title": "The Dark Knight",
+        "year": 2008,
+        "genre": [
+            "Action",
+            "Crime",
+            "Drama"
+        ],
+        "watched": false,
+        "color": "",
+        "imdb_ranking": 9.0,
+        "director": "Christopher Nolan",
+        "duration": "2h 32m",
+        "topic": "When the menace known as the Joker wreaks havoc and chaos on the people of Gotham, Batman must accept one of the greatest psychological and physical tests of his ability to fight injustice."
+    },
+    {
+        "id": 205,
+        "series_id": 175,
+        "title": "The Dark Knight Rises",
+        "year": 2012,
+        "genre": [
+            "Action",
+            "Crime",
+            "Drama"
+        ],
+        "watched": false,
+        "color": "",
+        "imdb_ranking": 8.4,
+        "director": "Christopher Nolan",
+        "duration": "2h 44m",
+        "topic": "Eight years after the Joker's reign of anarchy, Batman, with the help of the enigmatic Catwoman, is forced from his exile to save Gotham City from the brutal guerrilla terrorist Bane."
+    },
+    {
+        "id": 206,
+        "series_id": 176,
+        "title": "The Deer Hunter",
+        "year": 1978,
+        "genre": [
+            "Drama",
+            "War"
+        ],
+        "watched": false,
+        "color": "",
+        "imdb_ranking": 8.1,
+        "director": "Michael Cimino",
+        "duration": "3h 3m",
+        "topic": "An in-depth examination of the ways in which the Vietnam War impacts and disrupts the lives of several friends in a small steel mill town in Pennsylvania."
+    },
+    {
+        "id": 207,
+        "series_id": 177,
+        "title": "The Departed",
+        "year": 2006,
+        "genre": [
+            "Drama",
+            "Crime",
+            "Thriller"
+        ],
+        "watched": false,
+        "color": "",
+        "imdb_ranking": 8.5,
+        "director": "Martin Scorsese",
+        "duration": "2h 31m",
+        "topic": "An undercover cop and a mole in the police attempt to identify each other while infiltrating an Irish gang in South Boston."
+    },
+    {
+        "id": 208,
+        "series_id": 178,
+        "title": "The Elephant Man",
+        "year": 1980,
+        "genre": [
+            "Drama",
+            "Biography"
+        ],
+        "watched": false,
+        "color": "",
+        "imdb_ranking": 8.1,
+        "director": "",
+        "duration": "2h 4m",
+        "topic": "A Victorian surgeon rescues a heavily disfigured man who is mistreated while scraping a living as a side-show freak. Behind his monstrous fa\u00e7ade, there is revealed a person of kindness, intelligence and sophistication."
+    },
+    {
+        "id": 209,
+        "series_id": 179,
+        "title": "The Exorcist",
+        "year": 1973,
+        "genre": [
+            "Horror"
+        ],
+        "watched": false,
+        "color": "",
+        "imdb_ranking": 8.0,
+        "director": "William Friedkin",
+        "duration": "2h 2m",
+        "topic": "When a 12-year-old girl is possessed by a mysterious entity, her mother seeks the help of two priests to save her."
+    },
+    {
+        "id": 210,
+        "series_id": 180,
+        "title": "The Father",
+        "year": 2020,
+        "genre": [
+            "Drama",
+            "Mystery"
+        ],
+        "watched": false,
+        "color": "",
+        "imdb_ranking": 8.2,
+        "director": "Florian Zeller",
+        "duration": "1h 37m",
+        "topic": "A man refuses all assistance from his daughter as he ages. As he tries to make sense of his changing circumstances, he begins to doubt his loved ones, his own mind and even the fabric of his reality."
+    },
+    {
+        "id": 211,
+        "series_id": 181,
+        "title": "The General",
+        "year": 1926,
+        "genre": [
+            "Action",
+            "Adventure",
+            "Comedy"
+        ],
+        "watched": false,
+        "color": "",
+        "imdb_ranking": 8.1,
+        "director": "Clyde Bruckman;Buster Keaton",
+        "duration": "1h 7m",
+        "topic": "After being rejected by the Confederate military, not realizing it was due to his crucial civilian role, an engineer must single-handedly recapture his beloved locomotive after it is seized by Union spies and return it through enemy lines."
+    },
+    {
+        "id": 212,
+        "series_id": 182,
+        "title": "The Godfather",
+        "year": 1972,
+        "genre": [
+            "Crime",
+            "Drama"
+        ],
+        "watched": false,
+        "color": "",
+        "imdb_ranking": 9.2,
+        "director": "Francis Ford Coppola",
+        "duration": "2h 55m",
+        "topic": "The aging patriarch of an organized crime dynasty transfers control of his clandestine empire to his reluctant son."
+    },
+    {
+        "id": 213,
+        "series_id": 182,
+        "title": "The Godfather: Part II",
+        "year": 1974,
+        "genre": [
+            "Crime",
+            "Drama"
+        ],
+        "watched": false,
+        "color": "",
+        "imdb_ranking": 9.0,
+        "director": "Francis Ford Coppola",
+        "duration": "3h 22m",
+        "topic": "The early life and career of Vito Corleone in 1920s New York City is portrayed, while his son, Michael, expands and tightens his grip on the family crime syndicate."
+    },
+    {
+        "id": 214,
+        "series_id": 182,
+        "title": "The Godfather: Part III",
+        "year": 1990,
+        "genre": [
+            "Crime",
+            "Drama"
+        ],
+        "watched": false,
+        "color": "",
+        "imdb_ranking": 7.6,
+        "director": "Francis Ford Coppola",
+        "duration": "2h 42m",
+        "topic": "In the midst of trying to legitimize his business dealings in New York City and Italy in 1979, aging Mafia Don Michael Corleone seeks to avow for his sins while taking his nephew Vincent Mancini under his wing."
+    },
+    {
+        "id": 215,
+        "series_id": 183,
+        "title": "The Gold Rush",
+        "year": 1925,
+        "genre": [
+            "Drama",
+            "Comedy",
+            "Adventure"
+        ],
+        "watched": false,
+        "color": "",
+        "imdb_ranking": 8.1,
+        "director": "Charles Chaplin",
+        "duration": "1h 35m",
+        "topic": "A prospector goes to the Klondike during the 1890s gold rush in hopes of making his fortune, and is smitten with a girl he sees in a dance hall."
+    },
+    {
+        "id": 216,
+        "series_id": 184,
+        "title": "The Good, the Bad and the Ugly",
+        "year": 1966,
+        "genre": [
+            "Adventure",
+            "Western"
+        ],
+        "watched": false,
+        "color": "",
+        "imdb_ranking": 8.8,
+        "director": "Sergio Leone",
+        "duration": "2h 58m",
+        "topic": "A bounty hunting scam joins two men in an uneasy alliance against a third in a race to find a fortune in gold buried in a remote cemetery."
+    },
+    {
+        "id": 217,
+        "series_id": 185,
+        "title": "The Grand Budapest Hotel",
+        "year": 2014,
+        "genre": [
+            "Adventure",
+            "Crime",
+            "Comedy"
+        ],
+        "watched": false,
+        "color": "",
+        "imdb_ranking": 8.1,
+        "director": "Wes Anderson",
+        "duration": "1h 39m",
+        "topic": "A writer encounters the owner of an aging high-class hotel, who tells him of his early years serving as a lobby boy in the hotel's glorious years under an exceptional concierge."
+    },
+    {
+        "id": 218,
+        "series_id": 186,
+        "title": "The Grapes of Wrath",
+        "year": 1940,
+        "genre": [
+            "Drama"
+        ],
+        "watched": false,
+        "color": "",
+        "imdb_ranking": 8.0,
+        "director": "John Ford",
+        "duration": "2h 9m",
+        "topic": "An Oklahoma family, driven off their farm by the poverty and hopelessness of the Dust Bowl, joins the westward migration to California, suffering the misfortunes of the homeless in the Great Depression."
+    },
+    {
+        "id": 219,
+        "series_id": 187,
+        "title": "The Great Dictator",
+        "year": 1940,
+        "genre": [
+            "Drama",
+            "Comedy",
+            "War"
+        ],
+        "watched": false,
+        "color": "",
+        "imdb_ranking": 8.4,
+        "director": "Charles Chaplin",
+        "duration": "2h 5m",
+        "topic": "Dictator Adenoid Hynkel tries to expand his empire while a poor Jewish barber tries to avoid persecution from Hynkel's regime."
+    },
+    {
+        "id": 220,
+        "series_id": 188,
+        "title": "The Great Escape",
+        "year": 1963,
+        "genre": [
+            "Drama",
+            "Adventure",
+            "History"
+        ],
+        "watched": false,
+        "color": "",
+        "imdb_ranking": 8.1,
+        "director": "John Sturges",
+        "duration": "2h 52m",
+        "topic": "Allied prisoners of war plan for several hundred of their number to escape from a German camp during World War II."
+    },
+    {
+        "id": 221,
+        "series_id": 189,
+        "title": "The Green Mile",
+        "year": 1999,
+        "genre": [
+            "Drama",
+            "Crime",
+            "Fantasy"
+        ],
+        "watched": false,
+        "color": "",
+        "imdb_ranking": 8.6,
+        "director": "Frank Darabont",
+        "duration": "3h 9m",
+        "topic": "The lives of guards on Death Row are affected by one of their charges: a black man accused of child murder and rape, yet who has a mysterious gift."
+    },
+    {
+        "id": 222,
+        "series_id": 190,
+        "title": "The Handmaiden",
+        "year": 2016,
+        "genre": [
+            "Drama",
+            "Romance",
+            "Thriller"
+        ],
+        "watched": false,
+        "color": "",
+        "imdb_ranking": 8.0,
+        "director": "Park Chan-wook",
+        "duration": "2h 25m",
+        "topic": "A woman is hired as a handmaiden to a Japanese heiress, but secretly she is involved in a plot to defraud her."
+    },
+    {
+        "id": 223,
+        "series_id": 191,
+        "title": "The Help",
+        "year": 2011,
+        "genre": [
+            "Drama"
+        ],
+        "watched": false,
+        "color": "",
+        "imdb_ranking": 8.0,
+        "director": "Tate Taylor",
+        "duration": "2h 26m",
+        "topic": "An aspiring author during the civil rights movement of the 1960s decides to write a book detailing the African American maids' point of view on the white families for which they work, and the hardships they go through on a daily basis."
+    },
+    {
+        "id": 224,
+        "series_id": 192,
+        "title": "The Hunt",
+        "year": 2012,
+        "genre": [
+            "Drama"
+        ],
+        "watched": false,
+        "color": "",
+        "imdb_ranking": 8.3,
+        "director": "Thomas Vinterberg",
+        "duration": "1h 55m",
+        "topic": "A teacher lives a lonely life, all the while struggling over his son's custody. His life slowly gets better as he finds love and receives good news from his son, but his new luck is about to be brutally shattered by an innocent little lie."
+    },
+    {
+        "id": 225,
+        "series_id": 193,
+        "title": "The Incredibles",
+        "year": 2004,
+        "genre": [
+            "Action",
+            "Adventure",
+            "Animation"
+        ],
+        "watched": false,
+        "color": "",
+        "imdb_ranking": 8.0,
+        "director": "Brad Bird",
+        "duration": "1h 55m",
+        "topic": "While trying to lead a quiet suburban life, a family of undercover superheroes are forced into action to save the world."
+    },
+    {
+        "id": 226,
+        "series_id": 194,
+        "title": "The Intouchables",
+        "year": 2011,
+        "genre": [
+            "Drama",
+            "Biography",
+            "Comedy"
+        ],
+        "watched": false,
+        "color": "",
+        "imdb_ranking": 8.5,
+        "director": "Olivier Nakache;\u00c9ric Toledano",
+        "duration": "1h 52m",
+        "topic": "After he becomes a quadriplegic from a paragliding accident, an aristocrat hires a young man from the projects to be his caregiver."
+    },
+    {
+        "id": 227,
+        "series_id": 195,
+        "title": "The Kid",
+        "year": 1921,
+        "genre": [
+            "Drama",
+            "Comedy",
+            "Family"
+        ],
+        "watched": false,
+        "color": "",
+        "imdb_ranking": 8.2,
+        "director": "Charles Chaplin",
+        "duration": "1h 8m",
+        "topic": "The Tramp cares for an abandoned child, but events put their relationship in jeopardy."
+    },
+    {
+        "id": 228,
+        "series_id": 196,
+        "title": "The Lion King",
+        "year": 1994,
+        "genre": [
+            "Drama",
+            "Adventure",
+            "Animation"
+        ],
+        "watched": false,
+        "color": "",
+        "imdb_ranking": 8.5,
+        "director": "Roger Allers;Rob Minkoff",
+        "duration": "1h 28m",
+        "topic": "Lion prince Simba and his father are targeted by his bitter uncle, who wants to ascend the throne himself."
+    },
+    {
+        "id": 229,
+        "series_id": 197,
+        "title": "The Lives of Others",
+        "year": 2006,
+        "genre": [
+            "Drama",
+            "Mystery",
+            "Thriller"
+        ],
+        "watched": false,
+        "color": "",
+        "imdb_ranking": 8.4,
+        "director": "Florian Henckel von Donnersmarck",
+        "duration": "2h 17m",
+        "topic": "In 1984 East Berlin, an agent of the secret police, conducting surveillance on a writer and his lover, finds himself becoming increasingly absorbed by their lives."
+    },
+    {
+        "id": 230,
+        "series_id": 198,
+        "title": "The Lord of the Rings: The Fellowship of the Ring",
+        "year": 2001,
+        "genre": [
+            "Drama",
+            "Action",
+            "Adventure"
+        ],
+        "watched": true,
+        "color": "",
+        "imdb_ranking": 8.8,
+        "director": "Peter Jackson",
+        "duration": "2h 58m",
+        "topic": "A meek Hobbit from the Shire and eight companions set out on a journey to destroy the powerful One Ring and save Middle-earth from the Dark Lord Sauron."
+    },
+    {
+        "id": 231,
+        "series_id": 198,
+        "title": "The Lord of the Rings: The Return of the King",
+        "year": 2003,
+        "genre": [
+            "Drama",
+            "Action",
+            "Adventure"
+        ],
+        "watched": true,
+        "color": "",
+        "imdb_ranking": 8.9,
+        "director": "Peter Jackson",
+        "duration": "3h 21m",
+        "topic": "Gandalf and Aragorn lead the World of Men against Sauron's army to draw his gaze from Frodo and Sam as they approach Mount Doom with the One Ring."
+    },
+    {
+        "id": 232,
+        "series_id": 198,
+        "title": "The Lord of the Rings: The Two Towers",
+        "year": 2002,
+        "genre": [
+            "Drama",
+            "Action",
+            "Adventure"
+        ],
+        "watched": true,
+        "color": "",
+        "imdb_ranking": 8.7,
+        "director": "Peter Jackson",
+        "duration": "2h 59m",
+        "topic": "While Frodo and Sam edge closer to Mordor with the help of the shifty Gollum, the divided fellowship makes a stand against Sauron's new ally, Saruman, and his hordes of Isengard."
+    },
+    {
+        "id": 233,
+        "series_id": 199,
+        "title": "The Matrix",
+        "year": 1999,
+        "genre": [
+            "Action",
+            "Sci-Fi"
+        ],
+        "watched": false,
+        "color": "",
+        "imdb_ranking": 8.7,
+        "director": "Lana Wachowski, Lilly Wachowski",
+        "duration": "2h 16m",
+        "topic": "A computer programmer discovers that reality as he knows it is a simulation created by machines, and joins a rebellion to break free."
+    },
+    {
+        "id": 234,
+        "series_id": 200,
+        "title": "The Passion of Joan of Arc",
+        "year": 1928,
+        "genre": [
+            "Drama",
+            "Biography",
+            "History"
+        ],
+        "watched": false,
+        "color": "",
+        "imdb_ranking": 8.1,
+        "director": "Carl Theodor Dreyer",
+        "duration": "1h 54m",
+        "topic": "In 1431, Jeanne d'Arc is placed on trial on charges of heresy. The ecclesiastical jurists attempt to force Jeanne to recant her claims of holy visions."
+    },
+    {
+        "id": 235,
+        "series_id": 201,
+        "title": "The Pianist",
+        "year": 2002,
+        "genre": [
+            "Drama",
+            "Biography",
+            "Music"
+        ],
+        "watched": false,
+        "color": "",
+        "imdb_ranking": 8.5,
+        "director": "Roman Polanski",
+        "duration": "2h 30m",
+        "topic": "A Polish Jewish musician struggles to survive the destruction of the Warsaw ghetto of World War II."
+    },
+    {
+        "id": 236,
+        "series_id": 202,
+        "title": "The Prestige",
+        "year": 2006,
+        "genre": [
+            "Drama",
+            "Mystery",
+            "Sci-Fi"
+        ],
+        "watched": true,
+        "color": "",
+        "imdb_ranking": 8.5,
+        "director": "Christopher Nolan",
+        "duration": "2h 10m",
+        "topic": "After a tragic accident, two stage magicians in 1890s London engage in a battle to create the ultimate illusion while sacrificing everything they have to outwit each other."
+    },
+    {
+        "id": 237,
+        "series_id": 203,
+        "title": "The Secret in Their Eyes",
+        "year": 2009,
+        "genre": [
+            "Drama",
+            "Romance",
+            "Mystery"
+        ],
+        "watched": false,
+        "color": "",
+        "imdb_ranking": 8.1,
+        "director": "Juan Jos\u00e9 Campanella",
+        "duration": "2h 9m",
+        "topic": "A retired legal counselor writes a novel hoping to find closure for one of his past unresolved homicide cases and for his unreciprocated love with his superior - both of which still haunt him decades later."
+    },
+    {
+        "id": 238,
+        "series_id": 204,
+        "title": "The Seventh Seal",
+        "year": 1957,
+        "genre": [
+            "Drama",
+            "Fantasy"
+        ],
+        "watched": false,
+        "color": "",
+        "imdb_ranking": 8.1,
+        "director": "Ingmar Bergman",
+        "duration": "1h 36m",
+        "topic": "A knight returning to Sweden after the Crusades seeks answers about life, death, and the existence of God as he plays chess against the Grim Reaper during the Black Plague."
+    },
+    {
+        "id": 239,
+        "series_id": 205,
+        "title": "The Shawshank Redemption",
+        "year": 1994,
+        "genre": [
+            "Drama"
+        ],
+        "watched": false,
+        "color": "",
+        "imdb_ranking": 9.2,
+        "director": "Frank Darabont",
+        "duration": "2h 22m",
+        "topic": "Two imprisoned men bond over a number of years, finding solace and eventual redemption through acts of common decency."
+    },
+    {
+        "id": 240,
+        "series_id": 206,
+        "title": "The Shining",
+        "year": 1980,
+        "genre": [
+            "Drama",
+            "Horror"
+        ],
+        "watched": false,
+        "color": "",
+        "imdb_ranking": 8.4,
+        "director": "Stanley Kubrick",
+        "duration": "2h 26m",
+        "topic": "A family heads to an isolated hotel for the winter where a sinister presence influences the father into violence, while his psychic son sees horrific forebodings from both past and future."
+    },
+    {
+        "id": 241,
+        "series_id": 207,
+        "title": "The Silence of the Lambs",
+        "year": 1991,
+        "genre": [
+            "Drama",
+            "Crime",
+            "Thriller"
+        ],
+        "watched": false,
+        "color": "",
+        "imdb_ranking": 8.6,
+        "director": "Jonathan Demme",
+        "duration": "1h 58m",
+        "topic": "A young F.B.I. cadet must receive the help of an incarcerated and manipulative cannibal killer to help catch another serial killer, a madman who skins his victims."
+    },
+    {
+        "id": 242,
+        "series_id": 208,
+        "title": "The Sixth Sense",
+        "year": 1999,
+        "genre": [
+            "Drama",
+            "Mystery",
+            "Thriller"
+        ],
+        "watched": false,
+        "color": "",
+        "imdb_ranking": 8.2,
+        "director": "M. Night Shyamalan",
+        "duration": "1h 47m",
+        "topic": "A frightened, withdrawn Philadelphia boy who communicates with spirits seeks the help of a disheartened child psychologist."
+    },
+    {
+        "id": 243,
+        "series_id": 209,
+        "title": "The Sound of Music",
+        "year": 1965,
+        "genre": [
+            "Drama",
+            "Biography",
+            "Family"
+        ],
+        "watched": false,
+        "color": "",
+        "imdb_ranking": 8.0,
+        "director": "Robert Wise",
+        "duration": "2h 52m",
+        "topic": "A young novitiate is sent by her convent in 1930s Austria to become a governess to the seven children of a widowed naval officer."
+    },
+    {
+        "id": 244,
+        "series_id": 210,
+        "title": "The Sting",
+        "year": 1973,
+        "genre": [
+            "Drama",
+            "Crime",
+            "Comedy"
+        ],
+        "watched": false,
+        "color": "",
+        "imdb_ranking": 8.2,
+        "director": "George Roy Hill",
+        "duration": "2h 9m",
+        "topic": "Two grifters team up to pull off the ultimate con."
+    },
+    {
+        "id": 245,
+        "series_id": 211,
+        "title": "The Thing",
+        "year": 1982,
+        "genre": [
+            "Sci-Fi",
+            "Mystery",
+            "Horror"
+        ],
+        "watched": false,
+        "color": "",
+        "imdb_ranking": 8.1,
+        "director": "John Carpenter",
+        "duration": "1h 49m",
+        "topic": "A research team in Antarctica is hunted by a shape-shifting alien that assumes the appearance of its victims."
+    },
+    {
+        "id": 246,
+        "series_id": 212,
+        "title": "The Third Man",
+        "year": 1949,
+        "genre": [
+            "Mystery",
+            "Thriller",
+            "Film-Noir"
+        ],
+        "watched": false,
+        "color": "",
+        "imdb_ranking": 8.1,
+        "director": "Carol Reed",
+        "duration": "1h 33m",
+        "topic": "Pulp novelist Holly Martins travels to shadowy, postwar Vienna, only to find himself investigating the mysterious death of an old friend, Harry Lime."
+    },
+    {
+        "id": 247,
+        "series_id": 213,
+        "title": "The Treasure of the Sierra Madre",
+        "year": 1948,
+        "genre": [
+            "Drama",
+            "Adventure",
+            "Western"
+        ],
+        "watched": false,
+        "color": "",
+        "imdb_ranking": 8.1,
+        "director": "John Huston",
+        "duration": "2h 6m",
+        "topic": "Two down-on-their-luck Americans searching for work in 1920s Mexico convince an old prospector to help them mine for gold in the Sierra Madre Mountains."
+    },
+    {
+        "id": 248,
+        "series_id": 214,
+        "title": "The Truman Show",
+        "year": 1998,
+        "genre": [
+            "Drama",
+            "Comedy"
+        ],
+        "watched": true,
+        "color": "",
+        "imdb_ranking": 8.2,
+        "director": "Peter Weir",
+        "duration": "1h 43m",
+        "topic": "An insurance salesman discovers his whole life is actually a reality TV show."
+    },
+    {
+        "id": 249,
+        "series_id": 215,
+        "title": "The Usual Suspects",
+        "year": 1995,
+        "genre": [
+            "Drama",
+            "Crime",
+            "Mystery"
+        ],
+        "watched": false,
+        "color": "",
+        "imdb_ranking": 8.5,
+        "director": "Bryan Singer",
+        "duration": "1h 46m",
+        "topic": "A sole survivor tells of the twisty events leading up to a horrific gun battle on a boat, which began when five criminals met at a seemingly random police lineup."
+    },
+    {
+        "id": 250,
+        "series_id": 216,
+        "title": "The Wages of Fear",
+        "year": 1953,
+        "genre": [
+            "Drama",
+            "Adventure",
+            "Thriller"
+        ],
+        "watched": false,
+        "color": "",
+        "imdb_ranking": 8.1,
+        "director": "Henri-Georges Clouzot",
+        "duration": "2h 11m",
+        "topic": "In a decrepit South American village, four men are hired to transport an urgent nitroglycerine shipment without the equipment that would make it safe."
+    },
+    {
+        "id": 251,
+        "series_id": 217,
+        "title": "The Wizard of Oz",
+        "year": 1939,
+        "genre": [
+            "Adventure",
+            "Family",
+            "Fantasy"
+        ],
+        "watched": false,
+        "color": "",
+        "imdb_ranking": 8.0,
+        "director": "Victor Fleming",
+        "duration": "1h 42m",
+        "topic": "Young Dorothy Gale and her dog are swept away by a tornado from their Kansas farm to the magical Land of Oz, and embark on a quest with three new friends to see the Wizard, who can return her to her home and fulfill the others' wishes."
+    },
+    {
+        "id": 252,
+        "series_id": 218,
+        "title": "The Wolf of Wall Street",
+        "year": 2013,
+        "genre": [
+            "Biography",
+            "Comedy",
+            "Crime"
+        ],
+        "watched": true,
+        "color": "",
+        "imdb_ranking": 8.2,
+        "director": "Martin Scorsese",
+        "duration": "3h",
+        "topic": "Based on the true story of Jordan Belfort, from his rise to a wealthy stock-broker living the high life to his fall involving crime, corruption and the federal government."
+    },
+    {
+        "id": 253,
+        "series_id": 219,
+        "title": "There Will Be Blood",
+        "year": 2007,
+        "genre": [
+            "Drama"
+        ],
+        "watched": false,
+        "color": "",
+        "imdb_ranking": 8.2,
+        "director": "Paul Thomas Anderson",
+        "duration": "2h 38m",
+        "topic": "A story of family, religion, hatred, oil and madness, focusing on a turn-of-the-century prospector in the early days of the business."
+    },
+    {
+        "id": 254,
+        "series_id": 220,
+        "title": "Three Billboards Outside Ebbing, Missouri",
+        "year": 2017,
+        "genre": [
+            "Drama",
+            "Crime",
+            "Comedy"
+        ],
+        "watched": true,
+        "color": "",
+        "imdb_ranking": 8.1,
+        "director": "Martin McDonagh",
+        "duration": "1h 55m",
+        "topic": "A mother personally challenges the local authorities to solve her daughter's murder when they fail to catch the culprit."
+    },
+    {
+        "id": 255,
+        "series_id": 221,
+        "title": "To Be or Not to Be",
+        "year": 1942,
+        "genre": [
+            "Comedy",
+            "Romance",
+            "War"
+        ],
+        "watched": false,
+        "color": "",
+        "imdb_ranking": 8.0,
+        "director": "Ernst Lubitsch",
+        "duration": "1h 39m",
+        "topic": "During the Nazi occupation of Poland, an acting troupe becomes embroiled in a Polish soldier's efforts to track down a German spy."
+    },
+    {
+        "id": 256,
+        "series_id": 222,
+        "title": "To Kill a Mockingbird",
+        "year": 1962,
+        "genre": [
+            "Drama",
+            "Crime"
+        ],
+        "watched": false,
+        "color": "",
+        "imdb_ranking": 8.2,
+        "director": "Robert Mulligan",
+        "duration": "2h 9m",
+        "topic": "Atticus Finch, a widowed lawyer in Depression-era Alabama, defends a black man against an undeserved rape charge, and his children against prejudice."
+    },
+    {
+        "id": 257,
+        "series_id": 223,
+        "title": "Tokyo Story",
+        "year": 1953,
+        "genre": [
+            "Drama"
+        ],
+        "watched": false,
+        "color": "",
+        "imdb_ranking": 8.1,
+        "director": "Yasujir\u00f4 Ozu",
+        "duration": "2h 16m",
+        "topic": "An old couple visit their children and grandchildren in the city, but receive little attention."
+    },
+    {
+        "id": 258,
+        "series_id": 224,
+        "title": "Top Gun: Maverick",
+        "year": 2022,
+        "genre": [
+            "Drama",
+            "Action"
+        ],
+        "watched": false,
+        "color": "",
+        "imdb_ranking": 8.5,
+        "director": "Joseph Kosinski",
+        "duration": "2h 10m",
+        "topic": "After more than thirty years of service as one of the Navy's top aviators, Pete Mitchell is where he belongs, pushing the envelope as a courageous test pilot and dodging the advancement in rank that would ground him."
+    },
+    {
+        "id": 259,
+        "series_id": 225,
+        "title": "Toy Story",
+        "year": 1995,
+        "genre": [
+            "Animation",
+            "Adventure",
+            "Comedy"
+        ],
+        "watched": false,
+        "color": "",
+        "imdb_ranking": 8.3,
+        "director": "John Lasseter",
+        "duration": "1h 21m",
+        "topic": "A cowboy doll is profoundly threatened and jealous when a new spaceman figure supplants him as top toy in a boy's room."
+    },
+    {
+        "id": 260,
+        "series_id": 225,
+        "title": "Toy Story 2",
+        "year": 1999,
+        "genre": [
+            "Animation",
+            "Adventure",
+            "Comedy"
+        ],
+        "watched": false,
+        "color": "",
+        "imdb_ranking": 7.9,
+        "director": "John Lasseter",
+        "duration": "1h 32m",
+        "topic": "When Woody is stolen by a toy collector, Buzz and his friends set out on a rescue mission to save Woody before he becomes a museum toy property."
+    },
+    {
+        "id": 261,
+        "series_id": 225,
+        "title": "Toy Story 3",
+        "year": 2010,
+        "genre": [
+            "Animation",
+            "Adventure",
+            "Comedy"
+        ],
+        "watched": false,
+        "color": "",
+        "imdb_ranking": 8.3,
+        "director": "Lee Unkrich",
+        "duration": "1h 43m",
+        "topic": "The toys are mistakenly delivered to a day-care center instead of the attic right before Andy leaves for college, and it's up to Woody to convince the other toys that they weren't abandoned and to return home."
+    },
+    {
+        "id": 262,
+        "series_id": 225,
+        "title": "Toy Story 4",
+        "year": 2019,
+        "genre": [
+            "Animation",
+            "Adventure",
+            "Comedy"
+        ],
+        "watched": false,
+        "color": "",
+        "imdb_ranking": 7.7,
+        "director": "Josh Cooley",
+        "duration": "1h 40m",
+        "topic": "When a new toy called \"Forky\" joins Woody and the gang, a road trip alongside old and new friends reveals how big the world can be for a toy."
+    },
+    {
+        "id": 263,
+        "series_id": 226,
+        "title": "Trainspotting",
+        "year": 1996,
+        "genre": [
+            "Drama"
+        ],
+        "watched": false,
+        "color": "",
+        "imdb_ranking": 8.1,
+        "director": "Danny Boyle",
+        "duration": "1h 33m",
+        "topic": "Renton, deeply immersed in the Edinburgh drug scene, tries to clean up and get out, despite the allure of the drugs and influence of friends."
+    },
+    {
+        "id": 264,
+        "series_id": 227,
+        "title": "Unforgiven",
+        "year": 1992,
+        "genre": [
+            "Drama",
+            "Western"
+        ],
+        "watched": false,
+        "color": "",
+        "imdb_ranking": 8.2,
+        "director": "Clint Eastwood",
+        "duration": "2h 10m",
+        "topic": "Retired Old West gunslinger William Munny reluctantly takes on one last job, with the help of his old partner Ned Logan and a young man, The \"Schofield Kid.\""
+    },
+    {
+        "id": 265,
+        "series_id": 228,
+        "title": "Up",
+        "year": 2009,
+        "genre": [
+            "Adventure",
+            "Comedy",
+            "Animation"
+        ],
+        "watched": true,
+        "color": "",
+        "imdb_ranking": 8.2,
+        "director": "Bob Peterson;Pete Docter",
+        "duration": "1h 36m",
+        "topic": "78-year-old Carl Fredricksen travels to Paradise Falls in his house equipped with balloons, inadvertently taking a young stowaway."
+    },
+    {
+        "id": 266,
+        "series_id": 229,
+        "title": "V for Vendetta",
+        "year": 2005,
+        "genre": [
+            "Drama",
+            "Action",
+            "Sci-Fi"
+        ],
+        "watched": true,
+        "color": "",
+        "imdb_ranking": 8.1,
+        "director": "James McTeigue",
+        "duration": "2h 12m",
+        "topic": "In a future British dystopian society, a shadowy freedom fighter, known only by the alias of \"V\", plots to overthrow the tyrannical government - with the help of a young woman."
+    },
+    {
+        "id": 267,
+        "series_id": 230,
+        "title": "Vertigo",
+        "year": 1958,
+        "genre": [
+            "Romance",
+            "Mystery",
+            "Thriller"
+        ],
+        "watched": false,
+        "color": "",
+        "imdb_ranking": 8.2,
+        "director": "Alfred Hitchcock",
+        "duration": "2h 8m",
+        "topic": "A former San Francisco police detective juggles wrestling with his personal demons and becoming obsessed with the hauntingly beautiful woman he has been hired to trail, who may be deeply disturbed."
+    },
+    {
+        "id": 268,
+        "series_id": 231,
+        "title": "WALL\u00b7E",
+        "year": 2008,
+        "genre": [
+            "Adventure",
+            "Animation",
+            "Family"
+        ],
+        "watched": false,
+        "color": "",
+        "imdb_ranking": 8.4,
+        "director": "Andrew Stanton",
+        "duration": "1h 38m",
+        "topic": "In the distant future, a small waste-collecting robot inadvertently embarks on a space journey that will ultimately decide the fate of mankind."
+    },
+    {
+        "id": 269,
+        "series_id": 232,
+        "title": "Warrior",
+        "year": 2011,
+        "genre": [
+            "Drama",
+            "Action",
+            "Sport"
+        ],
+        "watched": false,
+        "color": "",
+        "imdb_ranking": 8.1,
+        "director": "Gavin O'Connor",
+        "duration": "2h 20m",
+        "topic": ""
+    },
+    {
+        "id": 270,
+        "series_id": 233,
+        "title": "Whiplash",
+        "year": 2014,
+        "genre": [
+            "Drama",
+            "Music"
+        ],
+        "watched": false,
+        "color": "",
+        "imdb_ranking": 8.5,
+        "director": "Damien Chazelle",
+        "duration": "1h 46m",
+        "topic": "A promising young drummer enrolls at a cut-throat music conservatory where his dreams of greatness are mentored by an instructor who will stop at nothing to realize a student's potential."
+    },
+    {
+        "id": 271,
+        "series_id": 234,
+        "title": "Wild Strawberries",
+        "year": 1957,
+        "genre": [
+            "Drama",
+            "Romance"
+        ],
+        "watched": false,
+        "color": "",
+        "imdb_ranking": 8.1,
+        "director": "Ingmar Bergman",
+        "duration": "1h 31m",
+        "topic": "After living a life marked by coldness, an aging professor is forced to confront the emptiness of his existence."
+    },
+    {
+        "id": 272,
+        "series_id": 235,
+        "title": "Wild Tales",
+        "year": 2014,
+        "genre": [
+            "Drama",
+            "Comedy",
+            "Thriller"
+        ],
+        "watched": false,
+        "color": "",
+        "imdb_ranking": 8.1,
+        "director": "Dami\u00e1n Szifron",
+        "duration": "2h 2m",
+        "topic": "Six short stories that explore the extremities of human behavior involving people in distress."
+    },
+    {
+        "id": 273,
+        "series_id": 236,
+        "title": "Witness for the Prosecution",
+        "year": 1957,
+        "genre": [
+            "Drama",
+            "Crime",
+            "Mystery"
+        ],
+        "watched": false,
+        "color": "",
+        "imdb_ranking": 8.4,
+        "director": "Billy Wilder",
+        "duration": "1h 56m",
+        "topic": "A veteran British barrister must defend his client in a murder trial that has surprise after surprise."
+    },
+    {
+        "id": 274,
+        "series_id": 237,
+        "title": "Yojimbo",
+        "year": 1961,
+        "genre": [
+            "Drama",
+            "Action",
+            "Thriller"
+        ],
+        "watched": false,
+        "color": "",
+        "imdb_ranking": 8.1,
+        "director": "Akira Kurosawa",
+        "duration": "1h 50m",
+        "topic": "A crafty ronin comes to a town divided by two criminal gangs and decides to play them against each other to free the town."
+    },
+    {
+        "id": 275,
+        "series_id": 238,
+        "title": "Your Name.",
+        "year": 2016,
+        "genre": [
+            "Drama",
+            "Animation",
+            "Fantasy"
+        ],
+        "watched": false,
+        "color": "",
+        "imdb_ranking": 8.3,
+        "director": "Makoto Shinkai",
+        "duration": "1h 46m",
+        "topic": "Two strangers find themselves linked in a bizarre way. When a connection forms, will distance be the only thing to keep them apart?"
+    },
+    {
+        "id": 276,
+        "series_id": 239,
+        "title": "Hereditary",
+        "year": 2018,
+        "genre": [
+            "Horror",
+            "Thriller"
+        ],
+        "watched": false,
+        "color": "",
+        "imdb_ranking": 7.3,
+        "director": "Ari Aster",
+        "duration": "2h 7m",
+        "topic": "A grieving family is haunted by tragic and disturbing occurrences after the death of their secretive grandmother."
+    },
+    {
+        "id": 277,
+        "series_id": 240,
+        "title": "The Lighthouse",
+        "year": 2019,
+        "genre": [
+            "Horror",
+            "Drama",
+            "Fantasy"
+        ],
+        "watched": false,
+        "color": "",
+        "imdb_ranking": 7.4,
+        "director": "Robert Eggers",
+        "duration": "1h 49m",
+        "topic": "Two lighthouse keepers try to maintain their sanity while living on a remote and mysterious New England island in the 1890s."
+    },
+    {
+        "id": 278,
+        "series_id": 241,
+        "title": "Midsommar",
+        "year": 2019,
+        "genre": [
+            "Horror",
+            "Drama"
+        ],
+        "watched": false,
+        "color": "",
+        "imdb_ranking": 7.1,
+        "director": "Ari Aster",
+        "duration": "2h 28m",
+        "topic": "A couple travels to Northern Europe to visit a rural Swedish town's fabled mid-summer festival. What begins as an idyllic retreat quickly devolves into an increasingly violent and bizarre competition at the hands of a pagan cult."
+    },
+    {
+        "id": 279,
+        "series_id": 242,
+        "title": "Get Out",
+        "year": 2017,
+        "genre": [
+            "Horror",
+            "Mystery"
+        ],
+        "watched": false,
+        "color": "",
+        "imdb_ranking": 7.8,
+        "director": "Jordan Peele",
+        "duration": "1h 44m",
+        "topic": "A young African-American visits his white girlfriend's parents for the weekend, where his simmering uneasiness about their reception of him eventually reaches a boiling point."
+    },
+    {
+        "id": 280,
+        "series_id": 243,
+        "title": "Lady Bird",
+        "year": 2017,
+        "genre": [
+            "Comedy",
+            "Drama"
+        ],
+        "watched": false,
+        "color": "",
+        "imdb_ranking": 7.4,
+        "director": "Greta Gerwig",
+        "duration": "1h 34m",
+        "topic": "In 2002, an artistically inclined seventeen-year-old girl comes of age in Sacramento, California."
+    },
+    {
+        "id": 281,
+        "series_id": 244,
+        "title": "Moonlight",
+        "year": 2016,
+        "genre": [
+            "Drama",
+            "Romance"
+        ],
+        "watched": false,
+        "color": "",
+        "imdb_ranking": 7.4,
+        "director": "Barry Jenkins",
+        "duration": "1h 51m",
+        "topic": "A young African-American man grapples with his identity and sexuality while experiencing the everyday struggles of childhood, adolescence, and burgeoning adulthood."
+    },
+    {
+        "id": 282,
+        "series_id": 245,
+        "title": "Drive",
+        "year": 2011,
+        "genre": [
+            "Action",
+            "Drama",
+            "Sci-Fi"
+        ],
+        "watched": false,
+        "color": "",
+        "imdb_ranking": 7.8,
+        "director": "Nicolas Winding Refn",
+        "duration": "1h 40m",
+        "topic": "A mysterious Hollywood stuntman and mechanic moonlights as a getaway driver and finds himself in trouble when he helps out his neighbor."
+    },
+    {
+        "id": 283,
+        "series_id": 246,
+        "title": "Ex Machina",
+        "year": 2014,
+        "genre": [
+            "Sci-Fi",
+            "Drama"
+        ],
+        "watched": false,
+        "color": "",
+        "imdb_ranking": 7.7,
+        "director": "Alex Garland",
+        "duration": "1h 48m",
+        "topic": "A young programmer is selected to participate in a groundbreaking experiment in synthetic intelligence by evaluating the human qualities of a highly advanced humanoid A.I."
+    },
+    {
+        "id": 284,
+        "series_id": 247,
+        "title": "Lost in Translation",
+        "year": 2003,
+        "genre": [
+            "Comedy",
+            "Drama",
+            "Romance"
+        ],
+        "watched": false,
+        "color": "",
+        "imdb_ranking": 7.7,
+        "director": "Sofia Coppola",
+        "duration": "1h 42m",
+        "topic": "A faded movie star and a neglected young woman form an unlikely bond after crossing paths in Tokyo."
+    },
+    {
+        "id": 285,
+        "series_id": 248,
+        "title": "In the Mood for Love",
+        "year": 2000,
+        "genre": [
+            "Drama",
+            "Romance"
+        ],
+        "watched": false,
+        "color": "",
+        "imdb_ranking": 8.1,
+        "director": "Wong Kar-wai",
+        "duration": "1h 38m",
+        "topic": "Two neighbors form a strong bond after both suspect extramarital activities of their spouses. However, they agree to keep their bond platonic so as not to commit similar wrongs."
+    },
+    {
+        "id": 286,
+        "series_id": 249,
+        "title": "The Breakfast Club",
+        "year": 1985,
+        "genre": [
+            "Comedy",
+            "Drama"
+        ],
+        "watched": false,
+        "color": "",
+        "imdb_ranking": 7.8,
+        "director": "John Hughes",
+        "duration": "1h 37m",
+        "topic": "Five high school students meet in Saturday detention and discover how they have a lot more in common than they thought."
+    },
+    {
+        "id": 287,
+        "series_id": 250,
+        "title": "Donnie Darko",
+        "year": 2001,
+        "genre": [
+            "Sci-Fi",
+            "Drama",
+            "Mystery"
+        ],
+        "watched": false,
+        "color": "",
+        "imdb_ranking": 8.0,
+        "director": "Richard Kelly",
+        "duration": "1h 53m",
+        "topic": "After narrowly escaping a bizarre accident, a troubled teenager is plagued by visions of a man in a large rabbit suit who manipulates him to commit a series of crimes."
+    },
+    {
+        "id": 288,
+        "series_id": 251,
+        "title": "Mulholland Drive",
+        "year": 2001,
+        "genre": [
+            "Mystery",
+            "Drama",
+            "Thriller"
+        ],
+        "watched": false,
+        "color": "",
+        "imdb_ranking": 7.9,
+        "director": "David Lynch",
+        "duration": "2h 27m",
+        "topic": "After a car wreck on the winding Mulholland Drive renders a woman amnesiac, she and a perky Hollywood-hopeful search for clues and answers across Los Angeles in a twisting venture beyond dreams and reality."
+    },
+    {
+        "id": 289,
+        "series_id": 252,
+        "title": "Poor Things",
+        "year": 2023,
+        "genre": [
+            "Comedy",
+            "Drama",
+            "Sci-Fi"
+        ],
+        "watched": false,
+        "color": "",
+        "imdb_ranking": 8.4,
+        "director": "Yorgos Lanthimos",
+        "duration": "2h 21m",
+        "topic": "The incredible tale of Bella Baxter, a young woman brought back to life by the brilliant and unorthodox scientist Dr. Godwin Baxter. Under Baxter's protection, Bella is eager to learn, but hungry for worldly experience."
+    },
+    {
+        "id": 290,
+        "series_id": 253,
+        "title": "Saltburn",
+        "year": 2023,
+        "genre": [
+            "Comedy",
+            "Drama",
+            "Thriller"
+        ],
+        "watched": false,
+        "color": "",
+        "imdb_ranking": 7.1,
+        "director": "Emerald Fennell",
+        "duration": "2h 7m",
+        "topic": "A student at Oxford University finds himself drawn into the world of a charming and aristocratic classmate, who invites him to his eccentric family's sprawling estate for a summer never to be forgotten."
+    },
+    {
+        "id": 291,
+        "series_id": 254,
+        "title": "Akira",
+        "year": 1988,
+        "genre": [
+            "Animation",
+            "Action",
+            "Adventure"
+        ],
+        "watched": false,
+        "color": "",
+        "imdb_ranking": 8.0,
+        "director": "Katsuhiro Otomo",
+        "duration": "2h 4m",
+        "topic": "A secret military project endangers Neo-Tokyo when it turns a biker gang member into a rampaging psychic psychopath who can only be stopped by a teenager, his gang of biker friends and a group of psychics."
+    },
+    {
+        "id": 292,
+        "series_id": 255,
+        "title": "Night of the Living Dead",
+        "year": 1968,
+        "genre": [
+            "Horror",
+            "Mystery"
+        ],
+        "watched": false,
+        "color": "",
+        "imdb_ranking": 7.8,
+        "director": "George A. Romero",
+        "duration": "1h 36m",
+        "topic": "A ragtag group of Pennsylvanians barricade themselves in an old farmhouse to remain safe from a bloodthirsty, flesh-eating breed of monsters who are ravaging the East Coast of the United States."
+    },
+    {
+        "id": 293,
+        "series_id": 256,
+        "title": "The Evil Dead",
+        "year": 1981,
+        "genre": [
+            "Horror",
+            "Comedy"
+        ],
+        "watched": false,
+        "color": "",
+        "imdb_ranking": 7.5,
+        "director": "Sam Raimi",
+        "duration": "1h 25m",
+        "topic": "Five friends travel to a cabin in the woods, where they unknowingly release flesh-possessing demons."
+    },
+    {
+        "id": 294,
+        "series_id": 257,
+        "title": "Edward Scissorhands",
+        "year": 1990,
+        "genre": [
+            "Fantasy",
+            "Drama",
+            "Romance"
+        ],
+        "watched": false,
+        "color": "",
+        "imdb_ranking": 7.9,
+        "director": "Tim Burton",
+        "duration": "1h 45m",
+        "topic": "An artificial man with scissors for hands falls in love with a beautiful teenage girl and proves to her prejudiced suburban family that he is more human than they are."
+    },
+    {
+        "id": 295,
+        "series_id": 258,
+        "title": "Carrie",
+        "year": 1976,
+        "genre": [
+            "Horror",
+            "Mystery"
+        ],
+        "watched": false,
+        "color": "",
+        "imdb_ranking": 7.4,
+        "director": "Brian De Palma",
+        "duration": "1h 38m",
+        "topic": "Carrie White, a shy, friendless teenage girl who is sheltered by her domineering, religious mother, unleashes her telekinetic powers after being humiliated by her classmates at her senior prom."
+    },
+    {
+        "id": 296,
+        "series_id": 259,
+        "title": "The Rocky Horror Picture Show",
+        "year": 1975,
+        "genre": [
+            "Comedy",
+            "Musical"
+        ],
+        "watched": false,
+        "color": "",
+        "imdb_ranking": 7.4,
+        "director": "Jim Sharman",
+        "duration": "1h 40m",
+        "topic": "A newly engaged couple have a breakdown in an isolated area and must seek shelter at the bizarre residence of Dr. Frank-n-Furter."
+    },
+    {
+        "id": 297,
+        "series_id": 260,
+        "title": "Dune",
+        "year": 2021,
+        "genre": [
+            "Sci-Fi",
+            "Adventure",
+            "Drama"
+        ],
+        "watched": false,
+        "color": "",
+        "imdb_ranking": 8.0,
+        "director": "Denis Villeneuve",
+        "duration": "2h 35m",
+        "topic": "A noble family becomes embroiled in a war for control over the galaxy's most valuable asset while its heir becomes troubled by visions of a dark future."
+    },
+    {
+        "id": 298,
+        "series_id": 260,
+        "title": "Dune: Part Two",
+        "year": 2024,
+        "genre": [
+            "Sci-Fi",
+            "Adventure",
+            "Drama"
+        ],
+        "watched": false,
+        "color": "",
+        "imdb_ranking": 8.8,
+        "director": "Denis Villeneuve",
+        "duration": "2h 46m",
+        "topic": "Paul Atreides unites with Chani and the Fremen while seeking revenge against the conspirators who destroyed his family. Facing a choice between the love of his life and the fate of the universe, he must prevent a terrible future only he can foresee."
+    },
+    {
+        "id": 299,
+        "series_id": 261,
+        "title": "Everything Everywhere All at Once",
+        "year": 2022,
+        "genre": [
+            "Comedy",
+            "Drama",
+            "Fantasy"
+        ],
+        "watched": false,
+        "color": "",
+        "imdb_ranking": 7.9,
+        "director": "Daniel Kwan, Daniel Scheinert",
+        "duration": "2h 19m",
+        "topic": "A middle-aged Chinese immigrant is swept up in an insane adventure where she alone can save existence by exploring other universes connecting with the lives she could have led."
+    },
+    {
+        "id": 300,
+        "series_id": 262,
+        "title": "Talk to Me",
+        "year": 2023,
+        "genre": [
+            "Horror",
+            "Mystery",
+            "Thriller"
+        ],
+        "watched": false,
+        "color": "",
+        "imdb_ranking": 7.1,
+        "director": "Danny Philippou, Michael Philippou",
+        "duration": "1h 35m",
+        "topic": "When a group of friends discover how to conjure spirits using an embalmed hand, they become hooked on the new thrill, until one of them goes too far and unleashes terrifying supernatural forces."
+    },
+    {
+        "id": 301,
+        "series_id": 263,
+        "title": "Past Lives",
+        "year": 2023,
+        "genre": [
+            "Drama",
+            "Horror"
+        ],
+        "watched": false,
+        "color": "",
+        "imdb_ranking": 7.9,
+        "director": "Celine Song",
+        "duration": "1h 45m",
+        "topic": "Nora and Hae Sung, two deeply connected childhood friends, are wrested apart after Nora's family emigrates from South Korea. Twenty years later, they are reunited for one fateful week."
+    },
+    {
+        "id": 302,
+        "series_id": 264,
+        "title": "Killers of the Flower Moon",
+        "year": 2023,
+        "genre": [
+            "Biography",
+            "Drama"
+        ],
+        "watched": false,
+        "color": "",
+        "imdb_ranking": 7.8,
+        "director": "Martin Scorsese",
+        "duration": "3h 26m",
+        "topic": "Members of the Osage tribe in the United States are murdered under mysterious circumstances in the 1920s, sparking a major F.B.I. investigation involving J. Edgar Hoover."
+    },
+    {
+        "id": 303,
+        "series_id": 265,
+        "title": "The Whale",
+        "year": 2022,
+        "genre": [
+            "Drama",
+            "Thriller"
+        ],
+        "watched": false,
+        "color": "",
+        "imdb_ranking": 7.7,
+        "director": "Darren Aronofsky",
+        "duration": "1h 57m",
+        "topic": "A reclusive, morbidly obese English teacher attempts to reconnect with his estranged teenage daughter."
+    },
+    {
+        "id": 304,
+        "series_id": 266,
+        "title": "The Menu",
+        "year": 2022,
+        "genre": [
+            "Drama",
+            "Thriller"
+        ],
+        "watched": false,
+        "color": "",
+        "imdb_ranking": 7.2,
+        "director": "Mark Mylod",
+        "duration": "1h 47m",
+        "topic": "A young couple travels to a remote island to eat at an exclusive restaurant where the chef has prepared a lavish menu, with some shocking surprises."
+    }
+]

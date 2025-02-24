@@ -1,10 +1,9 @@
-export default function MovieCard () { 
+export default function MovieCard ({title, year, director}) { 
     return (
         <div className="movie-card">
-            <h4>MovieCard</h4>
-            <p>The Terminator</p>
-            <p>1989</p>
-            <p>James Cameron</p>
+            <h4>{title}</h4>
+            <p>{year}</p>
+            <p>{director}</p>
             </div>
     )
 }
