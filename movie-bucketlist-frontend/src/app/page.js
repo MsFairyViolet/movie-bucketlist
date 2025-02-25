@@ -1,7 +1,6 @@
 "use client"
 
 import Header from "@/components/Header";
-import SearchBar from "@/components/SearchBar";
 import MovieList from "@/components/MovieList";
 
 export default function App() {
@@ -10,7 +9,6 @@ export default function App() {
     <body>
       <div className="page">
         <Header />
-        <SearchBar />
         <MovieList />
       </div>
     </body>
