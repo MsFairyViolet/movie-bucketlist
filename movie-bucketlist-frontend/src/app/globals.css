@@ -87,6 +87,10 @@ body {
   background-color: gray;
 }
 
+.sub-movie-card{
+  background-color: orange;
+}
+
 /* Media Queries */
 /* @media (prefers-color-scheme: dark) {
   :root {
