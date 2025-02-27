@@ -90,7 +90,17 @@ body {
   text-align: center;
 }
 
-
+.series-card {
+  position: relative;
+  border: 2px solid purple;
+  width: 150px;
+  aspect-ratio: 1;
+  border-radius: 1.3rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
 
 .movie-card * {
   font-size: 0.9rem;
@@ -99,12 +109,17 @@ body {
   hyphens: auto;
   overflow: hidden;
 }
-.movie-card.watched-style {
+
+.watched-style {
   background-color: green;
 }
 
-.movie-card.unwatched-style {
+.unwatched-style {
   background-color: gray;
+}
+
+.sub-movies{
+  border: 2px solid greenyellow;
 }
 
 .sub-movie-card{
