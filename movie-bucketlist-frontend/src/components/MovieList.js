@@ -3,7 +3,27 @@ import MovieInfoCard from "./MovieInfoCard"
 import MovieCard from "./MovieCard"
 import moviesData from "../data/movies.json"
 
+const groupMoviesBySeries = (movies) => {
+    const seriesMap = {}
+    const standalone = []
 
+    movies.forEach(movie => {
+        if (!seriesMap[movie.series_id]){
+            seriesMap[movie.series_id] = []
+        }
+        seriesMap[movie.series_id].push(movie)
+    })
+
+    const series = []
+    Object.values(seriesMap).forEach(group => {
+        if (group.length === 1){
+            standalone.push(group[0])
+        } else {
+            series.push(group)
+        }
+    })
+    return { series, standalone }
+}
 
 export default function MovieList() {
 
