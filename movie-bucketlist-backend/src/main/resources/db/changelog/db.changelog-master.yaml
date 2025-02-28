@@ -1,0 +1,88 @@
+databaseChangeLog:
+  - changeSet:
+      id: 1
+      author: Robin Spek
+      changes:
+        - createTable:
+            tableName: movies
+            columns:
+              - column:
+                  name: id
+                  type: bigint
+                  autoIncrement: true
+                  constraints:
+                    primaryKey: true
+                    nullable: false
+              - column:
+                  name: series_id
+                  type: bigint
+                  constraints:
+                    nullable: false
+              - column:
+                  name: title
+                  type: tinytext
+                  constraints:
+                    nullable: false
+              - column:
+                  name: year
+                  type: year
+                  constraints:
+                    nullable: false
+              - column:
+                  name: watched
+                  type: tinyint(1)
+                  defaultValue: 0
+                  constraints:
+                    nullable: false
+              - column:
+                  name: color
+                  type: tinytext
+              - column:
+                  name: imdb_ranking
+                  type: tinyint
+                  constraints:
+                    nullable: false
+                    checkConstraint: "imdb_ranking BETWEEN 0 AND 100"
+              - column:
+                  name: director
+                  type: tinytext
+                  constraints:
+                    nullable: false
+              - column:
+                  name: duration
+                  type: tinytext
+                  constraints:
+                    nullable: false
+              - column:
+                  name: topic
+                  type: varchar(500)
+
+        - createTable:
+            tableName: movie_genres
+            columns:
+              - column:
+                  name: id
+                  type: bigint
+                  autoIncrement: true
+                  constraints:
+                    primaryKey: true
+                    nullable: false
+              - column:
+                  name: movie_id
+                  type: bigint
+                  constraints:
+                    nullable: false
+              - column:
+                  name: genre
+                  type: tinytext
+                  constraints:
+                    nullable: false
+
+        - addForeignKeyConstraint:
+            baseTableName: movie_genres
+            baseColumnNames: movie_id
+            referencedTableName: movies
+            referencedColumnNames: id
+            constraintName: fk_movie_genres_movies
+            onDelete: CASCADE
+            onUpdate: RESTRICT
