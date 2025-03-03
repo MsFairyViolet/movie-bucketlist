@@ -54,7 +54,6 @@ export default function MovieList() {
     }
 
     const groupedMovies = groupMoviesBySeries(filteredMovies)
-    console.log(groupedMovies)
 
     return (
         <div className="movie-list-container">
@@ -67,9 +66,9 @@ export default function MovieList() {
                     <div className="movie-list">
                         {groupedMovies.map(item =>
                             Array.isArray(item.movies) && item.movies.length > 0 ? (
-                                <SeriesCard key={`series-${item.series_id}`} series={item} />
+                                <SeriesCard key={`series-${item.series_id}`} series={item} showMovieInfo={showMovieInfo} />
                             ) : (
-                                <MovieCard key={item.id} movie={item} />
+                                <MovieCard key={item.id} movie={item} showMovieInfo={showMovieInfo}/>
                             )
                         )}
                     </div>

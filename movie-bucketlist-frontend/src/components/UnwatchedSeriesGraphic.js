@@ -1,11 +1,25 @@
 import SubMovieCard from "./SubMovieCard";
 
 export function UnwatchedSeriesGraphic({ series }) {
+
+    const RenderFirstUnwatched = () => {
+        let firstUnwatched = null
+
+        series.movies.forEach((movie) => {
+            if (!firstUnwatched && !movie.watched) {
+                firstUnwatched = movie;
+            }
+        })
+        console.log(firstUnwatched)
+        return firstUnwatched;
+    }
+
+    const firstUnwatched = RenderFirstUnwatched();
+
     return <div className="series-card unwatched-style">
         <div>
-            {/* Logic to decide which title to display */}
-            <h4>{series.movies[0]?.title}</h4>
-            <p>{series.movies[0]?.year}</p>
+            <h4>{firstUnwatched.title}</h4>
+            <p>{firstUnwatched.year}</p>
         </div>
         <div className="sub-movies">
             {series.movies.map((movie) => {
