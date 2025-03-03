@@ -4,26 +4,23 @@ import MovieCard from "./MovieCard"
 import moviesData from "../data/movies.json"
 import SeriesCard from "./SeriesCard";
 
-const groupMovies = (movies) => {
-    const seriesMap = {}
-    const standalone = []
-
-    movies.forEach(movie => {
-        if (!seriesMap[movie.series_id]) {
-            seriesMap[movie.series_id] = []
+function groupMoviesBySeries(movies) {
+    const grouped = movies.reduce((acc, movie) => {
+        if (!movie || !movie.series_id) {
+            return acc;
         }
-        seriesMap[movie.series_id].push(movie)
-    })
-
-    const series = []
-    Object.values(seriesMap).forEach(group => {
-        if (group.length === 1) {
-            standalone.push(group[0])
-        } else {
-            series.push(group)
+        if (!acc[movie.series_id]) {
+            acc[movie.series_id] = [];
         }
-    })
-    return { series, standalone }
+        acc[movie.series_id].push(movie);
+        return acc;
+    }, {});
+
+    return Object.values(grouped)
+        .filter(group => group.length > 0)
+        .map(group =>
+            group.length === 1 ? group[0] : { series_id: group[0].series_id, movies: group }
+        );
 }
 
 export default function MovieList() {
@@ -56,7 +53,8 @@ export default function MovieList() {
         setSelectedMovie(null)
     }
 
-    const groupedMovies = groupMovies(filteredMovies)
+    const groupedMovies = groupMoviesBySeries(filteredMovies)
+    console.log(groupedMovies)
 
     return (
         <div className="movie-list-container">
@@ -67,12 +65,13 @@ export default function MovieList() {
             <div>
                 {filteredMovies.length > 0 ? (
                     <div className="movie-list">
-                        {groupedMovies.series.map((group) => (
-                            <SeriesCard key={group[0].series_id} series={group} showMovieInfo={showMovieInfo}/>
-                        ))}
-                        {groupedMovies.standalone.map((movie) => (
-                            <MovieCard key={movie.id} movie={movie} showMovieInfo={showMovieInfo} />
-                        ))}
+                        {groupedMovies.map(item =>
+                            Array.isArray(item.movies) && item.movies.length > 0 ? (
+                                <SeriesCard key={`series-${item.series_id}`} series={item} />
+                            ) : (
+                                <MovieCard key={item.id} movie={item} />
+                            )
+                        )}
                     </div>
                 ) : (
                     <p className="no-results">No movies found</p>
