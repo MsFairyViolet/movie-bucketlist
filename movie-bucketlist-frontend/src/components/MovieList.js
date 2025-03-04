@@ -3,6 +3,7 @@ import MovieInfoCard from "./MovieInfoCard"
 import MovieCard from "./MovieCard"
 import moviesData from "../data/movies.json"
 import SeriesCard from "./SeriesCard";
+import SeriesInfoCard from "./SeriesInfoCard";
 
 function groupMoviesBySeries(movies) {
     const grouped = movies.reduce((acc, movie) => {
@@ -24,7 +25,6 @@ function groupMoviesBySeries(movies) {
 }
 
 export default function MovieList() {
-
     const [movies, setMovies] = useState([]);
     const [searchQuery, setSearchQuery] = useState("")
 
@@ -53,6 +53,16 @@ export default function MovieList() {
         setSelectedMovie(null)
     }
 
+    const [selectedSeries, setSelectedSeries] = useState(null)
+
+    const showSeriesInfo = (series) => {
+        setSelectedSeries(series)
+    }
+
+    const closeSeriesInfo = () => {
+        setSelectedSeries(null)
+    }
+
     const groupedMovies = groupMoviesBySeries(filteredMovies)
 
     return (
@@ -60,13 +70,14 @@ export default function MovieList() {
             <div className="search-bar">
                 <input placeholder="Search title, year (YYYY), or director..." value={searchQuery} onChange={(e) => setSearchQuery(e.target.value)} />
             </div>
-            <div className="info-card">{selectedMovie !== null ? <MovieInfoCard movie={selectedMovie} closeMovieInfo={closeMovieInfo} /> : null}</div>
+            <div className="movie-info-card">{selectedMovie !== null ? <MovieInfoCard movie={selectedMovie} closeMovieInfo={closeMovieInfo} /> : null}</div>
+            <div className="series-info-card">{selectedSeries !== null ? <SeriesInfoCard series={selectedSeries} closeSeriesInfo={closeSeriesInfo} /> : null}</div>
             <div>
                 {filteredMovies.length > 0 ? (
                     <div className="movie-list">
                         {groupedMovies.map(item =>
                             Array.isArray(item.movies) && item.movies.length > 0 ? (
-                                <SeriesCard key={`series-${item.series_id}`} series={item} showMovieInfo={showMovieInfo} />
+                                <SeriesCard key={`series-${item.series_id}`} series={item} showSeriesInfo={showSeriesInfo} />
                             ) : (
                                 <MovieCard key={item.id} movie={item} showMovieInfo={showMovieInfo}/>
                             )

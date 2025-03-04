@@ -1,7 +1,7 @@
 import { WatchedSeriesGraphic } from "./WatchedSeriesGraphic"
 import { UnwatchedSeriesGraphic } from "./UnwatchedSeriesGraphic"
 
-export default function SeriesCard({ series, showMovieInfo }) {
+export default function SeriesCard({ series, showSeriesInfo }) {
 
     const allWatched = series.movies.every(movie => movie.watched)
 
@@ -9,9 +9,8 @@ export default function SeriesCard({ series, showMovieInfo }) {
         <div>
             <div className="series-card">
                 {allWatched ? (<WatchedSeriesGraphic series={series} />) : (<UnwatchedSeriesGraphic series={series} />)}
+                <button className="series-info-btn" onClick={() => showSeriesInfo(series)}>ⓘ</button>
             </div>
-            {/* Logic to fix this button, so it is on every card and displays the correct information */}
-            <button className="info-btn" onClick={() => showMovieInfo(series)}>ⓘ</button>
         </div >
     )
 }
