@@ -1,9 +1,9 @@
 import { useState, useEffect } from "react";
-import MovieInfoCard from "./MovieInfoCard"
+import InfoCard from "./InfoCard";
 import MovieCard from "./MovieCard"
 import moviesData from "../data/movies.json"
 import SeriesCard from "./SeriesCard";
-import SeriesInfoCard from "./SeriesInfoCard";
+
 
 function groupMoviesBySeries(movies) {
     const grouped = movies.reduce((acc, movie) => {
@@ -43,24 +43,14 @@ export default function MovieList() {
         })
         : movies;
 
-    const [selectedMovie, setSelectedMovie] = useState(null)
+    const [selectedItem, setSelectedItem] = useState(null)
 
-    const showMovieInfo = (movie) => {
-        setSelectedMovie(movie)
+    const showInfo = (movie) => {
+        setSelectedItem(movie)
     }
 
-    const closeMovieInfo = () => {
-        setSelectedMovie(null)
-    }
-
-    const [selectedSeries, setSelectedSeries] = useState(null)
-
-    const showSeriesInfo = (series) => {
-        setSelectedSeries(series)
-    }
-
-    const closeSeriesInfo = () => {
-        setSelectedSeries(null)
+    const closeInfo = () => {
+        setSelectedItem(null)
     }
 
     const groupedMovies = groupMoviesBySeries(filteredMovies)
@@ -70,16 +60,15 @@ export default function MovieList() {
             <div className="search-bar">
                 <input placeholder="Search title, year (YYYY), or director..." value={searchQuery} onChange={(e) => setSearchQuery(e.target.value)} />
             </div>
-            <div className="movie-info-card">{selectedMovie !== null ? <MovieInfoCard movie={selectedMovie} closeMovieInfo={closeMovieInfo} /> : null}</div>
-            <div className="series-info-card">{selectedSeries !== null ? <SeriesInfoCard series={selectedSeries} closeSeriesInfo={closeSeriesInfo} /> : null}</div>
+            <div className="info-card">{selectedItem !== null ? <InfoCard item={selectedItem} closeInfo={closeInfo} /> : null}</div>
             <div>
                 {filteredMovies.length > 0 ? (
                     <div className="movie-list">
                         {groupedMovies.map(item =>
                             Array.isArray(item.movies) && item.movies.length > 0 ? (
-                                <SeriesCard key={`series-${item.series_id}`} series={item} showSeriesInfo={showSeriesInfo} />
+                                <SeriesCard key={`series-${item.series_id}`} series={item} showInfo={showInfo} />
                             ) : (
-                                <MovieCard key={item.id} movie={item} showMovieInfo={showMovieInfo}/>
+                                <MovieCard key={item.id} movie={item} showInfo={showInfo} />
                             )
                         )}
                     </div>

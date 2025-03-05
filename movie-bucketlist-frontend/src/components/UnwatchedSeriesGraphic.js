@@ -1,6 +1,6 @@
 import SubMovieCard from "./SubMovieCard";
 
-export function UnwatchedSeriesGraphic({ series, showSeriesInfo }) {
+export function UnwatchedSeriesGraphic({ series, showInfo }) {
 
     const RenderFirstUnwatched = () => {
         let firstUnwatched = null
@@ -21,7 +21,7 @@ export function UnwatchedSeriesGraphic({ series, showSeriesInfo }) {
                 <div className="card-details">
                     <h4>{firstUnwatched.title}</h4>
                 </div>
-                <button className="info-btn" onClick={() => showSeriesInfo(series)}>ⓘ</button>
+                <button className="info-btn" onClick={() => showInfo(series)}>ⓘ</button>
             </div>
             <div className="sub-movie-container">
                 {series.movies.map((movie, index) =>
