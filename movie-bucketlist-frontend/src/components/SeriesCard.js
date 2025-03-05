@@ -7,10 +7,7 @@ export default function SeriesCard({ series, showSeriesInfo }) {
 
     return (
         <div>
-            <div className="series-card">
-                {allWatched ? (<WatchedSeriesGraphic series={series} />) : (<UnwatchedSeriesGraphic series={series} />)}
-                <button className="series-info-btn" onClick={() => showSeriesInfo(series)}>ⓘ</button>
-            </div>
+            {allWatched ? (<WatchedSeriesGraphic series={series} showSeriesInfo={showSeriesInfo} />) : (<UnwatchedSeriesGraphic series={series} showSeriesInfo={showSeriesInfo} />)}
         </div >
     )
 }
