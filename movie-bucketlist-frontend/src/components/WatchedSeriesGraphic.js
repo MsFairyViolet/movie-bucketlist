@@ -6,7 +6,7 @@ export function WatchedSeriesGraphic({ series, showInfo }) {
             <div className="series-card watched-style" >
                 <div className="card-details">
                     {/* Logic to decide which title to display */}
-                    <h4>{series.movies[0]?.title}</h4>
+                    <h4 className="card-title">{series.movies[0]?.title}</h4>
                 </div>
                 <button className="info-btn" onClick={() => showInfo(series)}>ⓘ</button>
             </div>
