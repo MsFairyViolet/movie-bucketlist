@@ -20,13 +20,13 @@ export default function MovieGraphic({ item, showInfo }) {
                     <p className="card-director">{isWatched ? isSeries ? firstUnwatched?.director.split(";").join(", ") : item.director.split(";").join(", ") : null}</p>
                     <p className="card-year">{isSeries ? firstUnwatched.year : item.year}</p>
                 </div>
-                <button className="info-btn" onClick={() => showInfo(movie)}>ⓘ</button>
+                <button className="info-btn" onClick={() => showInfo(item)}>ⓘ</button>
 
             </div>
             {isSeries && (
                 <div className="sub-movie-container">
                     {item.movies.map((movie, index) =>
-                        <SubMovieCard key={movie.id} movie={movie} number={index + 1} />
+                        <SubMovieCard key={movie.id} movie={item} number={index + 1} />
                     )}
                 </div>
             )}
