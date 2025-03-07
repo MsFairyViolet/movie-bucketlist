@@ -1,8 +1,8 @@
 import { useState, useEffect } from "react";
 import InfoCard from "./InfoCard";
-import MovieCard from "./MovieCard"
 import moviesData from "../data/movies.json"
-import SeriesCard from "./SeriesCard";
+import MovieGraphic from "./MovieGraphic";
+
 
 
 function groupMoviesBySeries(movies) {
@@ -64,13 +64,9 @@ export default function MovieList() {
             <div>
                 {filteredMovies.length > 0 ? (
                     <div className="movie-list">
-                        {groupedMovies.map(item =>
-                            Array.isArray(item.movies) && item.movies.length > 0 ? (
-                                <SeriesCard key={`series-${item.series_id}`} series={item} showInfo={showInfo} />
-                            ) : (
-                                <MovieCard key={item.id} movie={item} showInfo={showInfo} />
-                            )
-                        )}
+                        {groupedMovies.map(item => (
+                                <MovieGraphic key={item.series_id || item.id} item={item} showInfo={showInfo} />
+                        ))}
                     </div>
                 ) : (
                     <p className="no-results">No movies found</p>

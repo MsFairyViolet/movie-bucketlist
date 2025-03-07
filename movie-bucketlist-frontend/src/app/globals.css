@@ -73,15 +73,13 @@ body {
   align-items: flex-start;
 }
 
-.series-container {
+.card-container {
   display: flex;
   flex-direction: column;
   align-items: center;
-
 }
 
-.movie-card,
-.series-card {
+.card {
   position: relative;
   width: calc(29vw - 0.5rem);
   min-width: 120px;
@@ -118,7 +116,7 @@ body {
 }
 
 .card-title{
-  font-size: clamp(0.6rem, 4vw, 2rem);
+  font-size: min(1.2rem, 4vw);
   flex-grow: 1;
   display: flex;
   justify-content: center;
@@ -130,14 +128,13 @@ body {
 
 .card-year{
   font-size: min(0.8rem, 4vw);
+  margin-top: 0.25rem;
 }
 
 .card-director{
   font-size: min(0.7rem, 3.5vw);
   font-style: italic;
 }
-
-
 
 .sub-movie-container{
   display: flex;
@@ -273,8 +270,7 @@ body {
     padding: 1rem;
   }
 
-  .movie-card,
-  .series-card {
+  .card {
     width: calc(7vw - 0.5rem);
     min-width: 160px;
     aspect-ratio: 1;
@@ -284,9 +280,16 @@ body {
     text-align: center;
   }
 
-  .movie-card *,
-  .series-card * {
+  .card-title{
+    font-size: 1.3rem;
+  }
+  
+  .card-year{
     font-size: 1.2rem;
+  }
+  
+  .card-director{
+    font-size: 1rem;
   }
 
   .overlay-content {
