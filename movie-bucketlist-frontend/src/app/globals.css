@@ -237,6 +237,10 @@ body {
   margin-top: 20px;
 }
 
+.card-title.long-title{
+  font-size: 0.82rem;
+}
+
 /* Media Queries */
 /* @media (prefers-color-scheme: dark) {
   :root {
@@ -282,6 +286,10 @@ body {
 
   .card-title{
     font-size: 1.3rem;
+  }
+
+  .card-title.long-title{
+    font-size: 1.15rem;
   }
   
   .card-year{

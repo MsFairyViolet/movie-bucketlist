@@ -8,14 +8,16 @@ export default function MovieGraphic({ item, showInfo }) {
 
     const firstUnwatched = isSeries ? item.movies.find(movie => !movie.watched) || item.movies[0] : item
 
+    const isLongTitle = isSeries ? firstUnwatched.title.length > (isWatched ? 25 : 37) : item.title.length > (isWatched ? 25 : 37)
+   
     return (
         <div className="card-container">
 
             <div className={`card ${isWatched ? "watched-style" : "unwatched-style"}`}>
 
                 <div className="card-details">
-                    <h4 className="card-title">{isSeries ? firstUnwatched.title : item.title}</h4>
-                    <p className="card-director">{isWatched ? Array.isArray(item.movies) ? firstUnwatched?.director.split(";").join(", ") : item.director.split(";").join(", ") : null}</p>
+                <h4 className={`card-title ${isLongTitle ? `long-title` : null}`}>{isSeries ? firstUnwatched.title : item.title}</h4>
+                    <p className="card-director">{isWatched ? isSeries ? firstUnwatched?.director.split(";").join(", ") : item.director.split(";").join(", ") : null}</p>
                     <p className="card-year">{isSeries ? firstUnwatched.year : item.year}</p>
                 </div>
                 <button className="info-btn" onClick={() => showInfo(movie)}>ⓘ</button>
