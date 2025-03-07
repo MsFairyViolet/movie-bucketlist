@@ -32,14 +32,16 @@ export default function MovieList() {
         setMovies(moviesData);
     }, []);
 
-    const filteredMovies = searchQuery
+        const filteredMovies = searchQuery
         ? movies.filter((movie) => {
             const query = searchQuery.toLowerCase().trim()
+
             return (
                 movie.title.toLowerCase().includes(query) ||
                 movie.director.toLowerCase().includes(query) ||
-                movie.year.toString() === query
-            );
+                movie.year.toString() === query ||
+                movie.genre.toString().toLowerCase().includes(query)
+            )
         })
         : movies;
 
@@ -58,14 +60,14 @@ export default function MovieList() {
     return (
         <div className="movie-list-container">
             <div className="search-bar">
-                <input placeholder="Search title, year (YYYY), or director..." value={searchQuery} onChange={(e) => setSearchQuery(e.target.value)} />
+                <input placeholder="Search title, year (YYYY), genre or director..." value={searchQuery} onChange={(e) => setSearchQuery(e.target.value)} />
             </div>
             <div className="info-card">{selectedItem !== null ? <InfoCard item={selectedItem} closeInfo={closeInfo} /> : null}</div>
             <div>
                 {filteredMovies.length > 0 ? (
                     <div className="movie-list">
                         {groupedMovies.map(item => (
-                                <MovieGraphic key={item.series_id || item.id} item={item} showInfo={showInfo} />
+                            <MovieGraphic key={item.series_id || item.id} item={item} showInfo={showInfo} />
                         ))}
                     </div>
                 ) : (

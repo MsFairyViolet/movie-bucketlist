@@ -26,7 +26,7 @@ export default function MovieGraphic({ item, showInfo }) {
             {isSeries && (
                 <div className="sub-movie-container">
                     {item.movies.map((movie, index) =>
-                        <SubMovieCard key={movie.id} movie={item} number={index + 1} />
+                        <SubMovieCard key={movie.id} movie={movie} number={index + 1} />
                     )}
                 </div>
             )}
