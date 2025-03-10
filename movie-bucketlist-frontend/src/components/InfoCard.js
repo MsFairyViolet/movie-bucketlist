@@ -1,6 +1,6 @@
 import { useState } from "react";
 
-export default function InfoCard({ item, closeInfo }) {
+export default function InfoCard({ item, closeInfo, color }) {
     const isSeries = Array.isArray(item.movies);
     const [selectedMovie, setSelectedMovie] = useState(isSeries ? item.movies[0] : item);
 
@@ -15,7 +15,7 @@ export default function InfoCard({ item, closeInfo }) {
                             <button
                                 key={movie.id}
                                 onClick={() => setSelectedMovie(movie)}
-                                className={`tab-btn ${movie.watched ? "watched-style" : "unwatched-style"} ${selectedMovie.id === movie.id ? "active" : ""}`}
+                                className={`tab-btn ${movie.watched ? `watched-`+color : "unwatched-grey"} ${selectedMovie.id === movie.id ? "active" : "inactive"}`}
                             >
                                 {index + 1}
                             </button>

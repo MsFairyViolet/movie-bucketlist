@@ -94,7 +94,7 @@ body {
 
 .card,
 .sub-movie-card {
-  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.25), 0 3px 6px rgba(0, 0, 0, 0.3)
+  box-shadow: 0 6px 9px rgba(0, 0, 0, 0.25), 0 3px 6px rgba(0, 0, 0, 0.3)
 }
 
 .info-btn {
@@ -123,9 +123,9 @@ body {
   line-height: 1;
 }
 
-.arrow {
+.sub-arrow {
   display: inline-block;
-  transition: transform 0.2s ease;
+  transition: transform 0.1s ease;
   transform-origin: center;
 }
 
@@ -241,41 +241,31 @@ body {
   width: 3rem;
   cursor: pointer;
   border-radius: 0.5rem;
+  font-weight: bold;
 }
-
-/* Color Palette */
-.color-palette {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  gap: 0.5rem;
-  padding: 0.5rem;
-}
-
-.bright-red-orange { background-color: #FF5733; }
-.vivid-orange { background-color: #FF8D1A; }
-.bright-yellow { background-color: #FFC300; }
-.vivid-green { background-color: #28C76F; }
-.electric-cyan { background-color: #00D4FF; }
-.vibrant-blue { background-color: #0097E6; }
-.strong-purple { background-color: #8E44AD; }
-.deep-magenta { background-color: #C71585; }
-.warm-coral { background-color: #FF6F61; }
-.rich-indigo { background-color: #6610F2; }
-.teal { background-color: #008080; }
-.lime-green { background-color: #32CD32; }
 
 /* Special Styling  */
-.watched-style {
-  background-color: #008000;
-}
-
-.unwatched-style {
-  background-color: gray;
-}
+/* Color Palette */
+.watched-bright-red-orange { background-color: #FF5733; }
+.watched-vivid-orange { background-color: #FF8D1A; }
+.watched-bright-yellow { background-color: #FFC300; }
+.watched-vivid-green { background-color: #28C76F; }
+.watched-electric-cyan { background-color: #00D4FF; }
+.watched-vibrant-blue { background-color: #0097E6; }
+.watched-strong-purple { background-color: #a455c6; }
+.watched-deep-magenta { background-color: #C71585; }
+.watched-warm-coral { background-color: #FF6F61; }
+.watched-rich-indigo { background-color: #7933ea; }
+.watched-teal { background-color: #008080; }
+.watched-lime-green { background-color: #32CD32; }
+.unwatched-grey { background-color: gray; }
 
 .active {
-  color: lightgrey;
+  opacity: 1;
+}
+
+.inactive {
+  opacity: 0.5;
 }
 
 .no-results {

@@ -56,18 +56,34 @@ export default function MovieList() {
 
     const groupedMovies = groupMoviesBySeries(filteredMovies)
 
+    const [movieColor, setMovieColor] = useState({})
+
+    const colors = [
+        "bright-red-orange", "vivid-orange", "bright-yellow", "vivid-green",
+        "electric-cyan", "vibrant-blue", "strong-purple", "deep-magenta",
+        "warm-coral", "rich-indigo", "teal", "lime-green"
+    ];
+
+    const getMovieColor = (item) => {
+        if (!movieColor[item]) {
+            const randomColor = colors[Math.floor(Math.random() * colors.length)];
+            setMovieColor(prev => ({ ...prev, [item]: randomColor }));
+            return randomColor;
+        }
+        return movieColor[item];
+    };
+
     return (
         <div className="movie-list-container">
-            <ColorPalette/>
             <div className="search-bar">
                 <input placeholder="Search title, year (YYYY), genre or director..." value={searchQuery} onChange={(e) => setSearchQuery(e.target.value)} />
             </div>
-            <div className="info-card">{selectedInfo !== null ? <InfoCard item={selectedInfo} closeInfo={closeInfo} /> : null}</div>
+            <div className="info-card">{selectedInfo !== null ? <InfoCard item={selectedInfo} closeInfo={closeInfo} color={getMovieColor(selectedInfo.id)}/> : null}</div>
             <div>
                 {filteredMovies.length > 0 ? (
                     <div className="movie-list">
                         {groupedMovies.map(item => (
-                            <MovieGraphic key={item.series_id || item.id} item={item} showInfo={showInfo} />
+                            <MovieGraphic key={item.series_id || item.id} item={item} showInfo={showInfo} color={getMovieColor(item.id)}/>
                         ))}
                     </div>
                 ) : (
