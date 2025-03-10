@@ -100,7 +100,7 @@ body {
 .info-btn {
   position: absolute;
   display: flex;
-  margin-top: 75%;
+  margin-top: 76%;
   align-self: flex-end;
   padding: 0 0.5rem 0.5rem  0;
   font-size: 1.3em;
@@ -113,7 +113,7 @@ body {
 .sub-btn {
   position: absolute;
   display: flex;
-  margin-top: 75%;
+  margin-top: 76%;
   align-self: flex-start;
   padding: 0 0 0.5rem 0.5rem;
   font-size: 1.3em;
@@ -243,9 +243,31 @@ body {
   border-radius: 0.5rem;
 }
 
+/* Color Palette */
+.color-palette {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 0.5rem;
+  padding: 0.5rem;
+}
+
+.bright-red-orange { background-color: #FF5733; }
+.vivid-orange { background-color: #FF8D1A; }
+.bright-yellow { background-color: #FFC300; }
+.vivid-green { background-color: #28C76F; }
+.electric-cyan { background-color: #00D4FF; }
+.vibrant-blue { background-color: #0097E6; }
+.strong-purple { background-color: #8E44AD; }
+.deep-magenta { background-color: #C71585; }
+.warm-coral { background-color: #FF6F61; }
+.rich-indigo { background-color: #6610F2; }
+.teal { background-color: #008080; }
+.lime-green { background-color: #32CD32; }
+
 /* Special Styling  */
 .watched-style {
-  background-color: green;
+  background-color: #008000;
 }
 
 .unwatched-style {

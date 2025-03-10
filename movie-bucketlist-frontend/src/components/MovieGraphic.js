@@ -52,4 +52,4 @@ export default function MovieGraphic({ item, showInfo }) {
     )
 }
 
-// `˅` `ⓥ`
+// Arrow options: `˅` `ⓥ`

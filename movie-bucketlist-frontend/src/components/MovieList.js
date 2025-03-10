@@ -2,6 +2,7 @@ import { useState, useEffect } from "react";
 import moviesData from "../data/movies.json"
 import InfoCard from "./InfoCard";
 import MovieGraphic from "./MovieGraphic";
+import ColorPalette from "./ColorPalette";
 
 function groupMoviesBySeries(movies) {
     const grouped = movies.reduce((acc, movie) => {
@@ -57,6 +58,7 @@ export default function MovieList() {
 
     return (
         <div className="movie-list-container">
+            <ColorPalette/>
             <div className="search-bar">
                 <input placeholder="Search title, year (YYYY), genre or director..." value={searchQuery} onChange={(e) => setSearchQuery(e.target.value)} />
             </div>
@@ -65,7 +67,7 @@ export default function MovieList() {
                 {filteredMovies.length > 0 ? (
                     <div className="movie-list">
                         {groupedMovies.map(item => (
-                            <MovieGraphic key={item.series_id || item.id} item={item} showInfo={showInfo}/>
+                            <MovieGraphic key={item.series_id || item.id} item={item} showInfo={showInfo} />
                         ))}
                     </div>
                 ) : (
