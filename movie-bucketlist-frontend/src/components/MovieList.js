@@ -1,9 +1,7 @@
 import { useState, useEffect } from "react";
-import InfoCard from "./InfoCard";
 import moviesData from "../data/movies.json"
+import InfoCard from "./InfoCard";
 import MovieGraphic from "./MovieGraphic";
-
-
 
 function groupMoviesBySeries(movies) {
     const grouped = movies.reduce((acc, movie) => {
@@ -32,7 +30,7 @@ export default function MovieList() {
         setMovies(moviesData);
     }, []);
 
-        const filteredMovies = searchQuery
+    const filteredMovies = searchQuery
         ? movies.filter((movie) => {
             const query = searchQuery.toLowerCase().trim()
 
@@ -45,14 +43,14 @@ export default function MovieList() {
         })
         : movies;
 
-    const [selectedItem, setSelectedItem] = useState(null)
+    const [selectedInfo, setSelectedInfo] = useState(null)
 
     const showInfo = (movie) => {
-        setSelectedItem(movie)
+        setSelectedInfo(movie)
     }
 
     const closeInfo = () => {
-        setSelectedItem(null)
+        setSelectedInfo(null)
     }
 
     const groupedMovies = groupMoviesBySeries(filteredMovies)
@@ -62,12 +60,12 @@ export default function MovieList() {
             <div className="search-bar">
                 <input placeholder="Search title, year (YYYY), genre or director..." value={searchQuery} onChange={(e) => setSearchQuery(e.target.value)} />
             </div>
-            <div className="info-card">{selectedItem !== null ? <InfoCard item={selectedItem} closeInfo={closeInfo} /> : null}</div>
+            <div className="info-card">{selectedInfo !== null ? <InfoCard item={selectedInfo} closeInfo={closeInfo} /> : null}</div>
             <div>
                 {filteredMovies.length > 0 ? (
                     <div className="movie-list">
                         {groupedMovies.map(item => (
-                            <MovieGraphic key={item.series_id || item.id} item={item} showInfo={showInfo} />
+                            <MovieGraphic key={item.series_id || item.id} item={item} showInfo={showInfo}/>
                         ))}
                     </div>
                 ) : (

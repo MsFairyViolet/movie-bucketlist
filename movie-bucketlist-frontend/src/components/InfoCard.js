@@ -7,7 +7,7 @@ export default function InfoCard({ item, closeInfo }) {
     return (
         <div className="overlay">
             <div className="overlay-content">
-                <button className="close-info-btn" onClick={closeInfo}>X</button>
+                <button className="close-info-btn" onClick={closeInfo}>✕</button>
 
                 {isSeries && (
                     <div className="movie-tabs">
