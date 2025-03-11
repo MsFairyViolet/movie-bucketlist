@@ -1,17 +1,25 @@
 import { useState } from "react";
 
-export default function InfoCard({ item, closeInfo, color }) {
+export default function InfoCard({ item, closeInfo, color, allMovies }) {
     const isSeries = Array.isArray(item.movies);
-    const [selectedMovie, setSelectedMovie] = useState(isSeries ? item.movies[0] : item);
+
+    const seriesMovies = isSeries ? item.movies : allMovies.filter(movie => movie.series_id === item.series_id);
+
+    const isPartOfSeries = seriesMovies.length > 1;
+
+    const [selectedMovie, setSelectedMovie] = useState(isPartOfSeries
+        ? seriesMovies.find(movie => movie.id === item.id) || seriesMovies[0]
+        : item
+    );
 
     return (
         <div className="overlay">
             <div className="overlay-content">
                 <button className="close-info-btn" onClick={closeInfo}>✕</button>
 
-                {isSeries && (
+                {isPartOfSeries && (
                     <div className="movie-tabs">
-                        {item.movies.map((movie, index) => (
+                        {seriesMovies.map((movie, index) => (
                             <button
                                 key={movie.id}
                                 onClick={() => setSelectedMovie(movie)}

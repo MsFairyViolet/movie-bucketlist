@@ -2,7 +2,6 @@ import { useState, useEffect } from "react";
 import moviesData from "../data/movies.json"
 import InfoCard from "./InfoCard";
 import MovieGraphic from "./MovieGraphic";
-import ColorPalette from "./ColorPalette";
 
 function groupMoviesBySeries(movies) {
     const grouped = movies.reduce((acc, movie) => {
@@ -78,7 +77,7 @@ export default function MovieList() {
             <div className="search-bar">
                 <input placeholder="Search title, year (YYYY), genre or director..." value={searchQuery} onChange={(e) => setSearchQuery(e.target.value)} />
             </div>
-            <div className="info-card">{selectedInfo !== null ? <InfoCard item={selectedInfo} closeInfo={closeInfo} color={getMovieColor(selectedInfo.id)}/> : null}</div>
+            <div className="info-card">{selectedInfo !== null ? <InfoCard item={selectedInfo} allMovies={movies} closeInfo={closeInfo} color={getMovieColor(selectedInfo.id)}/> : null}</div>
             <div>
                 {filteredMovies.length > 0 ? (
                     <div className="movie-list">
