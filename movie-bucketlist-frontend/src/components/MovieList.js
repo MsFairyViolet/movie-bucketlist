@@ -75,7 +75,8 @@ export default function MovieList() {
     return (
         <div className="movie-list-container">
             <div className="search-bar">
-                <input placeholder="Search title, year (YYYY), genre or director..." value={searchQuery} onChange={(e) => setSearchQuery(e.target.value)} />
+                <input className="search-text" placeholder="Search title, year (YYYY), genre or director..." value={searchQuery} onChange={(e) => setSearchQuery(e.target.value)} />
+                {searchQuery ?  <button className="clear-search-btn" onClick={(e) => setSearchQuery("")}>✕</button> : null}
             </div>
             <div className="info-card">{selectedInfo !== null ? <InfoCard item={selectedInfo} allMovies={movies} closeInfo={closeInfo} color={getMovieColor(selectedInfo.id)}/> : null}</div>
             <div>
