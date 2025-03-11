@@ -24,11 +24,34 @@ function groupMoviesBySeries(movies) {
 
 export default function MovieList() {
     const [movies, setMovies] = useState([]);
+    const [loading, setLoading] = useState(true)
+    const [error, setError] = useState(null)
     const [searchQuery, setSearchQuery] = useState("")
 
+    // //Data from Mock JSON
+    // useEffect(() => {
+    //     setMovies(moviesData);
+    // }, []);
+
+    //Data from API
     useEffect(() => {
-        setMovies(moviesData);
-    }, []);
+        fetch("/api/movies")
+        .then((response) => {
+            if(!response.ok) {
+                throw new Error("Failed to fetch movies")
+            }
+            return response.json()
+        })
+        .then((data) => {
+            setMovies(data)
+            setLoading(false)
+        })
+        .catch((error) => {
+            console.log("Error fetching movies: ", error)
+            setError(error.message)
+            setLoading(false)
+        })
+    }, [])
 
     const filteredMovies = searchQuery
         ? movies.filter((movie) => {
@@ -38,7 +61,7 @@ export default function MovieList() {
                 movie.title.toLowerCase().includes(query) ||
                 movie.director.toLowerCase().includes(query) ||
                 movie.year.toString() === query ||
-                movie.genre.toString().toLowerCase().includes(query)
+                movie.genres.toString().toLowerCase().includes(query)
             )
         })
         : movies;
@@ -76,14 +99,14 @@ export default function MovieList() {
         <div className="movie-list-container">
             <div className="search-bar">
                 <input className="search-text" placeholder="Search title, year (YYYY), genre or director..." value={searchQuery} onChange={(e) => setSearchQuery(e.target.value)} />
-                {searchQuery ?  <button className="clear-search-btn" onClick={(e) => setSearchQuery("")}>✕</button> : null}
+                {searchQuery ? <button className="clear-search-btn" onClick={(e) => setSearchQuery("")}>✕</button> : null}
             </div>
-            <div className="info-card">{selectedInfo !== null ? <InfoCard item={selectedInfo} allMovies={movies} closeInfo={closeInfo} color={getMovieColor(selectedInfo.id)}/> : null}</div>
+            <div className="info-card">{selectedInfo !== null ? <InfoCard item={selectedInfo} allMovies={movies} closeInfo={closeInfo} color={getMovieColor(selectedInfo.id)} /> : null}</div>
             <div>
                 {filteredMovies.length > 0 ? (
                     <div className="movie-list">
                         {groupedMovies.map(item => (
-                            <MovieGraphic key={item.series_id || item.id} item={item} showInfo={showInfo} color={getMovieColor(item.id)}/>
+                            <MovieGraphic key={item.series_id || item.id} item={item} showInfo={showInfo} color={getMovieColor(item.id)} />
                         ))}
                     </div>
                 ) : (

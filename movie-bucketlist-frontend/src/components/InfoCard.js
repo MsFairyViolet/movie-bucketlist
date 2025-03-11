@@ -33,11 +33,11 @@ export default function InfoCard({ item, closeInfo, color, allMovies }) {
 
                 <div key={selectedMovie.id} className="movie-details">
                     <p><strong>Title:</strong> {selectedMovie.title}</p>
-                    <p><strong>Director:</strong> {selectedMovie.director}</p>
+                    <p><strong>Director:</strong> {selectedMovie.director.split(";").join(", ")}</p>
                     <p><strong>Year:</strong> {selectedMovie.year}</p>
                     <p><strong>Duration:</strong> {selectedMovie.duration} min</p>
                     <p><strong>Ranking:</strong> {selectedMovie.imdb_ranking}</p>
-                    <p><strong>Genre:</strong> {selectedMovie.genre.join(", ")}</p>
+                    <p><strong>Genre:</strong> {selectedMovie.genres.join(", ")}</p>
                     <p><strong>Description:</strong> {selectedMovie.topic}</p>
                 </div>
             </div>

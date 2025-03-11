@@ -348,6 +348,10 @@ body {
     text-align: center;
   }
 
+  .card-details{
+    padding: 0.7rem;
+  }
+
   .card-title{
     font-size: 1.3rem;
   }
