@@ -69,6 +69,13 @@ export default function MovieList() {
 
     
     //Click-to-Watch
+    const toggleWatched = (id) => {
+        console.log("item clicked: " + id)
+
+        setMovies((prevMovies) =>
+        prevMovies.map((movie) =>
+        movie.id === id ? {...movie, watched: !movie.watched} : movie))
+    }
 
     //Info
     const [selectedInfo, setSelectedInfo] = useState(null)
@@ -117,7 +124,7 @@ export default function MovieList() {
                     filteredMovies.length > 0 ? (
                         <div className="movie-list">
                             {groupedMovies.map(item => (
-                                <MovieGraphic key={item.series_id || item.id} item={item} showInfo={showInfo} color={getMovieColor(item.id)} />
+                                <MovieGraphic key={item.series_id || item.id} item={item} showInfo={showInfo} color={getMovieColor(item.id)} toggleWatched={toggleWatched} />
                             ))}
                         </div>
                     ) : (

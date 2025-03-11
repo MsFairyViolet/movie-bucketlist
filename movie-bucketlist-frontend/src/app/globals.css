@@ -211,6 +211,12 @@ body {
   transform: translate(-50%, -50%);
 }
 
+.clickable-area{
+  background-color: white;
+  opacity: 1;
+  cursor: grab;
+}
+
 .overlay {
   position: fixed;
   top: 0;

@@ -1,7 +1,7 @@
 import { useState } from "react";
 import SubMovieCard from "./SubMovieCard";
 
-export default function MovieGraphic({ item, showInfo, color }) {
+export default function MovieGraphic({ item, showInfo, color, toggleWatched}) {
 
     const [selectedSubs, setSelectedSubs] = useState(null)
 
@@ -23,16 +23,17 @@ export default function MovieGraphic({ item, showInfo, color }) {
 
     const isLongTitle = isSeries ? firstUnwatched.title.length > (isWatched ? 25 : 37) : item.title.length > (isWatched ? 25 : 37)
 
-     return (
+    return (
         <div className="card-container">
 
-            <div className={`card ${isWatched ? `watched-`+color : "unwatched-grey"}`}>
-
+            <div className={`card ${isWatched ? `watched-` + color : "unwatched-grey"} clickable-area`} 
+            onClick={() => isSeries ? toggleWatched(firstUnwatched.id) : toggleWatched(item.id) }>
                 <div className="card-details">
                     <h4 className={`card-title ${isLongTitle ? `long-title` : ``}`}>{isSeries ? firstUnwatched.title : item.title}</h4>
                     <p className="card-director">{isWatched ? isSeries ? firstUnwatched?.director.split(";").join(", ") : item.director.split(";").join(", ") : null}</p>
                     <p className="card-year">{isSeries ? firstUnwatched.year : item.year}</p>
                 </div>
+
                 {isSeries ?
                     <button className="sub-btn" onClick={() => toggleSubs(item)}>
                         <span className={subsShow ? `sub-arrow rotated` : `sub-arrow`}>˅</span>
@@ -40,10 +41,11 @@ export default function MovieGraphic({ item, showInfo, color }) {
                     : null}
                 <button className="info-btn" onClick={() => showInfo(item)}>ⓘ</button>
             </div>
+
             {subsShow ?
                 <div className="sub-movie-container">
                     {item.movies.map((movie, index) =>
-                        <SubMovieCard key={movie.id} movie={movie} number={index + 1} color={color} />
+                        <SubMovieCard key={movie.id} movie={movie} number={index + 1} color={color} toggleWatched={toggleWatched}/>
                     )}
                 </div>
                 : null}
@@ -52,4 +54,4 @@ export default function MovieGraphic({ item, showInfo, color }) {
     )
 }
 
-// Arrow options: `˅` `ⓥ`
+
