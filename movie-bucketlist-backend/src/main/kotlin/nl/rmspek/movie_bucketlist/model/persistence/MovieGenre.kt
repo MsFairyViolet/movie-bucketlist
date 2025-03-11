@@ -10,7 +10,7 @@ data class MovieGenre (
     val id: Long? = null,
     val genre: String,
 
-    @ManyToOne(fetch = FetchType.EAGER)
+    @ManyToOne(fetch = FetchType.LAZY)
     @JoinColumn(name="movie_id", nullable = false)
     val movie: Movie
 )

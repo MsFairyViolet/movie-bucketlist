@@ -19,6 +19,6 @@ data class Movie (
     var duration: String,
     var topic: String,
 
-    @OneToMany(mappedBy = "movie", fetch = FetchType.EAGER, cascade = [CascadeType.ALL], orphanRemoval = true)
+    @OneToMany(mappedBy = "movie", fetch = FetchType.LAZY, cascade = [CascadeType.ALL], orphanRemoval = true)
     val genres: MutableList<MovieGenre> = mutableListOf()
 )
