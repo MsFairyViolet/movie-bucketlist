@@ -36,23 +36,24 @@ export default function MovieList() {
     //Data from API
     useEffect(() => {
         fetch("/api/movies")
-        .then((response) => {
-            if(!response.ok) {
-                throw new Error("Failed to fetch movies")
-            }
-            return response.json()
-        })
-        .then((data) => {
-            setMovies(data)
-            setLoading(false)
-        })
-        .catch((error) => {
-            console.log("Error fetching movies: ", error)
-            setError(error.message)
-            setLoading(false)
-        })
+            .then((response) => {
+                if (!response.ok) {
+                    throw new Error("Failed to fetch movies")
+                }
+                return response.json()
+            })
+            .then((data) => {
+                setMovies(data)
+                setLoading(false)
+            })
+            .catch((error) => {
+                console.log("Error fetching movies: ", error)
+                setError(error.message)
+                setLoading(false)
+            })
     }, [])
 
+    //Search Functionality
     const filteredMovies = searchQuery
         ? movies.filter((movie) => {
             const query = searchQuery.toLowerCase().trim()
@@ -66,6 +67,7 @@ export default function MovieList() {
         })
         : movies;
 
+    //Info Functionality
     const [selectedInfo, setSelectedInfo] = useState(null)
 
     const showInfo = (movie) => {
@@ -76,8 +78,7 @@ export default function MovieList() {
         setSelectedInfo(null)
     }
 
-    const groupedMovies = groupMoviesBySeries(filteredMovies)
-
+    //Watched-color functionality
     const [movieColor, setMovieColor] = useState({})
 
     const colors = [
@@ -95,6 +96,8 @@ export default function MovieList() {
         return movieColor[item];
     };
 
+    const groupedMovies = groupMoviesBySeries(filteredMovies)
+
     return (
         <div className="movie-list-container">
             <div className="search-bar">
@@ -103,15 +106,20 @@ export default function MovieList() {
             </div>
             <div className="info-card">{selectedInfo !== null ? <InfoCard item={selectedInfo} allMovies={movies} closeInfo={closeInfo} color={getMovieColor(selectedInfo.id)} /> : null}</div>
             <div>
-                {filteredMovies.length > 0 ? (
-                    <div className="movie-list">
-                        {groupedMovies.map(item => (
-                            <MovieGraphic key={item.series_id || item.id} item={item} showInfo={showInfo} color={getMovieColor(item.id)} />
-                        ))}
-                    </div>
-                ) : (
-                    <p className="no-results">No movies found</p>
-                )}
+                {loading ? (
+                    <p className="status-message">Loading Movies</p>
+                ) : error ? (
+                    <p className="status-message">Error: {error}</p>
+                ) :
+                    filteredMovies.length > 0 ? (
+                        <div className="movie-list">
+                            {groupedMovies.map(item => (
+                                <MovieGraphic key={item.series_id || item.id} item={item} showInfo={showInfo} color={getMovieColor(item.id)} />
+                            ))}
+                        </div>
+                    ) : (
+                        <p className="status-message">No movies found</p>
+                    )}
             </div>
         </div>
     )

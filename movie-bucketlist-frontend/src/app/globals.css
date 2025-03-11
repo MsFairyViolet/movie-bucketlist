@@ -286,7 +286,7 @@ body {
   opacity: 0.5;
 }
 
-.no-results {
+.status-message {
   text-align: center;
   font-size: 1.2rem;
   color: gray;
@@ -298,6 +298,7 @@ body {
 }
 
 /* Media Queries */
+
 /* @media (prefers-color-scheme: dark) {
   :root {
     --background: #0a0a0a;
@@ -308,7 +309,6 @@ body {
     color-scheme: dark;
   }
 } */
-
 
 
 @media (min-width: 600px) {
