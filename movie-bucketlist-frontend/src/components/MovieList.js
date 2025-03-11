@@ -53,7 +53,7 @@ export default function MovieList() {
             })
     }, [])
 
-    //Search Functionality
+    //Search
     const filteredMovies = searchQuery
         ? movies.filter((movie) => {
             const query = searchQuery.toLowerCase().trim()
@@ -67,7 +67,10 @@ export default function MovieList() {
         })
         : movies;
 
-    //Info Functionality
+    
+    //Click-to-Watch
+
+    //Info
     const [selectedInfo, setSelectedInfo] = useState(null)
 
     const showInfo = (movie) => {
@@ -78,7 +81,7 @@ export default function MovieList() {
         setSelectedInfo(null)
     }
 
-    //Watched-color functionality
+    //Watched-color
     const [movieColor, setMovieColor] = useState({})
 
     const colors = [
@@ -107,7 +110,7 @@ export default function MovieList() {
             <div className="info-card">{selectedInfo !== null ? <InfoCard item={selectedInfo} allMovies={movies} closeInfo={closeInfo} color={getMovieColor(selectedInfo.id)} /> : null}</div>
             <div>
                 {loading ? (
-                    <p className="status-message">Loading Movies</p>
+                    <p className="status-message">Loading Movies...</p>
                 ) : error ? (
                     <p className="status-message">Error: {error}</p>
                 ) :
