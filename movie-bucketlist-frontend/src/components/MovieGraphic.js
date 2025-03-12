@@ -1,7 +1,7 @@
 import { useState } from "react";
 import SubMovieCard from "./SubMovieCard";
 
-export default function MovieGraphic({ item, showInfo, color, toggleWatched}) {
+export default function MovieGraphic({ item, showInfo, clickToWatch}) {
 
     const [selectedSubs, setSelectedSubs] = useState(null)
 
@@ -23,11 +23,13 @@ export default function MovieGraphic({ item, showInfo, color, toggleWatched}) {
 
     const isLongTitle = isSeries ? firstUnwatched.title.length > (isWatched ? 25 : 37) : item.title.length > (isWatched ? 25 : 37)
 
+    const color = isSeries ? item.movies.find(movie => movie.color)?.color : item.color
+
     return (
         <div className="card-container">
 
             <div className={`card ${isWatched ? `watched-` + color : "unwatched-grey"} clickable-area`} 
-            onClick={() => isSeries ? toggleWatched(firstUnwatched.id) : toggleWatched(item.id) }>
+            onClick={() => isSeries ? clickToWatch(firstUnwatched) : clickToWatch(item) }>
                 <div className="card-details">
                     <h4 className={`card-title ${isLongTitle ? `long-title` : ``}`}>{isSeries ? firstUnwatched.title : item.title}</h4>
                     <p className="card-director">{isWatched ? isSeries ? firstUnwatched?.director.split(";").join(", ") : item.director.split(";").join(", ") : null}</p>
@@ -45,7 +47,7 @@ export default function MovieGraphic({ item, showInfo, color, toggleWatched}) {
             {subsShow ?
                 <div className="sub-movie-container">
                     {item.movies.map((movie, index) =>
-                        <SubMovieCard key={movie.id} movie={movie} number={index + 1} color={color} toggleWatched={toggleWatched}/>
+                        <SubMovieCard key={movie.id} movie={movie} number={index + 1} clickToWatch={clickToWatch}/>
                     )}
                 </div>
                 : null}

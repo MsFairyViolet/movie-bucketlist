@@ -1,5 +1,4 @@
 import { useState, useEffect } from "react";
-import moviesData from "../data/movies.json"
 import InfoCard from "./InfoCard";
 import MovieGraphic from "./MovieGraphic";
 
@@ -28,13 +27,7 @@ export default function MovieList() {
     const [error, setError] = useState(null)
     const [searchQuery, setSearchQuery] = useState("")
 
-    // //Data from Mock JSON
-    // useEffect(() => {
-    //     setMovies(moviesData);
-    // }, []);
-
-    //Data from API
-    useEffect(() => {
+    const fetchMovies = () => {
         fetch("/api/movies")
             .then((response) => {
                 if (!response.ok) {
@@ -51,6 +44,11 @@ export default function MovieList() {
                 setError(error.message)
                 setLoading(false)
             })
+    }
+
+    //Data from API
+    useEffect(() => {
+        fetchMovies()
     }, [])
 
     //Search
@@ -67,14 +65,37 @@ export default function MovieList() {
         })
         : movies;
 
-    
     //Click-to-Watch
-    const toggleWatched = (id) => {
-        console.log("item clicked: " + id)
+    async function clickToWatch(item) {
 
-        setMovies((prevMovies) =>
-        prevMovies.map((movie) =>
-        movie.id === id ? {...movie, watched: !movie.watched} : movie))
+        const seriesMovies = movies.filter(movie => movie.series_id === item.series_id);
+        const isSeries = seriesMovies.length > 1;
+
+        const isWatched = isSeries ? !seriesMovies.some(movie => !movie.watched) : item.watched;
+
+        if(isWatched){
+            console.log("Already watched, no patch send")
+            return
+        }
+
+        try {
+            const response = await fetch(`/api/movies/${item.id}/watched`, {
+                method: "PATCH",
+                headers: { "Content-Tpe": "application/json" },
+                body: getMovieColor(item)
+            })
+
+            if (!response.ok) {
+                throw new Error(`Failed to update movie: ${response.statusText}`)
+            }
+
+            const data = await response.json()
+            console.log("Movie updated:", data)
+            fetchMovies()
+            return data
+        } catch (error) {
+            console.log("Error updating movie:", error)
+        }
     }
 
     //Info
@@ -89,8 +110,6 @@ export default function MovieList() {
     }
 
     //Watched-color
-    const [movieColor, setMovieColor] = useState({})
-
     const colors = [
         "bright-red-orange", "vivid-orange", "bright-yellow", "vivid-green",
         "electric-cyan", "vibrant-blue", "strong-purple", "deep-magenta",
@@ -98,12 +117,19 @@ export default function MovieList() {
     ];
 
     const getMovieColor = (item) => {
-        if (!movieColor[item]) {
-            const randomColor = colors[Math.floor(Math.random() * colors.length)];
-            setMovieColor(prev => ({ ...prev, [item]: randomColor }));
-            return randomColor;
+        const seriesMovies = movies.filter(movie => movie.series_id === item.series_id)
+        const isSeries = seriesMovies.length > 1
+
+        if(isSeries){
+            const existingColor = seriesMovies.find(movie => movie.color)?.color
+
+            if(existingColor){
+                return existingColor
+            }
         }
-        return movieColor[item];
+
+        const randomColor = colors[Math.floor(Math.random() * colors.length)];
+        return randomColor
     };
 
     const groupedMovies = groupMoviesBySeries(filteredMovies)
@@ -114,7 +140,7 @@ export default function MovieList() {
                 <input className="search-text" placeholder="Search title, year (YYYY), genre or director..." value={searchQuery} onChange={(e) => setSearchQuery(e.target.value)} />
                 {searchQuery ? <button className="clear-search-btn" onClick={(e) => setSearchQuery("")}>✕</button> : null}
             </div>
-            <div className="info-card">{selectedInfo !== null ? <InfoCard item={selectedInfo} allMovies={movies} closeInfo={closeInfo} color={getMovieColor(selectedInfo.id)} /> : null}</div>
+            <div className="info-card">{selectedInfo !== null ? <InfoCard item={selectedInfo} allMovies={movies} closeInfo={closeInfo}/> : null}</div>
             <div>
                 {loading ? (
                     <p className="status-message">Loading Movies...</p>
@@ -124,7 +150,7 @@ export default function MovieList() {
                     filteredMovies.length > 0 ? (
                         <div className="movie-list">
                             {groupedMovies.map(item => (
-                                <MovieGraphic key={item.series_id || item.id} item={item} showInfo={showInfo} color={getMovieColor(item.id)} toggleWatched={toggleWatched} />
+                                <MovieGraphic key={item.series_id || item.id} item={item} showInfo={showInfo} clickToWatch={clickToWatch} />
                             ))}
                         </div>
                     ) : (

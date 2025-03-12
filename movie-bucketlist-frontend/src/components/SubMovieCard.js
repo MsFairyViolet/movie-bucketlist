@@ -1,7 +1,7 @@
-export default function SubMovieCard({ movie, number, color, toggleWatched}) {
+export default function SubMovieCard({ movie, number, clickToWatch}) {
     return (
-        <div className={`sub-movie-card ${movie.watched ? `watched-` + color : "unwatched-grey"} clickable-area`}
-        onClick={()=> toggleWatched(movie.id)}>
+        <div className={`sub-movie-card ${movie.watched ? `watched-` + movie.color : "unwatched-grey"} clickable-area`}
+        onClick={()=> clickToWatch(movie.id)}>
             <p className="movie-number">{number}</p>
         </div>
     )
