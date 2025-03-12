@@ -37,11 +37,11 @@ export default function MovieGraphic({ item, showInfo, clickToWatch}) {
                 </div>
 
                 {isSeries ?
-                    <button className="sub-btn" onClick={() => toggleSubs(item)}>
+                    <button className="sub-btn" onClick={(e) =>{e.stopPropagation(); toggleSubs(item)}}>
                         <span className={subsShow ? `sub-arrow rotated` : `sub-arrow`}>˅</span>
                     </button>
                     : null}
-                <button className="info-btn" onClick={() => showInfo(item)}>ⓘ</button>
+                <button className="info-btn" onClick={(e) => {e.stopPropagation(); showInfo(item)}}>ⓘ</button>
             </div>
 
             {subsShow ?
