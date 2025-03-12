@@ -1,6 +1,7 @@
 import { useState, useEffect } from "react";
 import InfoCard from "./InfoCard";
 import MovieGraphic from "./MovieGraphic";
+import ConfirmationWindow from "./ConfirmationWindow";
 
 function groupMoviesBySeries(movies) {
     const grouped = movies.reduce((acc, movie) => {
@@ -26,6 +27,9 @@ export default function MovieList() {
     const [loading, setLoading] = useState(true)
     const [error, setError] = useState(null)
     const [searchQuery, setSearchQuery] = useState("")
+    const [selectedInfo, setSelectedInfo] = useState(null)
+    const [showConfirmation, setConfirmation] = useState(null)
+    const [selectedMovie, setSelectedMovie] = useState(null)
 
     const fetchMovies = () => {
         fetch("/api/movies")
@@ -66,22 +70,27 @@ export default function MovieList() {
         : movies;
 
     //Click-to-Watch
-    async function clickToWatch(item) {
-
+    const confirmWatch = (item) => {
         const seriesMovies = movies.filter(movie => movie.series_id === item.series_id);
         const isSeries = seriesMovies.length > 1;
 
         const isWatched = isSeries ? !seriesMovies.some(movie => !movie.watched) : item.watched;
 
-        if(isWatched){
-            console.log("Already watched, no patch send")
+        if (isWatched) {
+            console.log("Already watched, no confirmation needed")
+            setConfirmation(false)
             return
         }
 
+        setSelectedMovie(item)
+        setConfirmation(true)
+    }
+
+    async function clickToWatch(item) {
         try {
             const response = await fetch(`/api/movies/${item.id}/watched`, {
                 method: "PATCH",
-                headers: { "Content-Tpe": "application/json" },
+                headers: { "Content-Type": "application/json" },
                 body: getMovieColor(item)
             })
 
@@ -90,17 +99,16 @@ export default function MovieList() {
             }
 
             const data = await response.json()
-            console.log("Movie updated:", data)
             fetchMovies()
+            setConfirmation(false)
             return data
         } catch (error) {
             console.log("Error updating movie:", error)
+            setConfirmation(false)
         }
     }
 
     //Info
-    const [selectedInfo, setSelectedInfo] = useState(null)
-
     const showInfo = (movie) => {
         setSelectedInfo(movie)
     }
@@ -120,10 +128,10 @@ export default function MovieList() {
         const seriesMovies = movies.filter(movie => movie.series_id === item.series_id)
         const isSeries = seriesMovies.length > 1
 
-        if(isSeries){
+        if (isSeries) {
             const existingColor = seriesMovies.find(movie => movie.color)?.color
 
-            if(existingColor){
+            if (existingColor) {
                 return existingColor
             }
         }
@@ -140,7 +148,10 @@ export default function MovieList() {
                 <input className="search-text" placeholder="Search title, year (YYYY), genre or director..." value={searchQuery} onChange={(e) => setSearchQuery(e.target.value)} />
                 {searchQuery ? <button className="clear-search-btn" onClick={(e) => setSearchQuery("")}>✕</button> : null}
             </div>
-            <div className="info-card">{selectedInfo !== null ? <InfoCard item={selectedInfo} allMovies={movies} closeInfo={closeInfo}/> : null}</div>
+            {showConfirmation && (<div className="confirmation-window"><ConfirmationWindow movie={selectedMovie} onConfirm={() => clickToWatch(selectedMovie)} onCancel={() => setConfirmation(false)} />
+            </div>
+            )}
+            <div className="info-card">{selectedInfo !== null ? <InfoCard item={selectedInfo} allMovies={movies} closeInfo={closeInfo} /> : null}</div>
             <div>
                 {loading ? (
                     <p className="status-message">Loading Movies...</p>
@@ -150,7 +161,7 @@ export default function MovieList() {
                     filteredMovies.length > 0 ? (
                         <div className="movie-list">
                             {groupedMovies.map(item => (
-                                <MovieGraphic key={item.series_id || item.id} item={item} showInfo={showInfo} clickToWatch={clickToWatch} />
+                                <MovieGraphic key={item.id || item.movies[0].id} item={item} showInfo={showInfo} confirmWatch={confirmWatch} />
                             ))}
                         </div>
                     ) : (

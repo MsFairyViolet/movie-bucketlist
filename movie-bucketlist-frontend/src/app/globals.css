@@ -268,6 +268,29 @@ body {
   font-weight: bold;
 }
 
+.modal-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  max-width: 100%;
+  margin-bottom: 1rem;
+  justify-content: center;
+}
+
+.modal-btn {
+  background-color: none;
+  margin-top: 1rem;
+  padding: 0.6rem;
+  border: none;
+  width: 3rem;
+  cursor: pointer;
+  border-radius: 0.5rem;
+}
+
+.modal-title{
+  font-style: italic;
+}
+
 /* Special Styling  */
 /* Color Palette */
 .watched-bright-red-orange { background-color: #FF5733; }

@@ -1,7 +1,7 @@
 import { useState } from "react";
 import SubMovieCard from "./SubMovieCard";
 
-export default function MovieGraphic({ item, showInfo, clickToWatch}) {
+export default function MovieGraphic({ item, showInfo, confirmWatch}) {
 
     const [selectedSubs, setSelectedSubs] = useState(null)
 
@@ -29,7 +29,7 @@ export default function MovieGraphic({ item, showInfo, clickToWatch}) {
         <div className="card-container">
 
             <div className={`card ${isWatched ? `watched-` + color : "unwatched-grey"} clickable-area`} 
-            onClick={() => isSeries ? clickToWatch(firstUnwatched) : clickToWatch(item) }>
+            onClick={() => isSeries ? confirmWatch(firstUnwatched) : confirmWatch(item) }>
                 <div className="card-details">
                     <h4 className={`card-title ${isLongTitle ? `long-title` : ``}`}>{isSeries ? firstUnwatched.title : item.title}</h4>
                     <p className="card-director">{isWatched ? isSeries ? firstUnwatched?.director.split(";").join(", ") : item.director.split(";").join(", ") : null}</p>
@@ -47,7 +47,7 @@ export default function MovieGraphic({ item, showInfo, clickToWatch}) {
             {subsShow ?
                 <div className="sub-movie-container">
                     {item.movies.map((movie, index) =>
-                        <SubMovieCard key={movie.id} movie={movie} number={index + 1} clickToWatch={clickToWatch}/>
+                        <SubMovieCard key={movie.id} movie={movie} number={index + 1} confirmWatch={confirmWatch}/>
                     )}
                 </div>
                 : null}
