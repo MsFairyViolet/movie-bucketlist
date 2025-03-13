@@ -18,7 +18,7 @@ class SeedMovies(private val movieService: MovieService ) {
         if (movieService.hasMovies()) return@ApplicationRunner
 
         val resource = ClassPathResource("movies.csv")
-        val reader = InputStreamReader(resource.inputStream)
+        val reader = InputStreamReader(resource.inputStream, Charsets.UTF_8)
 
         val movies = CsvToBeanBuilder<MovieSeed>(reader)
             .withType(MovieSeed::class.java)
