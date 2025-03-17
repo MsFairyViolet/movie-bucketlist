@@ -235,7 +235,6 @@ p {
 .clickable-area {
   background-color: white;
   opacity: 1;
-  cursor: grab;
 }
 
 .overlay {

@@ -14,7 +14,7 @@ export default function MovieGraphic({ item, showInfo, confirmWatch}) {
     const isSeries = Array.isArray(item.movies);
     const isWatched = isSeries ? item.movies.every(movie => movie.watched) : item.watched
     const firstUnwatched = isSeries ? item.movies.find(movie => !movie.watched) || item.movies[0] : item
-    const isLongTitle = isSeries ? firstUnwatched.title.length > (isWatched ? 25 : 34) : item.title.length > (isWatched ? 25 : 34)
+    const isLongTitle = (isSeries ? firstUnwatched.title : item.title).length > (isWatched ? 25 : 34)
     const color = isSeries ? item.movies.find(movie => movie.color)?.color : item.color
 
     return (

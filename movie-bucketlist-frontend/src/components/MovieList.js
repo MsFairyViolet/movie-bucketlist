@@ -87,6 +87,7 @@ export default function MovieList() {
 
     async function clickToWatch(item) {
         try {
+            setLoading(true)
             const response = await fetch(`/api/movies/${item.id}/watched`, {
                 method: "PATCH",
                 headers: { "Content-Type": "application/json" },
@@ -124,8 +125,7 @@ export default function MovieList() {
     ];
 
     const getMovieColor = (item) => {
-        const seriesMovies = movies.filter(movie => movie.series_id === item.series_id)
-        const isSeries = seriesMovies.length > 1
+        const isSeries = movies.filter(movie => movie.series_id === item.series_id).length > 1
 
         if (isSeries) {
             const existingColor = seriesMovies.find(movie => movie.color)?.color
@@ -133,8 +133,7 @@ export default function MovieList() {
                 return existingColor
             }
         }
-        const randomColor = colors[Math.floor(Math.random() * colors.length)];
-        return randomColor
+        return colors[Math.floor(Math.random() * colors.length)]
     };
 
     const groupedMovies = groupMoviesBySeries(filteredMovies)
