@@ -119,9 +119,9 @@ export default function MovieList() {
 
     //Watched-color
     const colors = [
-        "bright-red-orange", "vivid-orange", "bright-yellow", "vivid-green",
-        "electric-cyan", "vibrant-blue", "strong-purple", "deep-magenta",
-        "warm-coral", "rich-indigo", "teal", "lime-green"
+        "bright-red-orange", "vivid-orange", "warm-coral", "bright-yellow", 
+        "electric-cyan", "vibrant-blue", "vivid-green", "lime-green", "teal", "strong-purple", "deep-magenta",
+        , "rich-indigo"
     ];
 
     const getMovieColor = (item) => {
@@ -145,7 +145,7 @@ export default function MovieList() {
     return (
         <div className="movie-list-container">
             <div className="search-bar">
-                <input className="search-text" placeholder="Search title, year (YYYY), genre or director..." value={searchQuery} onChange={(e) => setSearchQuery(e.target.value)} />
+                <input className="search-text" placeholder="Search title, year, genre or director..." value={searchQuery} onChange={(e) => setSearchQuery(e.target.value)} />
                 {searchQuery ? <button className="clear-search-btn" onClick={(e) => setSearchQuery("")}>✕</button> : null}
             </div>
             {showConfirmation && (<div className="confirmation-window"><ConfirmationWindow movie={selectedMovie} onConfirm={() => clickToWatch(selectedMovie)} onCancel={() => setConfirmation(false)} />

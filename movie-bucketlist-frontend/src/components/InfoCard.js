@@ -35,10 +35,10 @@ export default function InfoCard({ item, closeInfo, allMovies }) {
                     <p><strong>Title:</strong> {selectedMovie.title}</p>
                     <p><strong>Director:</strong> {selectedMovie.director.split(";").join(", ")}</p>
                     <p><strong>Year:</strong> {selectedMovie.year}</p>
-                    <p><strong>Duration:</strong> {selectedMovie.duration} min</p>
-                    <p><strong>Ranking:</strong> {selectedMovie.imdb_ranking}</p>
+                    <p><strong>Duration:</strong> {selectedMovie.duration}</p>
+                    <p><strong>Ranking:</strong> {(selectedMovie.imdb_ranking/10).toFixed(1)}</p>
                     <p><strong>Genre:</strong> {selectedMovie.genres.join(", ")}</p>
-                    <p><strong>Description:</strong> {selectedMovie.topic}</p>
+                    <p className="movie-description"><strong>Description:</strong> {selectedMovie.topic}</p>
                 </div>
             </div>
         </div>

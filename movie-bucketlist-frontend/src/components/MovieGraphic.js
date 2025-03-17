@@ -21,13 +21,12 @@ export default function MovieGraphic({ item, showInfo, confirmWatch}) {
 
     const firstUnwatched = isSeries ? item.movies.find(movie => !movie.watched) || item.movies[0] : item
 
-    const isLongTitle = isSeries ? firstUnwatched.title.length > (isWatched ? 25 : 37) : item.title.length > (isWatched ? 25 : 37)
+    const isLongTitle = isSeries ? firstUnwatched.title.length > (isWatched ? 25 : 34) : item.title.length > (isWatched ? 25 : 34)
 
     const color = isSeries ? item.movies.find(movie => movie.color)?.color : item.color
 
     return (
         <div className="card-container">
-
             <div className={`card ${isWatched ? `watched-` + color : "unwatched-grey"} clickable-area`} 
             onClick={() => isSeries ? confirmWatch(firstUnwatched) : confirmWatch(item) }>
                 <div className="card-details">
@@ -38,7 +37,7 @@ export default function MovieGraphic({ item, showInfo, confirmWatch}) {
 
                 {isSeries ?
                     <button className="sub-btn" onClick={(e) =>{e.stopPropagation(); toggleSubs(item)}}>
-                        <span className={subsShow ? `sub-arrow rotated` : `sub-arrow`}>˅</span>
+                        <span className={subsShow ? `sub-arrow rotated` : `sub-arrow`}>V</span>
                     </button>
                     : null}
                 <button className="info-btn" onClick={(e) => {e.stopPropagation(); showInfo(item)}}>ⓘ</button>
