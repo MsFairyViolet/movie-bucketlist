@@ -1,5 +1,4 @@
 export default function ConfirmationWindow({ movie, onConfirm, onCancel }) {
-
     return (
         <div className="overlay">
             <div className="overlay-content">

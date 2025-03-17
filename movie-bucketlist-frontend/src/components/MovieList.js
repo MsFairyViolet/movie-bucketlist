@@ -31,6 +31,7 @@ export default function MovieList() {
     const [showConfirmation, setConfirmation] = useState(null)
     const [selectedMovie, setSelectedMovie] = useState(null)
 
+    //Data from API
     const fetchMovies = () => {
         fetch("/api/movies")
             .then((response) => {
@@ -50,7 +51,6 @@ export default function MovieList() {
             })
     }
 
-    //Data from API
     useEffect(() => {
         fetchMovies()
     }, [])
@@ -81,7 +81,6 @@ export default function MovieList() {
             setConfirmation(false)
             return
         }
-
         setSelectedMovie(item)
         setConfirmation(true)
     }
@@ -119,7 +118,7 @@ export default function MovieList() {
 
     //Watched-color
     const colors = [
-        "bright-red-orange", "vivid-orange", "warm-coral", "bright-yellow", 
+        "bright-red-orange", "vivid-orange", "warm-coral", "bright-yellow",
         "electric-cyan", "vibrant-blue", "vivid-green", "lime-green", "teal", "strong-purple", "deep-magenta",
         , "rich-indigo"
     ];
@@ -130,12 +129,10 @@ export default function MovieList() {
 
         if (isSeries) {
             const existingColor = seriesMovies.find(movie => movie.color)?.color
-
             if (existingColor) {
                 return existingColor
             }
         }
-
         const randomColor = colors[Math.floor(Math.random() * colors.length)];
         return randomColor
     };
@@ -148,8 +145,9 @@ export default function MovieList() {
                 <input className="search-text" placeholder="Search title, year, genre or director..." value={searchQuery} onChange={(e) => setSearchQuery(e.target.value)} />
                 {searchQuery ? <button className="clear-search-btn" onClick={(e) => setSearchQuery("")}>✕</button> : null}
             </div>
-            {showConfirmation && (<div className="confirmation-window"><ConfirmationWindow movie={selectedMovie} onConfirm={() => clickToWatch(selectedMovie)} onCancel={() => setConfirmation(false)} />
-            </div>
+            {showConfirmation && (
+                <div className="confirmation-window"><ConfirmationWindow movie={selectedMovie} onConfirm={() => clickToWatch(selectedMovie)} onCancel={() => setConfirmation(false)} />
+                </div>
             )}
             <div className="info-card">{selectedInfo !== null ? <InfoCard item={selectedInfo} allMovies={movies} closeInfo={closeInfo} /> : null}</div>
             <div>
