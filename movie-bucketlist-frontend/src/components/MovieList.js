@@ -125,7 +125,8 @@ export default function MovieList() {
     ];
 
     const getMovieColor = (item) => {
-        const isSeries = movies.filter(movie => movie.series_id === item.series_id).length > 1
+        const seriesMovies = movies.filter(movie => movie.series_id === item.series_id);
+        const isSeries = seriesMovies.length > 1;
 
         if (isSeries) {
             const existingColor = seriesMovies.find(movie => movie.color)?.color
