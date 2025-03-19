@@ -1,4 +1,4 @@
-import { useState, useEffect } from "react";
+import { useState, useRef, useEffect } from "react";
 import InfoCard from "./InfoCard";
 import MovieGraphic from "./MovieGraphic";
 import ConfirmationWindow from "./ConfirmationWindow";
@@ -27,6 +27,7 @@ export default function MovieList() {
     const [loading, setLoading] = useState(true)
     const [error, setError] = useState(null)
     const [searchQuery, setSearchQuery] = useState("")
+    const searchInputRef = useRef(null)
     const [selectedInfo, setSelectedInfo] = useState(null)
     const [showConfirmation, setConfirmation] = useState(null)
     const [selectedMovie, setSelectedMovie] = useState(null)
@@ -54,6 +55,12 @@ export default function MovieList() {
     useEffect(() => {
         fetchMovies()
     }, [])
+
+    useEffect(() => {
+        if(searchInputRef.current){
+            searchInputRef.current.focus()
+        }
+    })
 
     //Search
     const filteredMovies = searchQuery
@@ -142,7 +149,7 @@ export default function MovieList() {
     return (
         <div className="movie-list-container">
             <div className="search-bar">
-                <input className="search-text" placeholder="Search title, year, genre or director..." value={searchQuery} onChange={(e) => setSearchQuery(e.target.value)} />
+                <input className="search-text" placeholder="Search title, year, genre or director..." ref={searchInputRef} value={searchQuery} onChange={(e) => setSearchQuery(e.target.value)} />
                 {searchQuery ? <button className="clear-search-btn" onClick={(e) => setSearchQuery("")}>✕</button> : null}
             </div>
             {showConfirmation && (
