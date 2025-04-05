@@ -1,4 +1,4 @@
-**## MovieBucketList##**
+## MovieBucketList
 
 A digital replacement for a physical scratch-off poster. An overview of the Top 250 IMDb films, which you can check off as you watch them. MovieBucketList is a React app with database designed to help organize our cinematic goals.
 
@@ -8,11 +8,15 @@ Features:
 - Movie-series have seperate displays for each movie in the series
 - Information window with additional information
 
+### Screenshots
+
+![Moviebucketlist](https://github.com/user-attachments/assets/24a9770a-485c-4255-9f55-da01245d88fe)
+
 -----
 
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
-**## Getting Started**
+## Getting Started
 
 First, run the development server:
 
